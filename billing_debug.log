@@ -1,0 +1,312 @@
+2026-06-18T13:42:09.468Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:42:10.439Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:43:51.077Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: diamond, configName: Diamond Plan
+2026-06-18T13:43:51.080Z - ACTION SUBSCRIBE START - returnUrl: http://shelf-covered-operate-camera.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:43:51.082Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-18T13:43:51.915Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-18T13:43:52.375Z - ACTION SUBSCRIBE CATCH - error: Error while billing the store, isResponse: false, status: none
+2026-06-18T13:43:52.378Z - ACTION SUBSCRIBE DISTRIBUTION ERROR - Mocking subscription to diamond
+2026-06-18T13:43:52.606Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:43:53.090Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:45:11.025Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:45:12.044Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:46:08.514Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:46:09.391Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:46:33.024Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: diamond, configName: Diamond Plan
+2026-06-18T13:46:33.026Z - ACTION SUBSCRIBE START - returnUrl: http://shelf-covered-operate-camera.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:46:33.027Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-18T13:46:33.926Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-18T13:46:34.427Z - ACTION SUBSCRIBE CATCH - error: Error while billing the store, isResponse: false, status: none
+2026-06-18T13:46:34.430Z - ACTION SUBSCRIBE DISTRIBUTION ERROR - Mocking subscription to diamond
+2026-06-18T13:46:34.745Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:46:35.208Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: diamond
+2026-06-18T13:48:00.887Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: gold, configName: Gold Plan
+2026-06-18T13:48:00.890Z - ACTION SUBSCRIBE START - returnUrl: http://shelf-covered-operate-camera.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:48:00.893Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-18T13:48:01.774Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-18T13:48:02.234Z - ACTION SUBSCRIBE CATCH - error: Error while billing the store, isResponse: false, status: none
+2026-06-18T13:48:02.237Z - ACTION SUBSCRIBE DISTRIBUTION ERROR - Mocking subscription to gold
+2026-06-18T13:48:02.600Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:48:03.105Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: gold
+2026-06-18T13:51:18.603Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:51:19.512Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:51:46.221Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: gold, configName: Gold Plan
+2026-06-18T13:51:46.233Z - ACTION SUBSCRIBE START - returnUrl: http://shelf-covered-operate-camera.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:51:46.238Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-18T13:51:51.696Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-18T13:51:52.252Z - ACTION SUBSCRIBE CATCH - error: Error while billing the store, isResponse: false, status: none
+2026-06-18T13:51:52.254Z - ACTION SUBSCRIBE DISTRIBUTION ERROR - Mocking subscription to gold
+2026-06-18T13:51:53.227Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:51:54.624Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:52:12.678Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: gold, configName: Gold Plan
+2026-06-18T13:52:12.709Z - ACTION SUBSCRIBE START - returnUrl: http://shelf-covered-operate-camera.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:52:12.754Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-18T13:52:13.940Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-18T13:52:14.770Z - ACTION SUBSCRIBE CATCH - error: Error while billing the store, isResponse: false, status: none
+2026-06-18T13:52:14.792Z - ACTION SUBSCRIBE DISTRIBUTION ERROR - Mocking subscription to gold
+2026-06-18T13:52:15.325Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:52:15.779Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:52:39.196Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:52:40.049Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:52:52.870Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: diamond, configName: Diamond Plan
+2026-06-18T13:52:52.877Z - ACTION SUBSCRIBE START - returnUrl: http://shelf-covered-operate-camera.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:52:52.880Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-18T13:52:53.567Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-18T13:52:54.129Z - ACTION SUBSCRIBE CATCH - error: Error while billing the store, isResponse: false, status: none, errorData: [{"field":null,"message":"Apps without a public distribution cannot use the Billing API"}], response: {}
+2026-06-18T13:52:54.131Z - ACTION SUBSCRIBE DISTRIBUTION ERROR - Mocking subscription to diamond
+2026-06-18T13:52:54.400Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:52:55.357Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:53:06.184Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: diamond, configName: Diamond Plan
+2026-06-18T13:53:06.187Z - ACTION SUBSCRIBE START - returnUrl: http://shelf-covered-operate-camera.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:53:06.190Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-18T13:53:06.928Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-18T13:53:07.388Z - ACTION SUBSCRIBE CATCH - error: Error while billing the store, isResponse: false, status: none, errorData: [{"field":null,"message":"Apps without a public distribution cannot use the Billing API"}], response: {}
+2026-06-18T13:53:07.390Z - ACTION SUBSCRIBE DISTRIBUTION ERROR - Mocking subscription to diamond
+2026-06-18T13:53:07.724Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:53:08.209Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:55:52.808Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:55:53.766Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:56:00.834Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: diamond, configName: Diamond Plan
+2026-06-18T13:56:00.839Z - ACTION SUBSCRIBE START - returnUrl: http://shelf-covered-operate-camera.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:56:00.841Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-18T13:56:01.728Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-18T13:56:02.190Z - ACTION SUBSCRIBE CATCH - error: Error while billing the store, isResponse: false, status: none
+2026-06-18T13:56:02.191Z - ACTION SUBSCRIBE DISTRIBUTION ERROR - Mocking subscription to diamond
+2026-06-18T13:56:02.654Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:56:03.165Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:56:20.678Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:56:21.544Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:56:26.206Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:56:26.923Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:56:32.265Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:56:33.482Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:56:33.618Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:56:34.097Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:56:49.796Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:56:50.739Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:57:15.098Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: gold, configName: Gold Plan
+2026-06-18T13:57:15.099Z - ACTION SUBSCRIBE START - returnUrl: http://shelf-covered-operate-camera.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:57:15.102Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-18T13:57:15.929Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-18T13:57:16.431Z - ACTION SUBSCRIBE CATCH - error: Error while billing the store, isResponse: false, status: none, errorData: [{"field":null,"message":"Apps without a public distribution cannot use the Billing API"}], response: {}
+2026-06-18T13:57:16.452Z - ACTION SUBSCRIBE DISTRIBUTION ERROR - Mocking subscription to gold
+2026-06-18T13:57:16.487Z - ACTION OUTER CRASH - error: mockActivePlans is not defined, stack: ReferenceError: mockActivePlans is not defined
+    at action (eval at runInlinedModule (file:///C:/Users/Lenovo/OneDrive/Desktop/Shopify/Custom%20Apps/ReviewsAPP/review-app-fe/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:191:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at callRouteHandler (file:///C:/Users/Lenovo/OneDrive/Desktop/Shopify/Custom%20Apps/ReviewsAPP/review-app-fe/node_modules/react-router/dist/development/chunk-ASILSGTR.mjs:533:16)
+    at file:///C:/Users/Lenovo/OneDrive/Desktop/Shopify/Custom%20Apps/ReviewsAPP/review-app-fe/node_modules/react-router/dist/development/chunk-6CSD65Y2.mjs:5045:19
+    at callLoaderOrAction (file:///C:/Users/Lenovo/OneDrive/Desktop/Shopify/Custom%20Apps/ReviewsAPP/review-app-fe/node_modules/react-router/dist/development/chunk-6CSD65Y2.mjs:5097:16)
+    at async Promise.all (index 0)
+    at defaultDataStrategy (file:///C:/Users/Lenovo/OneDrive/Desktop/Shopify/Custom%20Apps/ReviewsAPP/review-app-fe/node_modules/react-router/dist/development/chunk-6CSD65Y2.mjs:4722:17)
+    at callDataStrategyImpl (file:///C:/Users/Lenovo/OneDrive/Desktop/Shopify/Custom%20Apps/ReviewsAPP/review-app-fe/node_modules/react-router/dist/development/chunk-6CSD65Y2.mjs:4989:17)
+    at callDataStrategy (file:///C:/Users/Lenovo/OneDrive/Desktop/Shopify/Custom%20Apps/ReviewsAPP/review-app-fe/node_modules/react-router/dist/development/chunk-6CSD65Y2.mjs:4005:19)
+    at submit (file:///C:/Users/Lenovo/OneDrive/Desktop/Shopify/Custom%20Apps/ReviewsAPP/review-app-fe/node_modules/react-router/dist/development/chunk-6CSD65Y2.mjs:3802:21)
+    at queryImpl (file:///C:/Users/Lenovo/OneDrive/Desktop/Shopify/Custom%20Apps/ReviewsAPP/review-app-fe/node_modules/react-router/dist/development/chunk-6CSD65Y2.mjs:3734:23)
+    at Object.query (file:///C:/Users/Lenovo/OneDrive/Desktop/Shopify/Custom%20Apps/ReviewsAPP/review-app-fe/node_modules/react-router/dist/development/chunk-6CSD65Y2.mjs:3596:18)
+    at singleFetchAction (file:///C:/Users/Lenovo/OneDrive/Desktop/Shopify/Custom%20Apps/ReviewsAPP/review-app-fe/node_modules/react-router/dist/development/chunk-ASILSGTR.mjs:911:18)
+    at handleSingleFetchRequest (file:///C:/Users/Lenovo/OneDrive/Desktop/Shopify/Custom%20Apps/ReviewsAPP/review-app-fe/node_modules/react-router/dist/development/chunk-ASILSGTR.mjs:1447:53)
+    at requestHandler (file:///C:/Users/Lenovo/OneDrive/Desktop/Shopify/Custom%20Apps/ReviewsAPP/review-app-fe/node_modules/react-router/dist/development/chunk-ASILSGTR.mjs:1281:18)
+    at nodeHandler (C:\Users\Lenovo\OneDrive\Desktop\Shopify\Custom Apps\ReviewsAPP\review-app-fe\node_modules\@react-router\dev\dist\vite.js:3886:30)
+    at C:\Users\Lenovo\OneDrive\Desktop\Shopify\Custom Apps\ReviewsAPP\review-app-fe\node_modules\@react-router\dev\dist\vite.js:3893:17
+2026-06-18T13:57:20.674Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:57:21.400Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:57:43.716Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:57:44.550Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:57:45.117Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:57:45.624Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:59:31.036Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: diamond, configName: Diamond Plan
+2026-06-18T13:59:31.041Z - ACTION SUBSCRIBE START - returnUrl: http://shelf-covered-operate-camera.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:59:31.048Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-18T13:59:31.963Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-18T13:59:32.469Z - ACTION SUBSCRIBE CATCH - error: Error while billing the store, isResponse: false, status: none, errorData: [{"field":null,"message":"Apps without a public distribution cannot use the Billing API"}], response: {}
+2026-06-18T13:59:32.470Z - ACTION SUBSCRIBE DISTRIBUTION ERROR - Mocking subscription to diamond
+2026-06-18T13:59:32.844Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:59:33.295Z - LOADER FALLBACK TO PERSISTED MOCK - activePlanId: diamond
+2026-06-18T13:59:33.299Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: diamond
+2026-06-18T13:59:38.789Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: cancel, planId: null, configName: Gold Plan
+2026-06-18T13:59:38.791Z - ACTION CANCEL - mockPlanId: diamond, isMockMode: true
+2026-06-18T13:59:38.793Z - ACTION CANCEL MOCK SUCCESS - reset to free
+2026-06-18T13:59:39.218Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:59:40.137Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-18T13:59:41.393Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: silver, configName: Silver Plan
+2026-06-18T13:59:41.395Z - ACTION SUBSCRIBE START - returnUrl: http://shelf-covered-operate-camera.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:59:41.396Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-18T13:59:41.999Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-18T13:59:42.507Z - ACTION SUBSCRIBE CATCH - error: Error while billing the store, isResponse: false, status: none, errorData: [{"field":null,"message":"Apps without a public distribution cannot use the Billing API"}], response: {}
+2026-06-18T13:59:42.510Z - ACTION SUBSCRIBE DISTRIBUTION ERROR - Mocking subscription to silver
+2026-06-18T13:59:42.936Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:59:43.428Z - LOADER FALLBACK TO PERSISTED MOCK - activePlanId: silver
+2026-06-18T13:59:43.429Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: silver
+2026-06-18T13:59:45.850Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: gold, configName: Gold Plan
+2026-06-18T13:59:45.853Z - ACTION SUBSCRIBE START - returnUrl: http://shelf-covered-operate-camera.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:59:45.855Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-18T13:59:46.398Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-18T13:59:46.909Z - ACTION SUBSCRIBE CATCH - error: Error while billing the store, isResponse: false, status: none, errorData: [{"field":null,"message":"Apps without a public distribution cannot use the Billing API"}], response: {}
+2026-06-18T13:59:46.912Z - ACTION SUBSCRIBE DISTRIBUTION ERROR - Mocking subscription to gold
+2026-06-18T13:59:47.435Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T13:59:47.935Z - LOADER FALLBACK TO PERSISTED MOCK - activePlanId: gold
+2026-06-18T13:59:47.937Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: gold
+2026-06-18T14:00:55.691Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-18T14:00:56.739Z - LOADER FALLBACK TO PERSISTED MOCK - activePlanId: gold
+2026-06-18T14:00:56.787Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: gold
+2026-06-19T06:21:48.313Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:21:48.993Z - LOADER FALLBACK TO PERSISTED MOCK - activePlanId: gold
+2026-06-19T06:21:48.994Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: gold
+2026-06-19T06:22:39.032Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: diamond, configName: Diamond Plan
+2026-06-19T06:22:39.035Z - ACTION SUBSCRIBE START - returnUrl: http://promoting-intend-frequencies-studio.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:22:39.037Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-19T06:22:39.616Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-19T06:22:40.035Z - ACTION SUBSCRIBE CATCH - error: Error while billing the store, isResponse: false, status: none, errorData: [{"field":null,"message":"Apps without a public distribution cannot use the Billing API"}], response: {}
+2026-06-19T06:22:40.036Z - ACTION SUBSCRIBE DISTRIBUTION ERROR - Mocking subscription to diamond
+2026-06-19T06:22:40.327Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:22:40.766Z - LOADER FALLBACK TO PERSISTED MOCK - activePlanId: diamond
+2026-06-19T06:22:40.768Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: diamond
+2026-06-19T06:28:27.400Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:28:28.216Z - LOADER FALLBACK TO PERSISTED MOCK - activePlanId: diamond
+2026-06-19T06:28:28.219Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: diamond
+2026-06-19T06:28:42.470Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: gold, configName: Gold Plan
+2026-06-19T06:28:42.472Z - ACTION SUBSCRIBE START - returnUrl: http://promoting-intend-frequencies-studio.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:28:42.474Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-19T06:28:43.104Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-19T06:28:43.672Z - ACTION SUBSCRIBE CATCH - error: unknown, isResponse: true, status: 401, errorData: {}, response: {}
+2026-06-19T06:28:43.676Z - ACTION SUBSCRIBE CATCH REDIRECT - location: null
+2026-06-19T06:28:43.677Z - ACTION OUTER REDIRECT BUBBLE - status: 401
+2026-06-19T06:43:10.300Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:43:11.740Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T06:43:17.092Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: silver, configName: Silver Plan
+2026-06-19T06:43:17.095Z - ACTION SUBSCRIBE START - returnUrl: http://challenges-buy-pull-worldwide.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:43:17.097Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-19T06:43:17.655Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-19T06:43:18.145Z - ACTION SUBSCRIBE CATCH - error: unknown, isResponse: true, status: 401, errorData: {}, response: {}
+2026-06-19T06:43:18.147Z - ACTION SUBSCRIBE CATCH REDIRECT - location: null
+2026-06-19T06:43:18.148Z - ACTION OUTER REDIRECT BUBBLE - status: 401
+2026-06-19T06:48:46.009Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:48:46.832Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: silver
+2026-06-19T06:50:30.373Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:50:30.987Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: silver
+2026-06-19T06:50:31.683Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: gold, configName: Gold Plan
+2026-06-19T06:50:31.686Z - ACTION SUBSCRIBE START - returnUrl: http://challenges-buy-pull-worldwide.trycloudflare.com/app/billing?shop=demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:50:31.688Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-19T06:50:32.108Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-19T06:50:33.137Z - ACTION SUBSCRIBE CATCH - error: unknown, isResponse: true, status: 401, errorData: {}, response: {}
+2026-06-19T06:50:33.152Z - ACTION SUBSCRIBE CATCH REDIRECT - location: null
+2026-06-19T06:50:33.159Z - ACTION OUTER REDIRECT BUBBLE - status: 401
+2026-06-19T06:51:11.998Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:51:12.543Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T06:51:56.325Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:51:57.108Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T06:54:02.653Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:54:03.257Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T06:54:57.581Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:54:58.198Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T06:55:45.721Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:55:46.768Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T06:56:05.591Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: diamond, configName: Diamond Plan
+2026-06-19T06:56:05.594Z - ACTION SUBSCRIBE START - returnUrl: https://admin.shopify.com/store/demoharsh-1dds80q1/apps/review-app-fe/app/billing
+2026-06-19T06:56:05.596Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-19T06:56:06.361Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-19T06:56:06.940Z - ACTION SUBSCRIBE CATCH - error: unknown, isResponse: true, status: 401, errorData: {}, response: {}
+2026-06-19T06:56:06.942Z - ACTION SUBSCRIBE CATCH REDIRECT - location: null
+2026-06-19T06:56:06.944Z - ACTION OUTER REDIRECT BUBBLE - status: 401
+2026-06-19T06:57:11.580Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:57:12.226Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: diamond
+2026-06-19T06:58:52.411Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T06:58:53.445Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: diamond
+2026-06-19T07:00:00.668Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: gold, configName: Gold Plan
+2026-06-19T07:00:00.675Z - ACTION SUBSCRIBE START - returnUrl: https://admin.shopify.com/store/demoharsh-1dds80q1/apps/review-app-fe/app/billing
+2026-06-19T07:00:00.679Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-19T07:00:05.239Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-19T07:00:05.799Z - ACTION SUBSCRIBE CATCH - error: unknown, isResponse: true, status: 401, errorData: {}, response: {}
+2026-06-19T07:00:05.801Z - ACTION SUBSCRIBE CATCH REDIRECT - location: null
+2026-06-19T07:00:05.802Z - ACTION OUTER REDIRECT BUBBLE - status: 401
+2026-06-19T07:00:32.158Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T07:00:32.899Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:06:15.716Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:06:16.337Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:07:44.181Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:07:44.763Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:08:57.323Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:08:57.895Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:09:22.833Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:09:23.404Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:10:11.065Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:10:12.127Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:13:06.491Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:13:07.177Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:13:52.409Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:13:52.709Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:13:53.256Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:13:53.348Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:14:17.947Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:14:18.676Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:17:13.178Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:17:13.741Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:17:19.065Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:17:19.443Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:17:19.699Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:17:19.994Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:17:40.242Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:17:40.828Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:19:42.238Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:19:43.686Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:23:16.187Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:23:16.779Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:24:21.332Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:24:22.323Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-19T08:26:39.172Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: diamond, configName: Diamond Plan
+2026-06-19T08:26:39.178Z - ACTION SUBSCRIBE START - returnUrl: https://admin.shopify.com/store/demoharsh-1dds80q1/apps/review-app-fe/app/billing
+2026-06-19T08:26:39.183Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-19T08:26:39.762Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-19T08:26:40.226Z - ACTION SUBSCRIBE CATCH - error: unknown, isResponse: true, status: 401, errorData: {}, response: {}
+2026-06-19T08:26:40.234Z - ACTION SUBSCRIBE CATCH REDIRECT - location: null
+2026-06-19T08:26:40.237Z - ACTION OUTER REDIRECT BUBBLE - status: 401
+2026-06-19T08:27:04.418Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:27:04.967Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: diamond
+2026-06-19T08:27:40.501Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: cancel, planId: null, configName: Gold Plan
+2026-06-19T08:27:41.137Z - ACTION CANCEL CHECK - hasActivePayment: true
+2026-06-19T08:27:41.138Z - ACTION CANCELING SUBSCRIPTION - ID: gid://shopify/AppSubscription/32374653149
+2026-06-19T08:27:41.921Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:27:42.345Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-19T08:32:43.673Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T08:32:44.405Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-19T09:06:32.216Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T09:06:32.785Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-19T09:06:37.775Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: silver, configName: Silver Plan
+2026-06-19T09:06:37.776Z - ACTION SUBSCRIBE START - returnUrl: https://admin.shopify.com/store/demoharsh-1dds80q1/apps/review-app-fe/app/billing
+2026-06-19T09:06:37.780Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-19T09:06:38.339Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-19T09:06:39.058Z - ACTION SUBSCRIBE CATCH - error: unknown, isResponse: true, status: 401, errorData: {}, response: {}
+2026-06-19T09:06:39.059Z - ACTION SUBSCRIBE CATCH REDIRECT - location: null
+2026-06-19T09:06:39.061Z - ACTION OUTER REDIRECT BUBBLE - status: 401
+2026-06-19T09:06:57.115Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-19T09:06:57.644Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: silver
+2026-06-19T09:51:48.402Z - LOADER START - Shop: customproduct-page.myshopify.com
+2026-06-19T09:51:49.125Z - LOADER CHECK SUCCESS - hasActivePayment: false, activePlanId: free
+2026-06-19T09:52:26.477Z - ACTION START - Shop: customproduct-page.myshopify.com, intent: subscribe, planId: gold, configName: Gold Plan
+2026-06-19T09:52:26.480Z - ACTION SUBSCRIBE START - returnUrl: https://admin.shopify.com/store/customproduct-page/apps/review-app-fe/app/billing
+2026-06-19T09:52:26.481Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-19T09:52:27.079Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-19T09:52:27.563Z - ACTION SUBSCRIBE CATCH - error: unknown, isResponse: true, status: 401, errorData: {}, response: {}
+2026-06-19T09:52:27.564Z - ACTION SUBSCRIBE CATCH REDIRECT - location: null
+2026-06-19T09:52:27.566Z - ACTION OUTER REDIRECT BUBBLE - status: 401
+2026-06-19T09:52:45.440Z - LOADER START - Shop: customproduct-page.myshopify.com
+2026-06-19T09:52:46.047Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-22T05:41:40.299Z - LOADER START - Shop: customproduct-page.myshopify.com
+2026-06-22T05:41:40.973Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-24T09:22:25.806Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-24T09:22:26.883Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: silver
+2026-06-24T09:22:29.467Z - ACTION START - Shop: demoharsh-1dds80q1.myshopify.com, intent: subscribe, planId: gold, configName: Gold Plan
+2026-06-24T09:22:29.470Z - ACTION SUBSCRIBE START - returnUrl: https://admin.shopify.com/store/demoharsh-1dds80q1/apps/review-app-fe/app/billing
+2026-06-24T09:22:29.472Z - ACTION SUBSCRIBE - Calling billing.require
+2026-06-24T09:22:29.932Z - ACTION SUBSCRIBE onFailure callback triggered - calling billing.request
+2026-06-24T09:22:30.425Z - ACTION SUBSCRIBE CATCH - error: unknown, isResponse: true, status: 401, errorData: {}, response: {}
+2026-06-24T09:22:30.427Z - ACTION SUBSCRIBE CATCH REDIRECT - location: null
+2026-06-24T09:22:30.429Z - ACTION OUTER REDIRECT BUBBLE - status: 401
+2026-06-24T09:22:50.555Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-24T09:22:51.140Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-26T08:51:04.367Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-26T08:51:11.975Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-26T14:29:27.290Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-26T14:29:28.392Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold
+2026-06-27T07:57:17.215Z - LOADER START - Shop: demoharsh-1dds80q1.myshopify.com
+2026-06-27T07:57:20.123Z - LOADER CHECK SUCCESS - hasActivePayment: true, activePlanId: gold

@@ -1,0 +1,56 @@
+{% if logged_in %}
+  <!-- Review Form Card -->
+  <div class="review-form-card" id="review-form-container">
+    <h3 class="review-form-title">Write a Customer Review</h3>
+ 
+    <form id="storefront-review-form" enctype="multipart/form-data">
+      <!-- Hidden variables -->
+      <input type="hidden" name="productId" value="{{ product_id }}">
+      <input type="hidden" name="shop" value="{{ shop_domain }}">
+      <input type="hidden" name="rating" id="review-rating-value" value="5">
+      <input type="hidden" name="reviewerName" value="{{ customer_name }}">
+      <input type="hidden" name="reviewerEmail" value="{{ customer_email }}">
+
+      <div class="reviews-alert reviews-alert-success" style="margin-bottom: 1.25rem;">
+        Logged in as <strong>{{ customer_name }}</strong>. Your review will be submitted under this account.
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Overall Rating</label>
+        <div class="star-picker-container" id="star-picker">
+          <span data-value="5">★</span>
+          <span data-value="4">★</span>
+          <span data-value="3">★</span>
+          <span data-value="2">★</span>
+          <span data-value="1">★</span>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="review-body-input">Review</label>
+        <textarea class="form-input" id="review-body-input" name="reviewBody" rows="4" required placeholder="Write your review here..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Add Photo(s)</label>
+        <label class="photo-upload-label" for="review-image-input">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/>
+          </svg>
+          Choose File(s)
+        </label>
+        <input type="file" id="review-image-input" name="image" accept="image/*" multiple style="display:none;">
+        <div class="photo-upload-preview" id="review-image-preview"></div>
+      </div>
+
+      <div style="display: flex; gap: 10px;">
+        <button class="reviews-btn reviews-btn-primary" type="submit" id="submit-review-btn">
+          Submit Review
+        </button>
+        <button class="reviews-btn reviews-btn-secondary" type="button" id="cancel-review-btn">
+          Cancel
+        </button>
+      </div>
+    </form>
+  </div>
+{% endif %}

@@ -1,0 +1,247 @@
+/* Hero Banner */
+.importexport-hero {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: white;
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-glow-1 {
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, rgba(99,102,241,0.18) 0%, rgba(99,102,241,0) 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.hero-glow-2 {
+  position: absolute;
+  bottom: -40px;
+  left: 15%;
+  width: 140px;
+  height: 140px;
+  background: radial-gradient(circle, rgba(236,72,153,0.12) 0%, rgba(236,72,153,0) 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Stat Cards */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #e1e3e5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.04);
+}
+
+.stat-icon-wrapper {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-icon-reviews {
+  background: #f3f0ff;
+  color: #845ef7;
+}
+
+.stat-icon-products {
+  background: #e6fffa;
+  color: #0adb86;
+}
+
+.stat-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: #6d7175;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.stat-value {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  line-height: 1.2;
+}
+
+/* Action Cards */
+.operation-card {
+  background: white;
+  padding: 1.75rem;
+  border-radius: 12px;
+  border: 1px solid #e1e3e5;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.015);
+  margin-bottom: 1.5rem;
+  transition: border-color 0.2s ease;
+}
+
+.operation-card:hover {
+  border-color: #babfc3;
+}
+
+.operation-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.operation-title-icon {
+  width: 24px;
+  height: 24px;
+  color: #2c3e50;
+}
+
+.operation-title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.operation-description {
+  margin: 0 0 1.25rem 0;
+  font-size: 0.9rem;
+  color: #5c5f62;
+  line-height: 1.5;
+}
+
+/* Custom File Upload Area */
+.file-upload-area {
+  border: 2px dashed #babfc3;
+  border-radius: 8px;
+  padding: 1.75rem;
+  text-align: center;
+  background: #f9fafb;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+
+.file-upload-area:hover {
+  border-color: #008060;
+  background: #f4f6f8;
+}
+
+.file-upload-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.upload-icon {
+  width: 36px;
+  height: 36px;
+  color: #8c9196;
+  margin-bottom: 0.5rem;
+}
+
+.upload-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2c2e30;
+  margin-bottom: 2px;
+}
+
+.upload-hint {
+  font-size: 0.8rem;
+  color: #6d7175;
+}
+
+/* Sidebar Columns List */
+.sidebar-columns-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.column-row {
+  background: white;
+  border: 1px solid #e1e3e5;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: border-color 0.2s ease;
+}
+
+.column-row:hover {
+  border-color: #babfc3;
+}
+
+.column-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column-name {
+  font-family: monospace;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #008060;
+}
+
+.column-req-badge {
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.req-badge-required {
+  background: #ffebe8;
+  color: #ba3c2a;
+}
+
+.req-badge-optional {
+  background: #f1f2f3;
+  color: #6d7175;
+}
+
+.column-desc {
+  font-size: 0.82rem;
+  color: #5c5f62;
+  line-height: 1.4;
+  margin: 0;
+}

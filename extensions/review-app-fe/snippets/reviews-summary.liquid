@@ -1,0 +1,127 @@
+{% if selected_layout == 'layout_2' %}
+  <!-- Layout 2: Carousel Summary Row -->
+  <div class="reviews-summary-carousel" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; border: 1px solid var(--reviews-border-color); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; background: #fafbfb;">
+    <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+      <span style="font-size: 1.8rem; font-weight: 800; color: var(--reviews-text-main); line-height: 1;">{{ average_rating }}</span>
+      <div class="reviews-stars-row" style="margin: 0; font-size: 1.1rem; display: flex; gap: 2px;">
+        {%- liquid
+          assign rounded_avg = average_rating | round
+          for i in (1..5)
+            if i <= rounded_avg
+              echo '<span class="star-filled">★</span>'
+            else
+              echo '<span class="star-empty">☆</span>'
+            endif
+          endfor
+        -%}
+      </div>
+      <span style="font-size: 0.9rem; color: var(--reviews-text-subdued);">{{ total_reviews }} {% if total_reviews == 1 %}{{ review_word_singular | default: "review" }}{% else %}{{ review_word_plural | default: "reviews" }}{% endif %}</span>
+      
+      <span style="background: var(--reviews-success-bg); color: var(--reviews-success-text); border: 1px solid #ccebd1; font-size: 0.75rem; padding: 3px 8px; border-radius: 4px; font-weight: 600; display: inline-flex; align-items: center; gap: 4px;">
+        ✓ Verified
+      </span>
+      
+      <!-- Stamp badges -->
+      <div style="display: flex; gap: 6px;">
+        <div style="width: 26px; height: 26px; border-radius: 50%; border: 1px double #d2a100; display: flex; align-items: center; justify-content: center; font-size: 7px; color: #d2a100; font-weight: bold; background: #fffdf0;">GOLD</div>
+        <div style="width: 26px; height: 26px; border-radius: 50%; border: 1px double #8e8e8e; display: flex; align-items: center; justify-content: center; font-size: 7px; color: #8e8e8e; font-weight: bold; background: #fcfcfc;">SLVR</div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 10px;">
+      {% if logged_in %}
+        <button class="reviews-btn reviews-btn-primary" id="write-review-trigger-btn" style="margin: 0; padding: 8px 18px; font-size: 0.88rem;">
+          {{ button_text | default: "Write a Review" }}
+        </button>
+      {% else %}
+        <p style="color: var(--reviews-text-subdued); font-size: 0.85rem; margin: 0;">
+          Please <a href="/account/login" style="color: var(--reviews-primary-color); font-weight: 600; text-decoration: none;">log in</a> to write a review.
+        </p>
+      {% endif %}
+      
+      <!-- Action buttons (funnel and sort icons) -->
+      <button class="reviews-btn-secondary" style="border: 1px solid var(--reviews-border-color); border-radius: 6px; width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 0.9rem; padding: 0; color: var(--reviews-text-subdued);">
+        🔍
+      </button>
+      <button class="reviews-btn-secondary" style="border: 1px solid var(--reviews-border-color); border-radius: 6px; width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 0.9rem; padding: 0; color: var(--reviews-text-subdued);">
+        ⇅
+      </button>
+    </div>
+  </div>
+{% else %}
+  <!-- Layout 1: Standard Grid & Summary (Default) -->
+  <!-- Stats Grid -->
+  <div class="reviews-summary-grid">
+    <div class="reviews-avg-box">
+      <div class="reviews-avg-number" id="reviews-avg-val">{{ average_rating }}</div>
+      <div class="reviews-stars-row" id="reviews-avg-stars">
+        {%- liquid
+          assign rounded_avg = average_rating | round
+          for i in (1..5)
+            if i <= rounded_avg
+              echo '<span class="star-filled">★</span>'
+            else
+              echo '<span class="star-empty">☆</span>'
+            endif
+          endfor
+        -%}
+      </div>
+      <div class="reviews-avg-count" id="reviews-total-count">
+        {{ total_reviews }} {% if total_reviews == 1 %}{{ review_word_singular | default: "review" }}{% else %}{{ review_word_plural | default: "reviews" }}{% endif %}
+      </div>
+    </div>
+
+    <!-- Star breakdown -->
+    <div class="reviews-dist-list">
+      <div class="reviews-dist-row">
+        <div class="reviews-dist-label">5 star</div>
+        <div class="reviews-dist-bar-bg">
+          <div class="reviews-dist-bar-fill" id="reviews-bar-5" style="width: {{ five_star_pct }}%;"></div>
+        </div>
+        <div class="reviews-dist-pct" id="reviews-pct-5">{{ five_star_pct }}%</div>
+      </div>
+      <div class="reviews-dist-row">
+        <div class="reviews-dist-label">4 star</div>
+        <div class="reviews-dist-bar-bg">
+          <div class="reviews-dist-bar-fill" id="reviews-bar-4" style="width: {{ four_star_pct }}%;"></div>
+        </div>
+        <div class="reviews-dist-pct" id="reviews-pct-4">{{ four_star_pct }}%</div>
+      </div>
+      <div class="reviews-dist-row">
+        <div class="reviews-dist-label">3 star</div>
+        <div class="reviews-dist-bar-bg">
+          <div class="reviews-dist-bar-fill" id="reviews-bar-3" style="width: {{ three_star_pct }}%;"></div>
+        </div>
+        <div class="reviews-dist-pct" id="reviews-pct-3">{{ three_star_pct }}%</div>
+      </div>
+      <div class="reviews-dist-row">
+        <div class="reviews-dist-label">2 star</div>
+        <div class="reviews-dist-bar-bg">
+          <div class="reviews-dist-bar-fill" id="reviews-bar-2" style="width: {{ two_star_pct }}%;"></div>
+        </div>
+        <div class="reviews-dist-pct" id="reviews-pct-2">{{ two_star_pct }}%</div>
+      </div>
+      <div class="reviews-dist-row">
+        <div class="reviews-dist-label">1 star</div>
+        <div class="reviews-dist-bar-bg">
+          <div class="reviews-dist-bar-fill" id="reviews-bar-1" style="width: {{ one_star_pct }}%;"></div>
+        </div>
+        <div class="reviews-dist-pct" id="reviews-pct-1">{{ one_star_pct }}%</div>
+      </div>
+    </div>
+
+    {% if logged_in %}
+      <div class="reviews-cta-box">
+        <button class="reviews-btn reviews-btn-primary" id="write-review-trigger-btn">
+          {{ button_text | default: "Write a Review" }}
+        </button>
+      </div>
+    {% else %}
+      <div class="reviews-cta-box">
+        <p style="color: var(--reviews-text-subdued); font-size: 0.95rem; margin: 0; padding: 8px 0;">
+          Please <a href="/account/login" style="color: var(--reviews-primary-color); font-weight: 600; text-decoration: none;">log in</a> to write a review.
+        </p>
+      </div>
+    {% endif %}
+  </div>
+{% endif %}

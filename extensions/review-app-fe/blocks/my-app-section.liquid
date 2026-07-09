@@ -1,0 +1,244 @@
+<!-- 1. Liquid Authentication, Context & Reviews Data Setup -->
+{%- liquid
+  assign logged_in = false
+  assign customer_name = ""
+  assign customer_email = ""
+  
+  if customer
+    assign logged_in = true
+    if customer.name != blank
+      assign customer_name = customer.name | escape
+    else
+      assign customer_name = customer.email | split: "@" | first | escape
+    endif
+    assign customer_email = customer.email | escape
+  endif
+
+  assign product_id = product.id
+  assign product_title = product.title | escape
+  assign shop_domain = shop.permanent_domain
+
+  # Fetch reviews directly from product metafield (Shopify parses JSON arrays to Liquid objects automatically!)
+  assign reviews = product.metafields.reviews_app.reviews_list.value
+  
+  # Calculate statistics in Liquid
+  assign total_reviews = 0
+  assign rating_sum = 0
+  assign five_star_count = 0
+  assign four_star_count = 0
+  assign three_star_count = 0
+  assign two_star_count = 0
+  assign one_star_count = 0
+
+  if reviews and reviews.size > 0
+    assign total_reviews = reviews.size
+    for review in reviews
+      assign r = review.rating | plus: 0
+      assign rating_sum = rating_sum | plus: r
+      
+      if r == 5
+        assign five_star_count = five_star_count | plus: 1
+      elsif r == 4
+        assign four_star_count = four_star_count | plus: 1
+      elsif r == 3
+        assign three_star_count = three_star_count | plus: 1
+      elsif r == 2
+        assign two_star_count = two_star_count | plus: 1
+      elsif r == 1
+        assign one_star_count = one_star_count | plus: 1
+      endif
+    endfor
+    
+    assign average_rating = rating_sum | times: 1.0 | divided_by: total_reviews | round: 1
+  else
+    assign average_rating = 0.0
+  endif
+
+  # Calculate percentages for the distribution bars
+  assign five_star_pct = 0
+  assign four_star_pct = 0
+  assign three_star_pct = 0
+  assign two_star_pct = 0
+  assign one_star_pct = 0
+
+  if total_reviews > 0
+    assign five_star_pct = five_star_count | times: 100 | divided_by: total_reviews
+    assign four_star_pct = four_star_count | times: 100 | divided_by: total_reviews
+    assign three_star_pct = three_star_count | times: 100 | divided_by: total_reviews
+    assign two_star_pct = two_star_count | times: 100 | divided_by: total_reviews
+    assign one_star_pct = one_star_count | times: 100 | divided_by: total_reviews
+  endif
+
+  # Fetch selected layout and customization settings from Shop Metafields
+  assign widget_settings = shop.metafields.reviews_app.widget_config.value
+  assign selected_layout = widget_settings.selected_layout | default: "layout_1"
+  
+  # Try to read layout-specific configurations
+  assign layout_configs = widget_settings.layout_configs
+  assign layout_config = layout_configs[selected_layout]
+  
+  assign star_color = layout_config.star_color | default: widget_settings.star_color | default: block.settings.star_color | default: "#ffb800"
+  assign button_color = layout_config.button_color | default: widget_settings.button_color | default: "#005bd3"
+  assign button_text_color = layout_config.button_text_color | default: widget_settings.button_text_color | default: "#ffffff"
+  assign heading_text = layout_config.heading_text | default: widget_settings.heading_text | default: block.settings.heading | default: "Customer Reviews"
+  assign button_text = layout_config.button_text | default: widget_settings.button_text | default: "Write a review"
+  
+  assign show_widget_title = layout_config.show_widget_title
+  if show_widget_title == nil
+    assign show_widget_title = widget_settings.show_widget_title
+  endif
+  if show_widget_title == nil
+    assign show_widget_title = true
+  endif
+  
+  assign review_word_singular = layout_config.review_word_singular | default: widget_settings.review_word_singular | default: "review"
+  assign review_word_plural = layout_config.review_word_plural | default: widget_settings.review_word_plural | default: "reviews"
+  assign no_reviews_text = layout_config.no_reviews_text | default: widget_settings.no_reviews_text | default: "Be the first to write a review"
+  
+  assign carousel_desktop_slides = layout_config.carousel_desktop_slides | default: 3
+  assign carousel_mobile_slides = layout_config.carousel_mobile_slides | default: 1
+  
+  assign carousel_show_arrows = layout_config.carousel_show_arrows
+  if carousel_show_arrows == nil
+    assign carousel_show_arrows = true
+  endif
+  
+  assign carousel_auto_slide = layout_config.carousel_auto_slide
+  if carousel_auto_slide == nil
+    assign carousel_auto_slide = false
+  endif
+  
+  assign carousel_auto_slide_speed = layout_config.carousel_auto_slide_speed | default: 5
+
+  assign image_carousel_desktop_slides = layout_config.image_carousel_desktop_slides | default: 4
+  assign image_carousel_mobile_slides = layout_config.image_carousel_mobile_slides | default: 2
+
+  assign image_carousel_show_arrows = layout_config.image_carousel_show_arrows
+  if image_carousel_show_arrows == nil
+    assign image_carousel_show_arrows = true
+  endif
+
+  assign image_carousel_auto_slide = layout_config.image_carousel_auto_slide
+  if image_carousel_auto_slide == nil
+    assign image_carousel_auto_slide = false
+  endif
+
+  assign image_carousel_auto_slide_speed = layout_config.image_carousel_auto_slide_speed | default: 5
+-%}
+
+<!-- 2. Dynamic Theme Stylesheet Settings -->
+<style>
+  .reviews-widget-container {
+    --reviews-star-color: {{ star_color }};
+    --reviews-primary-color: {{ button_color }};
+    --reviews-primary-text-color: {{ button_text_color }};
+    padding-top: {{ block.settings.padding }}px;
+    padding-bottom: {{ block.settings.padding }}px;
+  }
+</style>
+{{ 'reviews-widget.css' | asset_url | stylesheet_tag }}
+
+<!-- 3. Storefront HTML Markup -->
+<div class="reviews-widget-container" 
+     id="reviews-widget"
+     data-product-id="{{ product_id }}"
+     data-shop="{{ shop_domain }}"
+     data-product-title="{{ product_title }}"
+     data-api-url="{{ block.settings.api_url }}">
+
+  {% if show_widget_title %}
+    <h2 class="reviews-heading">{{ heading_text }}</h2>
+  {% endif %}
+
+  {% if selected_layout == 'raw_data' %}
+    <!-- Raw Data Layout -->
+    <pre style="background: #1e1e1e; color: #4fc1ff; padding: 1.5rem; border-radius: 8px; font-family: monospace; font-size: 0.85rem; overflow-x: auto; border: 1px solid var(--reviews-border-color); line-height: 1.5; text-align: left; margin-bottom: 2rem;">
+{{ product.metafields.reviews_app.reviews_list.value | json }}
+    </pre>
+  {% else %}
+    <!-- Stats Grid & Summary -->
+    {% render 'reviews-summary', 
+       average_rating: average_rating, 
+       total_reviews: total_reviews,
+       five_star_pct: five_star_pct,
+       four_star_pct: four_star_pct,
+       three_star_pct: three_star_pct,
+       two_star_pct: two_star_pct,
+       one_star_pct: one_star_pct,
+       logged_in: logged_in,
+       selected_layout: selected_layout,
+       button_text: button_text,
+       review_word_singular: review_word_singular,
+       review_word_plural: review_word_plural
+    %}
+
+    <!-- Interactive Review Form -->
+    {% render 'reviews-form',
+       logged_in: logged_in,
+       customer_name: customer_name,
+       customer_email: customer_email,
+       product_id: product_id,
+       shop_domain: shop_domain
+    %}
+
+    <!-- Status Notification Container -->
+    <div id="reviews-status-notification"></div>
+
+    <!-- Reviews List Feed -->
+    {% render 'reviews-feed',
+       reviews: reviews,
+       selected_layout: selected_layout,
+       no_reviews_text: no_reviews_text,
+       carousel_desktop_slides: carousel_desktop_slides,
+       carousel_mobile_slides: carousel_mobile_slides,
+       carousel_show_arrows: carousel_show_arrows,
+       carousel_auto_slide: carousel_auto_slide,
+       carousel_auto_slide_speed: carousel_auto_slide_speed,
+       image_carousel_desktop_slides: image_carousel_desktop_slides,
+       image_carousel_mobile_slides: image_carousel_mobile_slides,
+       image_carousel_show_arrows: image_carousel_show_arrows,
+       image_carousel_auto_slide: image_carousel_auto_slide,
+       image_carousel_auto_slide_speed: image_carousel_auto_slide_speed
+    %}
+  {% endif %}
+</div>
+
+<!-- 4. Image Lightbox Overlay -->
+<div class="reviews-lightbox" id="reviews-lightbox-overlay">
+  <img class="reviews-lightbox-content" id="reviews-lightbox-img" src="" alt="Zoomed review image" width="800" height="600">
+</div>
+
+<!-- 5. Storefront Client JavaScript -->
+<script src="{{ 'reviews-widget.js' | asset_url }}" defer="defer"></script>
+
+<!-- 6. Theme Block Settings Schema -->
+{% schema %}
+{
+  "name": "Product Reviews Section",
+  "target": "section",
+  "templates": ["product"],
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Customer Reviews"
+    },
+    {
+      "type": "text",
+      "id": "api_url",
+      "label": "App Base API URL",
+      "default": "https://moustache-take-karaoke.ngrok-free.dev"
+    },
+    {
+      "type": "range",
+      "id": "padding",
+      "min": 10,
+      "max": 100,
+      "step": 5,
+      "label": "Padding (px)",
+      "default": 30
+    }
+  ]
+}
+{% endschema %}
