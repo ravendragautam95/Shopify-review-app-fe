@@ -2,7 +2,7 @@
 
 client_id = "e9211e548bd3fc154cffc2f3d51f94f8"
 # CRITICAL: Replace this ngrok domain with your live hosted URL (e.g. Render, Heroku) before submitting
-application_url = "https://moustache-take-karaoke.ngrok-free.dev"
+application_url = "https://review-app-fe-8ft7.onrender.com"
 embedded = true
 name = "review-app-fe"
 
@@ -56,7 +56,7 @@ compliance_topics = [
 
 [auth]
 # CRITICAL: Replace this ngrok domain with your live hosted URL as well
-redirect_urls = [ "https://moustache-take-karaoke.ngrok-free.dev/api/auth" ]
+redirect_urls = [ "https://review-app-fe-8ft7.onrender.com/api/auth" ]
 
 [build]
 automatically_update_urls_on_dev = true
