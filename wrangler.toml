@@ -1,0 +1,6 @@
+name = "my-shopify-app"
+main = "./build/server/index.js"
+compatibility_date = "2026-07-09"
+compatibility_flags = [ "nodejs_compat" ]
+[site]
+bucket = "./public"
