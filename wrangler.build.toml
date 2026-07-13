@@ -15,4 +15,4 @@ SCOPES = "write_products,write_metaobjects,write_metaobject_definitions,write_cu
 
 [[kv_namespaces]]
 binding = "KV_SESSION_STORAGE"
-id = "KV_SESSION_STORAGE_PLACEHOLDER"
+id = "df3abdc737814ef08b4dcf71e05903eb"
