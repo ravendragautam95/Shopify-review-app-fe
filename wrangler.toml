@@ -1,6 +1,7 @@
-name = "my-shopify-app"
+name = "shopify-review-app"
 main = "./build/server/index.js"
 compatibility_date = "2026-07-09"
 compatibility_flags = [ "nodejs_compat" ]
-[site]
-bucket = "./public"
+
+[assets]
+directory = "./build/client"
