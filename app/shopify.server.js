@@ -1,4 +1,4 @@
-import "@shopify/shopify-app-react-router/adapters/node";
+import "@shopify/shopify-api/adapters/cf-worker";
 import {
   ApiVersion,
   AppDistribution,

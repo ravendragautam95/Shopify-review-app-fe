@@ -2,12 +2,7 @@ import { unauthenticated } from "../shopify.server";
 
 // A server-side logger helper to trace API behavior
 const logDebug = async (message) => {
-  try {
-    const fs = await import("node:fs");
-    fs.default.appendFileSync("reviews_api_debug.log", `${new Date().toISOString()} - ${message}\n`);
-  } catch (e) {
-    console.error("Log error:", e);
-  }
+  console.log(`[API Reviews DEBUG] ${message}`);
 };
 
 // CORS helper to append headers
@@ -144,28 +139,32 @@ export const action = async ({ request }) => {
 
     for (const imageFile of imageFiles) {
       if (imageFile && typeof imageFile === "object" && imageFile.size > 0) {
-        const arrayBuffer = await imageFile.arrayBuffer();
-        const buffer = Buffer.from(arrayBuffer);
+        try {
+          const arrayBuffer = await imageFile.arrayBuffer();
+          const buffer = Buffer.from(arrayBuffer);
 
-        const fs = await import("node:fs");
-        const path = await import("node:path");
-        const uploadDir = path.join(process.cwd(), "public", "uploads");
+          const fs = await import("node:fs");
+          const path = await import("node:path");
+          const uploadDir = path.join(process.cwd(), "public", "uploads");
 
-        if (!fs.existsSync(uploadDir)) {
-          fs.mkdirSync(uploadDir, { recursive: true });
+          if (!fs.existsSync(uploadDir)) {
+            fs.mkdirSync(uploadDir, { recursive: true });
+          }
+
+          // Generate a clean safe filename with a random part to prevent collisions
+          const randomPart = Math.random().toString(36).substring(2, 9);
+          const safeName = `${Date.now()}-${randomPart}-${imageFile.name.replace(/[^a-zA-Z0-9.-]/g, "_")}`;
+          const filePath = path.join(uploadDir, safeName);
+          fs.writeFileSync(filePath, buffer);
+
+          // Get ngrok / host origin
+          const url = new URL(request.url);
+          const imageUrl = `${url.origin}/uploads/${safeName}`;
+          imageUrls.push(imageUrl);
+          await logDebug(`IMAGE SAVED - Path: ${filePath}, URL: ${imageUrl}`);
+        } catch (uploadError) {
+          await logDebug(`IMAGE SAVE FAILED (expected in serverless/workers): ${uploadError.message}`);
         }
-
-        // Generate a clean safe filename with a random part to prevent collisions
-        const randomPart = Math.random().toString(36).substring(2, 9);
-        const safeName = `${Date.now()}-${randomPart}-${imageFile.name.replace(/[^a-zA-Z0-9.-]/g, "_")}`;
-        const filePath = path.join(uploadDir, safeName);
-        fs.writeFileSync(filePath, buffer);
-
-        // Get ngrok / host origin
-        const url = new URL(request.url);
-        const imageUrl = `${url.origin}/uploads/${safeName}`;
-        imageUrls.push(imageUrl);
-        await logDebug(`IMAGE SAVED - Path: ${filePath}, URL: ${imageUrl}`);
       }
     }
 

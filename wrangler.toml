@@ -8,3 +8,11 @@ directory = "./dist/client"
 
 [observability.logs]
 enabled = true
+
+[vars]
+SHOPIFY_APP_URL = "https://netliy-review.ravendra-gautam95.workers.dev"
+SCOPES = "write_products,write_metaobjects,write_metaobject_definitions,write_customers,read_customers"
+
+[[kv_namespaces]]
+binding = "KV_SESSION_STORAGE"
+id = "KV_SESSION_STORAGE_PLACEHOLDER"

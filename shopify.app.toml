@@ -2,7 +2,7 @@
 
 client_id = "e9211e548bd3fc154cffc2f3d51f94f8"
 # CRITICAL: Replace this ngrok domain with your live hosted URL (e.g. Render, Heroku) before submitting
-application_url = "https://review-app-fe-production.up.railway.app"
+application_url = "https://netliy-review.ravendra-gautam95.workers.dev"
 embedded = true
 name = "Netliy Reviews"
 
@@ -56,7 +56,7 @@ compliance_topics = [
 
 [auth]
 # CRITICAL: Replace this ngrok domain with your live hosted URL as well
-redirect_urls = [ "https://review-app-fe-production.up.railway.app/api/auth" ]
+redirect_urls = [ "https://netliy-review.ravendra-gautam95.workers.dev/auth" ]
 
 [build]
 automatically_update_urls_on_dev = true

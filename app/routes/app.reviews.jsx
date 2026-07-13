@@ -13,12 +13,7 @@ import { useAppBridge } from "@shopify/app-bridge-react";
 
 // A server-side logger helper to trace Admin behavior
 const logDebug = async (message) => {
-  try {
-    const fs = await import("node:fs");
-    fs.default.appendFileSync("reviews_admin_debug.log", `${new Date().toISOString()} - ${message}\n`);
-  } catch (e) {
-    console.error("Log error:", e);
-  }
+  console.log(`[Admin Reviews DEBUG] ${message}`);
 };
 
 // Loader fetches all products and compiles a list of all reviews from their metafields

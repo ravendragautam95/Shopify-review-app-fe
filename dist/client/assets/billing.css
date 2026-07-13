@@ -1,0 +1,186 @@
+/* billing.css */
+
+.billing-subtitle {
+  color: var(--s-text-subdued, #5c5f62);
+  font-size: 0.95rem;
+}
+
+/* Responsive CSS Grid for Plans Pricing Table */
+.billing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  align-items: stretch;
+}
+
+/* Pricing Card Styles */
+.plan-card {
+  background: var(--s-bg-surface, #ffffff);
+  border: 1px solid var(--s-border-subdued, #e1e3e5);
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  transition: transform 0.22s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.22s ease;
+  cursor: default;
+  position: relative;
+}
+
+/* Specific styling for the Active/Current Plan card shadow */
+.plan-card.current-plan {
+  box-shadow: 0 4px 12px rgba(0, 91, 211, 0.08);
+}
+
+/* Lift-up hover micro-animation */
+.plan-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Header details within card */
+.plan-header {
+  margin-bottom: 1.25rem;
+}
+
+.plan-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--s-text-subdued, #6d7175);
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.plan-price-container {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.plan-price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--s-text, #111111);
+}
+
+.plan-price-suffix {
+  font-size: 0.85rem;
+  color: var(--s-text-subdued, #6d7175);
+  margin-left: 4px;
+}
+
+.plan-trial-container {
+  height: 18px;
+  margin-top: 0.25rem;
+}
+
+.plan-trial-text {
+  font-size: 0.8rem;
+  color: var(--s-text-subdued, #8c9196);
+}
+
+/* Card Divider */
+.plan-divider {
+  border: none;
+  border-top: 1px solid #f1f2f3;
+  margin: 0 0 1.5rem 0;
+}
+
+/* Features checklist inside the card */
+.plan-features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  flex: 1;
+}
+
+.plan-feature-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: var(--s-text-subdued, #5c5f62);
+  margin-bottom: 0.75rem;
+}
+
+/* Button styles overriding Polaris defaults */
+.plan-card button.plan-btn-current {
+  width: 100% !important;
+  padding: 0.75rem 1rem !important;
+  border: 1px solid transparent !important;
+  border-radius: 8px !important;
+  background: #f1f2f3 !important;
+  color: #8c9196 !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  cursor: not-allowed !important;
+  text-align: center !important;
+}
+
+.plan-card button.plan-btn-current * {
+  color: #8c9196 !important;
+  font-weight: 600 !important;
+}
+
+.plan-card button.plan-btn-activate {
+  width: 100% !important;
+  padding: 0.75rem 1rem !important;
+  border: 1px solid transparent !important;
+  border-radius: 8px !important;
+  background: linear-gradient(to bottom, #005bd3, #0056c6) !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  cursor: pointer !important;
+  text-align: center !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
+  transition: background 0.15s ease !important;
+}
+
+.plan-card button.plan-btn-activate:hover {
+  background: #004bb0 !important;
+}
+
+.plan-card button.plan-btn-activate * {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+.plan-btn-free-placeholder {
+  height: 42px;
+}
+
+/* Cancel Plan button style for active current plan */
+.plan-card button.plan-btn-cancel {
+  width: 100% !important;
+  padding: 0.75rem 1rem !important;
+  border: 1px solid #d82c0d !important;
+  border-radius: 8px !important;
+  background: transparent !important;
+  color: #d82c0d !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  cursor: pointer !important;
+  text-align: center !important;
+  transition: background 0.15s ease, color 0.15s ease !important;
+  margin-top: 0.5rem !important;
+}
+
+.plan-card button.plan-btn-cancel:hover {
+  background: #fff0ee !important;
+}
+
+.plan-card button.plan-btn-cancel * {
+  color: #d82c0d !important;
+  font-weight: 600 !important;
+}
+
+.plan-card button.plan-btn-cancel:disabled {
+  border-color: #f1f2f3 !important;
+  color: #8c9196 !important;
+}
+
+.plan-card button.plan-btn-cancel:disabled * {
+  color: #8c9196 !important;
+}

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useSubmit, useActionData, useNavigation, useLoaderData, redirect } from "react-router";
 import { authenticate, PLAN_DIAMOND, PLAN_GOLD, PLAN_SILVER } from "../shopify.server";
-import { boundary } from "@shopify/shopify-app-react-router/server";
+import { boundary, BillingInterval } from "@shopify/shopify-app-react-router/server";
 import { useAppBridge } from "@shopify/app-bridge-react";
 import { Button } from '@shopify/polaris'
 // Link stylesheet from public/assets/billing.css
@@ -13,12 +13,7 @@ export const links = () => [
 
 // A server-side logger helper to trace Billing API behavior
 const logDebug = async (message) => {
-    try {
-        const fs = await import("node:fs");
-        fs.default.appendFileSync("billing_debug.log", `${new Date().toISOString()} - ${message}\n`);
-    } catch (e) {
-        console.error("Log error:", e);
-    }
+    console.log(`[Billing DEBUG] ${message}`);
 };
 
 //The loader ensures authentication and retrieves current settings/plans if needed
@@ -110,6 +105,34 @@ export const action = async ({ request }) => {
         if (intent === "subscribe") {
             const shopName = session.shop.split('.')[0];
             const returnUrl = `https://admin.shopify.com/store/${shopName}/apps/review-app-fe/app/billing`;
+            const couponCode = formData.get("couponCode");
+
+            let lineItemsOverride;
+            if (couponCode === "SAVE20") {
+                lineItemsOverride = [
+                    {
+                        interval: BillingInterval.Every30Days,
+                        discount: {
+                            value: {
+                                percentage: 0.2
+                            }
+                        }
+                    }
+                ];
+                await logDebug(`COUPON VALIDATED - Code: ${couponCode}, 20% discount applied`);
+            } else if (couponCode === "SAVE50") {
+                lineItemsOverride = [
+                    {
+                        interval: BillingInterval.Every30Days,
+                        discount: {
+                            value: {
+                                percentage: 0.5
+                            }
+                        }
+                    }
+                ];
+                await logDebug(`COUPON VALIDATED - Code: ${couponCode}, 50% discount applied`);
+            }
 
             await logDebug(`ACTION SUBSCRIBE START - returnUrl: ${returnUrl}`);
 
@@ -124,7 +147,8 @@ export const action = async ({ request }) => {
                         return billing.request({
                             plan: selectedPlanConfigName,
                             isTest: true,
-                            returnUrl: returnUrl
+                            returnUrl: returnUrl,
+                            ...(lineItemsOverride ? { lineItems: lineItemsOverride } : {})
                         });
                     }
                 });
@@ -264,6 +288,29 @@ export default function BillingPage() {
     const [clickedPlanId, setClickedPlanId] = useState(null);
     console.log("Current active plan in state:", activePlan, "Loader data:", loaderData);
 
+    const [couponInput, setCouponInput] = useState("");
+    const [appliedCoupon, setAppliedCoupon] = useState("");
+    const [couponError, setCouponError] = useState("");
+
+    const handleApplyCoupon = () => {
+        const uppercaseCoupon = couponInput.trim().toUpperCase();
+        if (uppercaseCoupon === "SAVE20" || uppercaseCoupon === "SAVE50") {
+            setAppliedCoupon(uppercaseCoupon);
+            setCouponError("");
+            shopify.toast.show(`Coupon "${uppercaseCoupon}" applied successfully!`);
+        } else {
+            setCouponError("Invalid coupon code. Try SAVE20 or SAVE50.");
+            setAppliedCoupon("");
+        }
+    };
+
+    const handleRemoveCoupon = () => {
+        setAppliedCoupon("");
+        setCouponInput("");
+        setCouponError("");
+        shopify.toast.show("Coupon removed.");
+    };
+
     useEffect(() => {
         if (actionData?.success) {
             setActivePlan(actionData.planId);
@@ -288,7 +335,7 @@ export default function BillingPage() {
 
     const handleActivatePlan = (planId) => {
         setClickedPlanId(planId); // Set the target plan ID immediately on click
-        submit({ planId, intent: "subscribe" }, { method: "POST" });
+        submit({ planId, intent: "subscribe", couponCode: appliedCoupon }, { method: "POST" });
     };
 
     const handleCancelPlan = () => {
@@ -311,10 +358,85 @@ export default function BillingPage() {
                 </span>
             </s-paragraph>
 
+            {/* Coupon Code Section */}
+            <div style={{
+                maxWidth: "600px",
+                margin: "1.5rem auto 2rem auto",
+                padding: "1.25rem",
+                background: "#f9fafb",
+                border: "1px solid #e1e3e5",
+                borderRadius: "8px",
+                boxShadow: "0 1px 3px rgba(0,0,0,0.05)"
+            }}>
+                <div style={{ display: "flex", gap: "0.75rem", alignItems: "flex-end" }}>
+                    <div style={{ flexGrow: 1 }}>
+                        <label style={{ display: "block", fontSize: "0.875rem", fontWeight: "500", color: "#202223", marginBottom: "0.375rem" }}>
+                            Have a Promo Code?
+                        </label>
+                        <input
+                            type="text"
+                            value={couponInput}
+                            onChange={(e) => setCouponInput(e.target.value)}
+                            placeholder="Enter coupon code (e.g. SAVE20)"
+                            disabled={!!appliedCoupon}
+                            style={{
+                                width: "100%",
+                                padding: "0.5rem 0.75rem",
+                                border: "1px solid #babfc3",
+                                borderRadius: "6px",
+                                boxSizing: "border-box",
+                                fontSize: "0.875rem",
+                                background: appliedCoupon ? "#f1f2f4" : "#ffffff",
+                                color: appliedCoupon ? "#6d7175" : "#202223"
+                            }}
+                        />
+                    </div>
+                    {appliedCoupon ? (
+                        <Button onClick={handleRemoveCoupon} variant="plain" tone="critical">
+                            Remove
+                        </Button>
+                    ) : (
+                        <Button onClick={handleApplyCoupon} disabled={!couponInput.trim()}>
+                            Apply
+                        </Button>
+                    )}
+                </div>
+                {appliedCoupon && (
+                    <div style={{ marginTop: "0.5rem", fontSize: "0.875rem", color: "#008060", fontWeight: "500", display: "flex", alignItems: "center" }}>
+                        <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor" style={{ marginRight: "6px" }}>
+                            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                        </svg>
+                        Coupon Applied: {appliedCoupon === "SAVE20" ? "20% Off" : "50% Off"}
+                    </div>
+                )}
+                {couponError && (
+                    <div style={{ marginTop: "0.5rem", fontSize: "0.875rem", color: "#d72c0d" }}>
+                        {couponError}
+                    </div>
+                )}
+            </div>
+
             {/* Grid container using responsive CSS grid classes */}
             <div className="billing-grid">
                 {PLANS.map((plan, index) => {
                     const isCurrent = activePlan === plan.id;
+
+                    let displayedPrice = plan.price;
+                    let hasDiscount = false;
+                    let originalPrice = plan.price;
+
+                    if (appliedCoupon && !plan.isFree) {
+                        const basePriceNum = parseFloat(plan.price.replace("$", ""));
+                        let discountFraction = 0;
+                        if (appliedCoupon === "SAVE20") discountFraction = 0.2;
+                        else if (appliedCoupon === "SAVE50") discountFraction = 0.5;
+
+                        if (discountFraction > 0) {
+                            const discountedVal = basePriceNum * (1 - discountFraction);
+                            displayedPrice = `$${discountedVal.toFixed(2)}`;
+                            hasDiscount = true;
+                        }
+                    }
 
                     return (
                         <div
@@ -328,9 +450,20 @@ export default function BillingPage() {
                                 </h3>
 
                                 <div className="plan-price-container">
-                                    <span className="plan-price">
-                                        {plan.price}
-                                    </span>
+                                    {hasDiscount ? (
+                                        <div style={{ display: "flex", gap: "0.5rem", alignItems: "baseline" }}>
+                                            <span className="plan-price" style={{ color: "#008060" }}>
+                                                {displayedPrice}
+                                            </span>
+                                            <span style={{ textDecoration: "line-through", color: "#8c9196", fontSize: "0.875rem" }}>
+                                                {originalPrice}
+                                            </span>
+                                        </div>
+                                    ) : (
+                                        <span className="plan-price">
+                                            {plan.price}
+                                        </span>
+                                    )}
                                     {plan.priceSuffix && (
                                         <span className="plan-price-suffix">
                                             {plan.priceSuffix}
