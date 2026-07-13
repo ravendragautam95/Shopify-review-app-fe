@@ -1,5 +1,4 @@
-import { authenticate } from "../shopify.server";
-import db from "../db.server";
+import { authenticate, sessionStorage } from "../shopify.server";
 
 // Mandatory GDPR compliance webhook handler
 export const action = async ({ request }) => {
@@ -28,7 +27,11 @@ export const action = async ({ request }) => {
         // Shopify is asking to delete all data related to a shop that uninstalled.
         // Clean up session records in the SQLite/Production database.
         if (shop) {
-          await db.session.deleteMany({ where: { shop } });
+          const shopSessions = await sessionStorage.findSessionsByShop(shop);
+          if (shopSessions.length > 0) {
+            const ids = shopSessions.map((s) => s.id);
+            await sessionStorage.deleteSessions(ids);
+          }
           console.log(`GDPR shop redact: Cleaned up all sessions for shop: ${shop}`);
         }
         return new Response(JSON.stringify({ success: true }), { status: 200 });
