@@ -1,5 +1,5 @@
 name = "netliy-review"
-main = "./dist/server/index.js"
+main = "./workers/app.js"
 compatibility_date = "2026-07-09"
 compatibility_flags = [ "nodejs_compat" ]
 
