@@ -17,11 +17,11 @@ export const PLAN_GOLD = 'Gold Plan';
 export const PLAN_DIAMOND = 'Diamond Plan';
 
 const shopify = shopifyApp({
-  apiKey: process.env.SHOPIFY_API_KEY,
-  apiSecretKey: process.env.SHOPIFY_API_SECRET || "",
+  apiKey: env.SHOPIFY_API_KEY,
+  apiSecretKey: env.SHOPIFY_API_SECRET || "",
   apiVersion: ApiVersion.October25,
-  scopes: process.env.SCOPES?.split(","),
-  appUrl: process.env.SHOPIFY_APP_URL || "",
+  scopes: env.SCOPES?.split(","),
+  appUrl: env.SHOPIFY_APP_URL || "",
   authPathPrefix: "/auth",
   sessionStorage: new KVSessionStorage(env.KV_SESSION_STORAGE),
   distribution: AppDistribution.AppStore,
@@ -59,8 +59,8 @@ const shopify = shopifyApp({
   future: {
     expiringOfflineAccessTokens: true,
   },
-  ...(process.env.SHOP_CUSTOM_DOMAIN
-    ? { customShopDomains: [process.env.SHOP_CUSTOM_DOMAIN] }
+  ...(env.SHOP_CUSTOM_DOMAIN
+    ? { customShopDomains: [env.SHOP_CUSTOM_DOMAIN] }
     : {}),
 });
 
