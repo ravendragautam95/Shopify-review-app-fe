@@ -5,3 +5,10 @@ compatibility_flags = [ "nodejs_compat" ]
 
 [assets]
 directory = "./dist/client"
+
+[observability.logs]
+enabled = true
+
+[[kv_namespaces]]
+binding = "KV_SESSION_STORAGE"
+id = "df3abdc737814fef08b4dcf71e05903eb"
