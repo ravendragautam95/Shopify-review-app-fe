@@ -84,6 +84,9 @@ export default function AppSettingsIndex() {
             style={{ textDecoration: "none", color: "inherit", display: "block" }}
           >
             <div className={`settings-card ${section.className}`}>
+              <div className="simple-icon-container">
+                {section.icon}
+              </div>
               <h3 className="card-title">{section.title}</h3>
               <p className="card-description">{section.description}</p>
 

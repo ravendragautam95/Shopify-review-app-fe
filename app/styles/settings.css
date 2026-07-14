@@ -123,3 +123,25 @@
   background: #fffaf0;
   color: #b7791f;
 }
+
+.simple-icon-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: #6366f1; /* purple/indigo for widget, but wait - let's make it subtle/uniform */
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.settings-card.widget .simple-icon-container {
+  color: #845ef7; /* purple/indigo */
+}
+
+.settings-card.importexport .simple-icon-container {
+  color: #0992ec; /* blue/teal */
+}
+
+.settings-card:hover .simple-icon-container {
+  transform: scale(1.08);
+}
+
