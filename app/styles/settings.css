@@ -56,62 +56,10 @@
   box-sizing: border-box;
 }
 
-.settings-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background: transparent;
-  transition: background 0.3s ease;
-}
-
 .settings-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
   border-color: #babfc3;
-}
-
-.settings-card.widget:hover::before {
-  background: linear-gradient(90deg, #ff6b6b, #845ef7);
-}
-.settings-card.importexport:hover::before {
-  background: linear-gradient(90deg, #0adb86, #0992ec);
-}
-.settings-card.account:hover::before {
-  background: linear-gradient(90deg, #f59f00, #e8590c);
-}
-
-.icon-container {
-  width: 48px;
-  height: 48px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1.25rem;
-  color: white;
-  transition: transform 0.3s ease;
-}
-
-.settings-card:hover .icon-container {
-  transform: scale(1.1) rotate(2deg);
-}
-
-.icon-widget {
-  background: linear-gradient(135deg, #ff6b6b, #845ef7);
-  box-shadow: 0 4px 12px rgba(132, 94, 247, 0.15);
-}
-
-.icon-importexport {
-  background: linear-gradient(135deg, #0adb86, #0992ec);
-  box-shadow: 0 4px 12px rgba(9, 146, 236, 0.15);
-}
-
-.icon-account {
-  background: linear-gradient(135deg, #f59f00, #e8590c);
-  box-shadow: 0 4px 12px rgba(232, 89, 12, 0.15);
 }
 
 .card-title {
