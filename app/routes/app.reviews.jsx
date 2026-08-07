@@ -232,7 +232,7 @@ export default function AppReviewsDashboard() {
       if (!searchQuery.trim()) return true;
       const q = searchQuery.trim().toLowerCase();
       return (r.email && r.email.toLowerCase().includes(q)) ||
-             (r.productTitle && r.productTitle.toLowerCase().includes(q));
+        (r.productTitle && r.productTitle.toLowerCase().includes(q));
     })
     .filter(r => !selectedProduct || r.productTitle === selectedProduct)
     .filter(r => !selectedRating || parseInt(r.rating, 10) === parseInt(selectedRating, 10))
@@ -325,7 +325,13 @@ export default function AppReviewsDashboard() {
         <Layout.Section>
           <div className="reviews-stats-row">
             <div className="reviews-stat-card">
-              <div className="reviews-stat-icon reviews-stat-icon--total">📋</div>
+              <div className="reviews-stat-icon reviews-stat-icon--total">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#005bd3" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                  <path d="M8 10h8"></path>
+                  <path d="M8 14h6"></path>
+                </svg>
+              </div>
               <div className="reviews-stat-body">
                 <span className="reviews-stat-label">Total Reviews</span>
                 <span className="reviews-stat-value">{stats.totalReviews}</span>
@@ -333,7 +339,11 @@ export default function AppReviewsDashboard() {
               </div>
             </div>
             <div className="reviews-stat-card">
-              <div className="reviews-stat-icon reviews-stat-icon--rating">⭐</div>
+              <div className="reviews-stat-icon reviews-stat-icon--rating">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#e07d10" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
               <div className="reviews-stat-body">
                 <span className="reviews-stat-label">Average Rating</span>
                 <span className="reviews-stat-value">{stats.averageRating.toFixed(1)}</span>
@@ -341,9 +351,13 @@ export default function AppReviewsDashboard() {
               </div>
             </div>
             <div className="reviews-stat-card">
-              <div className="reviews-stat-icon reviews-stat-icon--showing">🔍</div>
+              <div className="reviews-stat-icon reviews-stat-icon--showing">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#008060" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+                </svg>
+              </div>
               <div className="reviews-stat-body">
-                <span className="reviews-stat-label">Showing</span>
+                <span className="reviews-stat-label">Showing sfb fbdf</span>
                 <span className="reviews-stat-value">{filteredReviews.length}</span>
                 <span className="reviews-stat-sub">
                   {activeFilterCount > 0 ? `${activeFilterCount} filter${activeFilterCount > 1 ? "s" : ""} active` : "no filters"}
@@ -460,10 +474,10 @@ export default function AppReviewsDashboard() {
               itemCount={filteredReviews.length}
               selectable={false}
               headings={[
-                { title: "Reviewer",       id: "col-reviewer",  minWidth: "180px" },
-                { title: "Rating",         id: "col-rating",    minWidth: "90px"  },
-                { title: "Review Details", id: "col-details",   minWidth: "220px" },
-                { title: "Product",        id: "col-product",   minWidth: "160px" },
+                { title: "Reviewer", id: "col-reviewer", minWidth: "180px" },
+                { title: "Rating", id: "col-rating", minWidth: "90px" },
+                { title: "Review Details", id: "col-details", minWidth: "220px" },
+                { title: "Product", id: "col-product", minWidth: "160px" },
                 {
                   id: "col-date",
                   minWidth: "160px",
@@ -480,7 +494,7 @@ export default function AppReviewsDashboard() {
                     </button>
                   )
                 },
-                { title: "Actions",        id: "col-actions",   minWidth: "90px"  },
+                { title: "Actions", id: "col-actions", minWidth: "90px" },
               ]}
             >
               {filteredReviews.length === 0 ? (

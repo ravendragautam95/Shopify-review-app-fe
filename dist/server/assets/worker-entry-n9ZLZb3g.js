@@ -7901,7 +7901,7 @@ function RSCDefaultRootErrorBoundaryImpl({
   ), heyDeveloper);
 }
 const requestHandler = createRequestHandler(
-  () => import("./server-build-B6Jaseji.js"),
+  () => import("./server-build-DCItqDRu.js"),
   "production"
 );
 const app = {

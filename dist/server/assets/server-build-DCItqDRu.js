@@ -1,4 +1,4 @@
-import { r as requireReact, a as redirect, S as ServerRouter, w as withComponentProps, M as Meta, L as Links, O as Outlet, b as ScrollRestoration, c as Scripts, u as useNavigate, d as reactExports, e as useLoaderData, f as useActionData, F as Form, R as React, g as withErrorBoundaryProps, h as useRouteError, i as useNavigation, j as useSubmit, k as Link, l as useFetcher } from "./worker-entry-Dk4H_Sk4.js";
+import { r as requireReact, a as redirect, S as ServerRouter, w as withComponentProps, M as Meta, L as Links, O as Outlet, b as ScrollRestoration, c as Scripts, u as useNavigate, d as reactExports, e as useLoaderData, f as useActionData, F as Form, R as React, g as withErrorBoundaryProps, h as useRouteError, i as useNavigation, j as useSubmit, k as Link, l as useFetcher } from "./worker-entry-n9ZLZb3g.js";
 import { env } from "cloudflare:workers";
 var jsxRuntime = { exports: {} };
 var reactJsxRuntime_production_min = {};
@@ -97,58 +97,58 @@ function requireReactDomServerLegacy_browser_production_min() {
     this.removeEmptyString = g;
   }
   var t = {};
-  "children dangerouslySetInnerHTML defaultValue defaultChecked innerHTML suppressContentEditableWarning suppressHydrationWarning style".split(" ").forEach(function(a) {
+  "children dangerouslySetInnerHTML defaultValue defaultChecked innerHTML suppressContentEditableWarning suppressHydrationWarning style".split(" ").forEach(function (a) {
     t[a] = new r(a, 0, false, a, null, false, false);
   });
-  [["acceptCharset", "accept-charset"], ["className", "class"], ["htmlFor", "for"], ["httpEquiv", "http-equiv"]].forEach(function(a) {
+  [["acceptCharset", "accept-charset"], ["className", "class"], ["htmlFor", "for"], ["httpEquiv", "http-equiv"]].forEach(function (a) {
     var b = a[0];
     t[b] = new r(b, 1, false, a[1], null, false, false);
   });
-  ["contentEditable", "draggable", "spellCheck", "value"].forEach(function(a) {
+  ["contentEditable", "draggable", "spellCheck", "value"].forEach(function (a) {
     t[a] = new r(a, 2, false, a.toLowerCase(), null, false, false);
   });
-  ["autoReverse", "externalResourcesRequired", "focusable", "preserveAlpha"].forEach(function(a) {
+  ["autoReverse", "externalResourcesRequired", "focusable", "preserveAlpha"].forEach(function (a) {
     t[a] = new r(a, 2, false, a, null, false, false);
   });
-  "allowFullScreen async autoFocus autoPlay controls default defer disabled disablePictureInPicture disableRemotePlayback formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed scoped seamless itemScope".split(" ").forEach(function(a) {
+  "allowFullScreen async autoFocus autoPlay controls default defer disabled disablePictureInPicture disableRemotePlayback formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed scoped seamless itemScope".split(" ").forEach(function (a) {
     t[a] = new r(a, 3, false, a.toLowerCase(), null, false, false);
   });
-  ["checked", "multiple", "muted", "selected"].forEach(function(a) {
+  ["checked", "multiple", "muted", "selected"].forEach(function (a) {
     t[a] = new r(a, 3, true, a, null, false, false);
   });
-  ["capture", "download"].forEach(function(a) {
+  ["capture", "download"].forEach(function (a) {
     t[a] = new r(a, 4, false, a, null, false, false);
   });
-  ["cols", "rows", "size", "span"].forEach(function(a) {
+  ["cols", "rows", "size", "span"].forEach(function (a) {
     t[a] = new r(a, 6, false, a, null, false, false);
   });
-  ["rowSpan", "start"].forEach(function(a) {
+  ["rowSpan", "start"].forEach(function (a) {
     t[a] = new r(a, 5, false, a.toLowerCase(), null, false, false);
   });
   var ka = /[\-:]([a-z])/g;
   function la(a) {
     return a[1].toUpperCase();
   }
-  "accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horiz-adv-x horiz-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:xlink x-height".split(" ").forEach(function(a) {
+  "accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horiz-adv-x horiz-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:xlink x-height".split(" ").forEach(function (a) {
     var b = a.replace(
       ka,
       la
     );
     t[b] = new r(b, 1, false, a, null, false, false);
   });
-  "xlink:actuate xlink:arcrole xlink:role xlink:show xlink:title xlink:type".split(" ").forEach(function(a) {
+  "xlink:actuate xlink:arcrole xlink:role xlink:show xlink:title xlink:type".split(" ").forEach(function (a) {
     var b = a.replace(ka, la);
     t[b] = new r(b, 1, false, a, "http://www.w3.org/1999/xlink", false, false);
   });
-  ["xml:base", "xml:lang", "xml:space"].forEach(function(a) {
+  ["xml:base", "xml:lang", "xml:space"].forEach(function (a) {
     var b = a.replace(ka, la);
     t[b] = new r(b, 1, false, a, "http://www.w3.org/XML/1998/namespace", false, false);
   });
-  ["tabIndex", "crossOrigin"].forEach(function(a) {
+  ["tabIndex", "crossOrigin"].forEach(function (a) {
     t[a] = new r(a, 1, false, a.toLowerCase(), null, false, false);
   });
   t.xlinkHref = new r("xlinkHref", 1, false, "xlink:href", "http://www.w3.org/1999/xlink", true, false);
-  ["src", "href", "action", "formAction"].forEach(function(a) {
+  ["src", "href", "action", "formAction"].forEach(function (a) {
     t[a] = new r(a, 1, false, a.toLowerCase(), null, true, true);
   });
   var u = {
@@ -196,8 +196,8 @@ function requireReactDomServerLegacy_browser_production_min() {
     strokeOpacity: true,
     strokeWidth: true
   }, ma = ["Webkit", "ms", "Moz", "O"];
-  Object.keys(u).forEach(function(a) {
-    ma.forEach(function(b) {
+  Object.keys(u).forEach(function (a) {
+    ma.forEach(function (b) {
       b = b + a.charAt(0).toUpperCase() + a.substring(1);
       u[b] = u[a];
     });
@@ -345,7 +345,7 @@ function requireReactDomServerLegacy_browser_production_min() {
   }
   function ua(a) {
     var b = "";
-    aa.Children.forEach(a, function(a2) {
+    aa.Children.forEach(a, function (a2) {
       null != a2 && (b += a2);
     });
     return b;
@@ -660,7 +660,7 @@ function requireReactDomServerLegacy_browser_production_min() {
   }
   var Ca = /[<\u2028\u2029]/g;
   function Da(a) {
-    return JSON.stringify(a).replace(Ca, function(a2) {
+    return JSON.stringify(a).replace(Ca, function (a2) {
       switch (a2) {
         case "<":
           return "\\u003c";
@@ -772,17 +772,19 @@ function requireReactDomServerLegacy_browser_production_min() {
     var b = E;
     b !== a && (null === b ? ab(a) : null === a ? $a(b) : b.depth === a.depth ? F(b, a) : b.depth > a.depth ? bb(b, a) : cb(b, a), E = a);
   }
-  var db = { isMounted: function() {
-    return false;
-  }, enqueueSetState: function(a, b) {
-    a = a._reactInternals;
-    null !== a.queue && a.queue.push(b);
-  }, enqueueReplaceState: function(a, b) {
-    a = a._reactInternals;
-    a.replace = true;
-    a.queue = [b];
-  }, enqueueForceUpdate: function() {
-  } };
+  var db = {
+    isMounted: function () {
+      return false;
+    }, enqueueSetState: function (a, b) {
+      a = a._reactInternals;
+      null !== a.queue && a.queue.push(b);
+    }, enqueueReplaceState: function (a, b) {
+      a = a._reactInternals;
+      a.replace = true;
+      a.queue = [b];
+    }, enqueueForceUpdate: function () {
+    }
+  };
   function eb(a, b, c, d) {
     var f = void 0 !== a.state ? a.state : null;
     a.updater = db;
@@ -905,7 +907,7 @@ function requireReactDomServerLegacy_browser_production_min() {
     if (25 <= P) throw Error(l(301));
     if (a === I) if (M = true, a = { action: c, next: null }, null === O && (O = /* @__PURE__ */ new Map()), c = O.get(b), void 0 === c) O.set(b, a);
     else {
-      for (b = c; null !== b.next; ) b = b.next;
+      for (b = c; null !== b.next;) b = b.next;
       b.next = a;
     }
   }
@@ -914,50 +916,52 @@ function requireReactDomServerLegacy_browser_production_min() {
   }
   function R() {
   }
-  var xb = { readContext: function(a) {
-    return a._currentValue2;
-  }, useContext: function(a) {
-    Q();
-    return a._currentValue2;
-  }, useMemo: vb, useReducer: tb, useRef: function(a) {
-    I = Q();
-    K = qb();
-    var b = K.memoizedState;
-    return null === b ? (a = { current: a }, K.memoizedState = a) : b;
-  }, useState: function(a) {
-    return tb(sb, a);
-  }, useInsertionEffect: R, useLayoutEffect: function() {
-  }, useCallback: function(a, b) {
-    return vb(function() {
+  var xb = {
+    readContext: function (a) {
+      return a._currentValue2;
+    }, useContext: function (a) {
+      Q();
+      return a._currentValue2;
+    }, useMemo: vb, useReducer: tb, useRef: function (a) {
+      I = Q();
+      K = qb();
+      var b = K.memoizedState;
+      return null === b ? (a = { current: a }, K.memoizedState = a) : b;
+    }, useState: function (a) {
+      return tb(sb, a);
+    }, useInsertionEffect: R, useLayoutEffect: function () {
+    }, useCallback: function (a, b) {
+      return vb(function () {
+        return a;
+      }, b);
+    }, useImperativeHandle: R, useEffect: R, useDebugValue: R, useDeferredValue: function (a) {
+      Q();
       return a;
-    }, b);
-  }, useImperativeHandle: R, useEffect: R, useDebugValue: R, useDeferredValue: function(a) {
-    Q();
-    return a;
-  }, useTransition: function() {
-    Q();
-    return [
-      false,
-      wb
-    ];
-  }, useId: function() {
-    var a = ob.treeContext;
-    var b = a.overflow;
-    a = a.id;
-    a = (a & ~(1 << 32 - H(a) - 1)).toString(32) + b;
-    var c = S;
-    if (null === c) throw Error(l(404));
-    b = N++;
-    a = ":" + c.idPrefix + "R" + a;
-    0 < b && (a += "H" + b.toString(32));
-    return a + ":";
-  }, useMutableSource: function(a, b) {
-    Q();
-    return b(a._source);
-  }, useSyncExternalStore: function(a, b, c) {
-    if (void 0 === c) throw Error(l(407));
-    return c();
-  } }, S = null, yb = aa.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentDispatcher;
+    }, useTransition: function () {
+      Q();
+      return [
+        false,
+        wb
+      ];
+    }, useId: function () {
+      var a = ob.treeContext;
+      var b = a.overflow;
+      a = a.id;
+      a = (a & ~(1 << 32 - H(a) - 1)).toString(32) + b;
+      var c = S;
+      if (null === c) throw Error(l(404));
+      b = N++;
+      a = ":" + c.idPrefix + "R" + a;
+      0 < b && (a += "H" + b.toString(32));
+      return a + ":";
+    }, useMutableSource: function (a, b) {
+      Q();
+      return b(a._source);
+    }, useSyncExternalStore: function (a, b, c) {
+      if (void 0 === c) throw Error(l(407));
+      return c();
+    }
+  }, S = null, yb = aa.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentDispatcher;
   function zb(a) {
     console.error(a);
     return null;
@@ -976,11 +980,13 @@ function requireReactDomServerLegacy_browser_production_min() {
   function Bb(a, b, c, d, f, e, g, h) {
     a.allPendingTasks++;
     null === c ? a.pendingRootTasks++ : c.pendingTasks++;
-    var k = { node: b, ping: function() {
-      var b2 = a.pingedTasks;
-      b2.push(k);
-      1 === b2.length && Cb(a);
-    }, blockedBoundary: c, blockedSegment: d, abortSet: f, legacyContext: e, context: g, treeContext: h };
+    var k = {
+      node: b, ping: function () {
+        var b2 = a.pingedTasks;
+        b2.push(k);
+        1 === b2.length && Cb(a);
+      }, blockedBoundary: c, blockedSegment: d, abortSet: f, legacyContext: e, context: g, treeContext: h
+    };
     f.add(k);
     return k;
   }
@@ -1003,7 +1009,7 @@ function requireReactDomServerLegacy_browser_production_min() {
     I = {};
     ob = b;
     N = 0;
-    for (a = c(d, f); M; ) M = false, N = 0, P += 1, K = null, a = c(d, f);
+    for (a = c(d, f); M;) M = false, N = 0, P += 1, K = null, a = c(d, f);
     rb();
     return a;
   }
@@ -1257,7 +1263,7 @@ function requireReactDomServerLegacy_browser_production_min() {
   function Lb(a, b, c) {
     var d = a.blockedBoundary;
     a.blockedSegment.status = 3;
-    null === d ? (b.allPendingTasks--, 2 !== b.status && (b.status = 2, null !== b.destination && b.destination.push(null))) : (d.pendingTasks--, d.forceClientRender || (d.forceClientRender = true, a = void 0 === c ? Error(l(432)) : c, d.errorDigest = b.onError(a), d.parentFlushed && b.clientRenderedBoundaries.push(d)), d.fallbackAbortableTasks.forEach(function(a2) {
+    null === d ? (b.allPendingTasks--, 2 !== b.status && (b.status = 2, null !== b.destination && b.destination.push(null))) : (d.pendingTasks--, d.forceClientRender || (d.forceClientRender = true, a = void 0 === c ? Error(l(432)) : c, d.errorDigest = b.onError(a), d.parentFlushed && b.clientRenderedBoundaries.push(d)), d.fallbackAbortableTasks.forEach(function (a2) {
       return Lb(a2, b, c);
     }), d.fallbackAbortableTasks.clear(), b.allPendingTasks--, 0 === b.allPendingTasks && (d = b.onAllReady, d()));
   }
@@ -1508,7 +1514,7 @@ function requireReactDomServerLegacy_browser_production_min() {
   function Rb(a, b) {
     try {
       var c = a.abortableTasks;
-      c.forEach(function(c2) {
+      c.forEach(function (c2) {
         return Lb(c2, a, b);
       });
       c.clear();
@@ -1520,14 +1526,16 @@ function requireReactDomServerLegacy_browser_production_min() {
   function Sb() {
   }
   function Tb(a, b, c, d) {
-    var f = false, e = null, g = "", h = { push: function(a2) {
-      null !== a2 && (g += a2);
-      return true;
-    }, destroy: function(a2) {
-      f = true;
-      e = a2;
-    } }, k = false;
-    a = Ab(a, Ea(c, b ? b.identifierPrefix : void 0), { insertionMode: 1, selectedValue: null }, Infinity, Sb, void 0, function() {
+    var f = false, e = null, g = "", h = {
+      push: function (a2) {
+        null !== a2 && (g += a2);
+        return true;
+      }, destroy: function (a2) {
+        f = true;
+        e = a2;
+      }
+    }, k = false;
+    a = Ab(a, Ea(c, b ? b.identifierPrefix : void 0), { insertionMode: 1, selectedValue: null }, Infinity, Sb, void 0, function () {
       k = true;
     });
     Cb(a);
@@ -1545,16 +1553,16 @@ function requireReactDomServerLegacy_browser_production_min() {
     if (!k) throw Error(l(426));
     return g;
   }
-  reactDomServerLegacy_browser_production_min.renderToNodeStream = function() {
+  reactDomServerLegacy_browser_production_min.renderToNodeStream = function () {
     throw Error(l(207));
   };
-  reactDomServerLegacy_browser_production_min.renderToStaticMarkup = function(a, b) {
+  reactDomServerLegacy_browser_production_min.renderToStaticMarkup = function (a, b) {
     return Tb(a, b, true, 'The server used "renderToStaticMarkup" which does not support Suspense. If you intended to have the server wait for the suspended component please switch to "renderToReadableStream" which supports Suspense on the server');
   };
-  reactDomServerLegacy_browser_production_min.renderToStaticNodeStream = function() {
+  reactDomServerLegacy_browser_production_min.renderToStaticNodeStream = function () {
     throw Error(l(208));
   };
-  reactDomServerLegacy_browser_production_min.renderToString = function(a, b) {
+  reactDomServerLegacy_browser_production_min.renderToString = function (a, b) {
     return Tb(a, b, false, 'The server used "renderToString" which does not support Suspense. If you intended for this Suspense boundary to render the fallback content on the server consider throwing an Error somewhere within the Suspense boundary. If you intended to have the server wait for the suspended component please switch to "renderToReadableStream" which supports Suspense on the server');
   };
   reactDomServerLegacy_browser_production_min.version = "18.3.1";
@@ -1625,58 +1633,58 @@ function requireReactDomServer_browser_production_min() {
     this.removeEmptyString = g;
   }
   var z = {};
-  "children dangerouslySetInnerHTML defaultValue defaultChecked innerHTML suppressContentEditableWarning suppressHydrationWarning style".split(" ").forEach(function(a) {
+  "children dangerouslySetInnerHTML defaultValue defaultChecked innerHTML suppressContentEditableWarning suppressHydrationWarning style".split(" ").forEach(function (a) {
     z[a] = new y(a, 0, false, a, null, false, false);
   });
-  [["acceptCharset", "accept-charset"], ["className", "class"], ["htmlFor", "for"], ["httpEquiv", "http-equiv"]].forEach(function(a) {
+  [["acceptCharset", "accept-charset"], ["className", "class"], ["htmlFor", "for"], ["httpEquiv", "http-equiv"]].forEach(function (a) {
     var b = a[0];
     z[b] = new y(b, 1, false, a[1], null, false, false);
   });
-  ["contentEditable", "draggable", "spellCheck", "value"].forEach(function(a) {
+  ["contentEditable", "draggable", "spellCheck", "value"].forEach(function (a) {
     z[a] = new y(a, 2, false, a.toLowerCase(), null, false, false);
   });
-  ["autoReverse", "externalResourcesRequired", "focusable", "preserveAlpha"].forEach(function(a) {
+  ["autoReverse", "externalResourcesRequired", "focusable", "preserveAlpha"].forEach(function (a) {
     z[a] = new y(a, 2, false, a, null, false, false);
   });
-  "allowFullScreen async autoFocus autoPlay controls default defer disabled disablePictureInPicture disableRemotePlayback formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed scoped seamless itemScope".split(" ").forEach(function(a) {
+  "allowFullScreen async autoFocus autoPlay controls default defer disabled disablePictureInPicture disableRemotePlayback formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed scoped seamless itemScope".split(" ").forEach(function (a) {
     z[a] = new y(a, 3, false, a.toLowerCase(), null, false, false);
   });
-  ["checked", "multiple", "muted", "selected"].forEach(function(a) {
+  ["checked", "multiple", "muted", "selected"].forEach(function (a) {
     z[a] = new y(a, 3, true, a, null, false, false);
   });
-  ["capture", "download"].forEach(function(a) {
+  ["capture", "download"].forEach(function (a) {
     z[a] = new y(a, 4, false, a, null, false, false);
   });
-  ["cols", "rows", "size", "span"].forEach(function(a) {
+  ["cols", "rows", "size", "span"].forEach(function (a) {
     z[a] = new y(a, 6, false, a, null, false, false);
   });
-  ["rowSpan", "start"].forEach(function(a) {
+  ["rowSpan", "start"].forEach(function (a) {
     z[a] = new y(a, 5, false, a.toLowerCase(), null, false, false);
   });
   var ja = /[\-:]([a-z])/g;
   function ka(a) {
     return a[1].toUpperCase();
   }
-  "accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horiz-adv-x horiz-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:xlink x-height".split(" ").forEach(function(a) {
+  "accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horiz-adv-x horiz-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:xlink x-height".split(" ").forEach(function (a) {
     var b = a.replace(
       ja,
       ka
     );
     z[b] = new y(b, 1, false, a, null, false, false);
   });
-  "xlink:actuate xlink:arcrole xlink:role xlink:show xlink:title xlink:type".split(" ").forEach(function(a) {
+  "xlink:actuate xlink:arcrole xlink:role xlink:show xlink:title xlink:type".split(" ").forEach(function (a) {
     var b = a.replace(ja, ka);
     z[b] = new y(b, 1, false, a, "http://www.w3.org/1999/xlink", false, false);
   });
-  ["xml:base", "xml:lang", "xml:space"].forEach(function(a) {
+  ["xml:base", "xml:lang", "xml:space"].forEach(function (a) {
     var b = a.replace(ja, ka);
     z[b] = new y(b, 1, false, a, "http://www.w3.org/XML/1998/namespace", false, false);
   });
-  ["tabIndex", "crossOrigin"].forEach(function(a) {
+  ["tabIndex", "crossOrigin"].forEach(function (a) {
     z[a] = new y(a, 1, false, a.toLowerCase(), null, false, false);
   });
   z.xlinkHref = new y("xlinkHref", 1, false, "xlink:href", "http://www.w3.org/1999/xlink", true, false);
-  ["src", "href", "action", "formAction"].forEach(function(a) {
+  ["src", "href", "action", "formAction"].forEach(function (a) {
     z[a] = new y(a, 1, false, a.toLowerCase(), null, true, true);
   });
   var B = {
@@ -1724,8 +1732,8 @@ function requireReactDomServer_browser_production_min() {
     strokeOpacity: true,
     strokeWidth: true
   }, la = ["Webkit", "ms", "Moz", "O"];
-  Object.keys(B).forEach(function(a) {
-    la.forEach(function(b) {
+  Object.keys(B).forEach(function (a) {
+    la.forEach(function (b) {
       b = b + a.charAt(0).toUpperCase() + a.substring(1);
       B[b] = B[a];
     });
@@ -1897,7 +1905,7 @@ function requireReactDomServer_browser_production_min() {
   }
   function La(a) {
     var b = "";
-    aa.Children.forEach(a, function(a2) {
+    aa.Children.forEach(a, function (a2) {
       null != a2 && (b += a2);
     });
     return b;
@@ -2217,7 +2225,7 @@ function requireReactDomServer_browser_production_min() {
   }
   var Db = w('function $RS(a,b){a=document.getElementById(a);b=document.getElementById(b);for(a.parentNode.removeChild(a);a.firstChild;)b.parentNode.insertBefore(a.firstChild,b);b.parentNode.removeChild(b)};$RS("'), Eb = w('$RS("'), Gb = w('","'), Hb = w('")<\/script>'), Ib = w('function $RC(a,b){a=document.getElementById(a);b=document.getElementById(b);b.parentNode.removeChild(b);if(a){a=a.previousSibling;var f=a.parentNode,c=a.nextSibling,e=0;do{if(c&&8===c.nodeType){var d=c.data;if("/$"===d)if(0===e)break;else e--;else"$"!==d&&"$?"!==d&&"$!"!==d||e++}d=c.nextSibling;f.removeChild(c);c=d}while(c);for(;b.firstChild;)f.insertBefore(b.firstChild,c);a.data="$";a._reactRetry&&a._reactRetry()}};$RC("'), Jb = w('$RC("'), Kb = w('","'), Lb = w('")<\/script>'), Mb = w('function $RX(b,c,d,e){var a=document.getElementById(b);a&&(b=a.previousSibling,b.data="$!",a=a.dataset,c&&(a.dgst=c),d&&(a.msg=d),e&&(a.stck=e),b._reactRetry&&b._reactRetry())};$RX("'), Nb = w('$RX("'), Ob = w('"'), Pb = w(")<\/script>"), Qb = w(","), Rb = /[<\u2028\u2029]/g;
   function Sb(a) {
-    return JSON.stringify(a).replace(Rb, function(a2) {
+    return JSON.stringify(a).replace(Rb, function (a2) {
       switch (a2) {
         case "<":
           return "\\u003c";
@@ -2320,17 +2328,19 @@ function requireReactDomServer_browser_production_min() {
     var b = O;
     b !== a && (null === b ? nc(a) : null === a ? mc(b) : b.depth === a.depth ? P(b, a) : b.depth > a.depth ? oc(b, a) : pc(b, a), O = a);
   }
-  var qc = { isMounted: function() {
-    return false;
-  }, enqueueSetState: function(a, b) {
-    a = a._reactInternals;
-    null !== a.queue && a.queue.push(b);
-  }, enqueueReplaceState: function(a, b) {
-    a = a._reactInternals;
-    a.replace = true;
-    a.queue = [b];
-  }, enqueueForceUpdate: function() {
-  } };
+  var qc = {
+    isMounted: function () {
+      return false;
+    }, enqueueSetState: function (a, b) {
+      a = a._reactInternals;
+      null !== a.queue && a.queue.push(b);
+    }, enqueueReplaceState: function (a, b) {
+      a = a._reactInternals;
+      a.replace = true;
+      a.queue = [b];
+    }, enqueueForceUpdate: function () {
+    }
+  };
   function rc(a, b, c, d) {
     var f = void 0 !== a.state ? a.state : null;
     a.updater = qc;
@@ -2453,7 +2463,7 @@ function requireReactDomServer_browser_production_min() {
     if (25 <= Dc) throw Error(k(301));
     if (a === R) if (Cc = true, a = { action: c, next: null }, null === V && (V = /* @__PURE__ */ new Map()), c = V.get(b), void 0 === c) V.set(b, a);
     else {
-      for (b = c; null !== b.next; ) b = b.next;
+      for (b = c; null !== b.next;) b = b.next;
       b.next = a;
     }
   }
@@ -2462,47 +2472,49 @@ function requireReactDomServer_browser_production_min() {
   }
   function Mc() {
   }
-  var Oc = { readContext: function(a) {
-    return a._currentValue;
-  }, useContext: function(a) {
-    W();
-    return a._currentValue;
-  }, useMemo: Kc, useReducer: Ic, useRef: function(a) {
-    R = W();
-    S = Fc();
-    var b = S.memoizedState;
-    return null === b ? (a = { current: a }, S.memoizedState = a) : b;
-  }, useState: function(a) {
-    return Ic(Hc, a);
-  }, useInsertionEffect: Mc, useLayoutEffect: function() {
-  }, useCallback: function(a, b) {
-    return Kc(function() {
+  var Oc = {
+    readContext: function (a) {
+      return a._currentValue;
+    }, useContext: function (a) {
+      W();
+      return a._currentValue;
+    }, useMemo: Kc, useReducer: Ic, useRef: function (a) {
+      R = W();
+      S = Fc();
+      var b = S.memoizedState;
+      return null === b ? (a = { current: a }, S.memoizedState = a) : b;
+    }, useState: function (a) {
+      return Ic(Hc, a);
+    }, useInsertionEffect: Mc, useLayoutEffect: function () {
+    }, useCallback: function (a, b) {
+      return Kc(function () {
+        return a;
+      }, b);
+    }, useImperativeHandle: Mc, useEffect: Mc, useDebugValue: Mc, useDeferredValue: function (a) {
+      W();
       return a;
-    }, b);
-  }, useImperativeHandle: Mc, useEffect: Mc, useDebugValue: Mc, useDeferredValue: function(a) {
-    W();
-    return a;
-  }, useTransition: function() {
-    W();
-    return [false, Lc];
-  }, useId: function() {
-    var a = Ac.treeContext;
-    var b = a.overflow;
-    a = a.id;
-    a = (a & ~(1 << 32 - uc(a) - 1)).toString(32) + b;
-    var c = Nc;
-    if (null === c) throw Error(k(404));
-    b = U++;
-    a = ":" + c.idPrefix + "R" + a;
-    0 < b && (a += "H" + b.toString(32));
-    return a + ":";
-  }, useMutableSource: function(a, b) {
-    W();
-    return b(a._source);
-  }, useSyncExternalStore: function(a, b, c) {
-    if (void 0 === c) throw Error(k(407));
-    return c();
-  } }, Nc = null, Pc = aa.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentDispatcher;
+    }, useTransition: function () {
+      W();
+      return [false, Lc];
+    }, useId: function () {
+      var a = Ac.treeContext;
+      var b = a.overflow;
+      a = a.id;
+      a = (a & ~(1 << 32 - uc(a) - 1)).toString(32) + b;
+      var c = Nc;
+      if (null === c) throw Error(k(404));
+      b = U++;
+      a = ":" + c.idPrefix + "R" + a;
+      0 < b && (a += "H" + b.toString(32));
+      return a + ":";
+    }, useMutableSource: function (a, b) {
+      W();
+      return b(a._source);
+    }, useSyncExternalStore: function (a, b, c) {
+      if (void 0 === c) throw Error(k(407));
+      return c();
+    }
+  }, Nc = null, Pc = aa.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentDispatcher;
   function Qc(a) {
     console.error(a);
     return null;
@@ -2521,11 +2533,13 @@ function requireReactDomServer_browser_production_min() {
   function Tc(a, b, c, d, f, e, g, h) {
     a.allPendingTasks++;
     null === c ? a.pendingRootTasks++ : c.pendingTasks++;
-    var m = { node: b, ping: function() {
-      var b2 = a.pingedTasks;
-      b2.push(m);
-      1 === b2.length && Uc(a);
-    }, blockedBoundary: c, blockedSegment: d, abortSet: f, legacyContext: e, context: g, treeContext: h };
+    var m = {
+      node: b, ping: function () {
+        var b2 = a.pingedTasks;
+        b2.push(m);
+        1 === b2.length && Uc(a);
+      }, blockedBoundary: c, blockedSegment: d, abortSet: f, legacyContext: e, context: g, treeContext: h
+    };
     f.add(m);
     return m;
   }
@@ -2548,7 +2562,7 @@ function requireReactDomServer_browser_production_min() {
     R = {};
     Ac = b;
     U = 0;
-    for (a = c(d, f); Cc; ) Cc = false, U = 0, Dc += 1, S = null, a = c(d, f);
+    for (a = c(d, f); Cc;) Cc = false, U = 0, Dc += 1, S = null, a = c(d, f);
     Gc();
     return a;
   }
@@ -2800,7 +2814,7 @@ function requireReactDomServer_browser_production_min() {
   function ed(a, b, c) {
     var d = a.blockedBoundary;
     a.blockedSegment.status = 3;
-    null === d ? (b.allPendingTasks--, 2 !== b.status && (b.status = 2, null !== b.destination && b.destination.close())) : (d.pendingTasks--, d.forceClientRender || (d.forceClientRender = true, a = void 0 === c ? Error(k(432)) : c, d.errorDigest = b.onError(a), d.parentFlushed && b.clientRenderedBoundaries.push(d)), d.fallbackAbortableTasks.forEach(function(a2) {
+    null === d ? (b.allPendingTasks--, 2 !== b.status && (b.status = 2, null !== b.destination && b.destination.close())) : (d.pendingTasks--, d.forceClientRender || (d.forceClientRender = true, a = void 0 === c ? Error(k(432)) : c, d.errorDigest = b.onError(a), d.parentFlushed && b.clientRenderedBoundaries.push(d)), d.fallbackAbortableTasks.forEach(function (a2) {
       return ed(a2, b, c);
     }), d.fallbackAbortableTasks.clear(), b.allPendingTasks--, 0 === b.allPendingTasks && (d = b.onAllReady, d()));
   }
@@ -2988,11 +3002,11 @@ function requireReactDomServer_browser_production_min() {
         if (q || r || v) p(d, Qb), p(d, u(Sb(q || "")));
         if (r || v) p(d, Qb), p(d, u(Sb(r || "")));
         v && (p(d, Qb), p(d, u(Sb(v))));
-        if (!t(d, Pb)) ;
+        if (!t(d, Pb));
       }
       f.splice(0, e);
       var A = a.completedBoundaries;
-      for (e = 0; e < A.length; e++) if (!jd(a, b, A[e])) ;
+      for (e = 0; e < A.length; e++) if (!jd(a, b, A[e]));
       A.splice(0, e);
       ba(b);
       l = new Uint8Array(512);
@@ -3027,7 +3041,7 @@ function requireReactDomServer_browser_production_min() {
       }
       F.splice(0, e);
       var na = a.completedBoundaries;
-      for (e = 0; e < na.length; e++) if (!jd(a, b, na[e])) ;
+      for (e = 0; e < na.length; e++) if (!jd(a, b, na[e]));
       na.splice(0, e);
     } finally {
       ba(b), 0 === a.allPendingTasks && 0 === a.pingedTasks.length && 0 === a.clientRenderedBoundaries.length && 0 === a.completedBoundaries.length && b.close();
@@ -3036,7 +3050,7 @@ function requireReactDomServer_browser_production_min() {
   function ld(a, b) {
     try {
       var c = a.abortableTasks;
-      c.forEach(function(c2) {
+      c.forEach(function (c2) {
         return ed(c2, a, b);
       });
       c.clear();
@@ -3045,34 +3059,36 @@ function requireReactDomServer_browser_production_min() {
       Y(a, d), Vc(a, d);
     }
   }
-  reactDomServer_browser_production_min.renderToReadableStream = function(a, b) {
-    return new Promise(function(c, d) {
-      var f, e, g = new Promise(function(a2, b2) {
+  reactDomServer_browser_production_min.renderToReadableStream = function (a, b) {
+    return new Promise(function (c, d) {
+      var f, e, g = new Promise(function (a2, b2) {
         e = a2;
         f = b2;
-      }), h = Rc(a, za(b ? b.identifierPrefix : void 0, b ? b.nonce : void 0, b ? b.bootstrapScriptContent : void 0, b ? b.bootstrapScripts : void 0, b ? b.bootstrapModules : void 0), Aa(b ? b.namespaceURI : void 0), b ? b.progressiveChunkSize : void 0, b ? b.onError : void 0, e, function() {
-        var a2 = new ReadableStream({ type: "bytes", pull: function(a3) {
-          if (1 === h.status) h.status = 2, da(a3, h.fatalError);
-          else if (2 !== h.status && null === h.destination) {
-            h.destination = a3;
-            try {
-              fd(h, a3);
-            } catch (A) {
-              Y(h, A), Vc(h, A);
+      }), h = Rc(a, za(b ? b.identifierPrefix : void 0, b ? b.nonce : void 0, b ? b.bootstrapScriptContent : void 0, b ? b.bootstrapScripts : void 0, b ? b.bootstrapModules : void 0), Aa(b ? b.namespaceURI : void 0), b ? b.progressiveChunkSize : void 0, b ? b.onError : void 0, e, function () {
+        var a2 = new ReadableStream({
+          type: "bytes", pull: function (a3) {
+            if (1 === h.status) h.status = 2, da(a3, h.fatalError);
+            else if (2 !== h.status && null === h.destination) {
+              h.destination = a3;
+              try {
+                fd(h, a3);
+              } catch (A) {
+                Y(h, A), Vc(h, A);
+              }
             }
+          }, cancel: function () {
+            ld(h);
           }
-        }, cancel: function() {
-          ld(h);
-        } }, { highWaterMark: 0 });
+        }, { highWaterMark: 0 });
         a2.allReady = g;
         c(a2);
-      }, function(a2) {
-        g.catch(function() {
+      }, function (a2) {
+        g.catch(function () {
         });
         d(a2);
       }, f);
       if (b && b.signal) {
-        var m = b.signal, q = function() {
+        var m = b.signal, q = function () {
           ld(h, m.reason);
           m.removeEventListener("abort", q);
         };
@@ -3198,7 +3214,7 @@ function workerRuntimeString() {
   return "Cloudflare worker";
 }
 var HashFormat;
-(function(HashFormat2) {
+(function (HashFormat2) {
   HashFormat2["Base64"] = "base64";
   HashFormat2["Hex"] = "hex";
 })(HashFormat || (HashFormat = {}));
@@ -3352,7 +3368,7 @@ const LookupTable = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456
 function asBase64(buffer) {
   let output = "";
   const input2 = new Uint8Array(buffer);
-  for (let i = 0; i < input2.length; ) {
+  for (let i = 0; i < input2.length;) {
     const byte1 = input2[i++];
     const byte2 = input2[i++];
     const byte3 = input2[i++];
@@ -3577,14 +3593,14 @@ const assertValidOperator = (op) => {
   }
 };
 var LogSeverity;
-(function(LogSeverity2) {
+(function (LogSeverity2) {
   LogSeverity2[LogSeverity2["Error"] = 0] = "Error";
   LogSeverity2[LogSeverity2["Warning"] = 1] = "Warning";
   LogSeverity2[LogSeverity2["Info"] = 2] = "Info";
   LogSeverity2[LogSeverity2["Debug"] = 3] = "Debug";
 })(LogSeverity || (LogSeverity = {}));
 var ApiVersion;
-(function(ApiVersion2) {
+(function (ApiVersion2) {
   ApiVersion2["October24"] = "2024-10";
   ApiVersion2["January25"] = "2025-01";
   ApiVersion2["April25"] = "2025-04";
@@ -3596,7 +3612,7 @@ var ApiVersion;
 })(ApiVersion || (ApiVersion = {}));
 const LIBRARY_NAME = "Shopify API Library";
 var ShopifyHeader;
-(function(ShopifyHeader2) {
+(function (ShopifyHeader2) {
   ShopifyHeader2["AccessToken"] = "X-Shopify-Access-Token";
   ShopifyHeader2["ApiVersion"] = "X-Shopify-API-Version";
   ShopifyHeader2["Domain"] = "X-Shopify-Shop-Domain";
@@ -3623,7 +3639,7 @@ const ShopifyEventsHeader = {
   TriggeredAt: "shopify-triggered-at"
 };
 var ClientType;
-(function(ClientType2) {
+(function (ClientType2) {
   ClientType2["Rest"] = "rest";
   ClientType2["Graphql"] = "graphql";
 })(ClientType || (ClientType = {}));
@@ -3633,20 +3649,20 @@ const privacyTopics = [
   "SHOP_REDACT"
 ];
 var BillingInterval;
-(function(BillingInterval2) {
+(function (BillingInterval2) {
   BillingInterval2["OneTime"] = "ONE_TIME";
   BillingInterval2["Every30Days"] = "EVERY_30_DAYS";
   BillingInterval2["Annual"] = "ANNUAL";
   BillingInterval2["Usage"] = "USAGE";
 })(BillingInterval || (BillingInterval = {}));
 var BillingReplacementBehavior;
-(function(BillingReplacementBehavior2) {
+(function (BillingReplacementBehavior2) {
   BillingReplacementBehavior2["ApplyImmediately"] = "APPLY_IMMEDIATELY";
   BillingReplacementBehavior2["ApplyOnNextBillingCycle"] = "APPLY_ON_NEXT_BILLING_CYCLE";
   BillingReplacementBehavior2["Standard"] = "STANDARD";
 })(BillingReplacementBehavior || (BillingReplacementBehavior = {}));
 var StatusCode;
-(function(StatusCode2) {
+(function (StatusCode2) {
   StatusCode2[StatusCode2["Continue"] = 100] = "Continue";
   StatusCode2[StatusCode2["SwitchingProtocols"] = 101] = "SwitchingProtocols";
   StatusCode2[StatusCode2["Ok"] = 200] = "Ok";
@@ -3692,7 +3708,7 @@ var StatusCode;
   StatusCode2[StatusCode2["HttpVersionNotSupported"] = 505] = "HttpVersionNotSupported";
 })(StatusCode || (StatusCode = {}));
 var Method$1;
-(function(Method2) {
+(function (Method2) {
   Method2["Get"] = "GET";
   Method2["Post"] = "POST";
   Method2["Put"] = "PUT";
@@ -3704,7 +3720,7 @@ var Method$1;
 })(Method$1 || (Method$1 = {}));
 const SHOPIFY_API_LIBRARY_VERSION = "13.0.0";
 function log(config) {
-  return function(severity, message2, context = {}) {
+  return function (severity, message2, context = {}) {
     if (severity > config.logger.level) {
       return;
     }
@@ -3752,7 +3768,7 @@ function logger(config) {
   };
 }
 function deprecated(logFunction) {
-  return function(version, message2) {
+  return function (version, message2) {
     if (compare(SHOPIFY_API_LIBRARY_VERSION, version, ">=")) {
       throw new FeatureDeprecatedError(`Feature was deprecated in version ${version}`);
     }
@@ -4582,7 +4598,7 @@ function generateGetApiUrl$1(config, apiUrlFormatter) {
   };
 }
 var Method;
-(function(Method2) {
+(function (Method2) {
   Method2["Get"] = "GET";
   Method2["Post"] = "POST";
   Method2["Put"] = "PUT";
@@ -4930,7 +4946,7 @@ function isSafeNumber(value, config) {
   }
   return false;
 }
-let UnsafeNumberReason = /* @__PURE__ */ (function(UnsafeNumberReason2) {
+let UnsafeNumberReason = /* @__PURE__ */ (function (UnsafeNumberReason2) {
   UnsafeNumberReason2["underflow"] = "underflow";
   UnsafeNumberReason2["overflow"] = "overflow";
   UnsafeNumberReason2["truncate_integer"] = "truncate_integer";
@@ -5851,7 +5867,7 @@ function timingSafeEqual(bufA, bufB) {
   return out === 0;
 }
 var HmacValidationType;
-(function(HmacValidationType2) {
+(function (HmacValidationType2) {
   HmacValidationType2["Flow"] = "flow";
   HmacValidationType2["Webhook"] = "webhook";
   HmacValidationType2["FulfillmentService"] = "fulfillment_service";
@@ -5890,13 +5906,13 @@ const WEBHOOK_HEADER_NAMES = {
   }
 };
 var DeliveryMethod;
-(function(DeliveryMethod2) {
+(function (DeliveryMethod2) {
   DeliveryMethod2["Http"] = "http";
   DeliveryMethod2["EventBridge"] = "eventbridge";
   DeliveryMethod2["PubSub"] = "pubsub";
 })(DeliveryMethod || (DeliveryMethod = {}));
 var WebhookOperation;
-(function(WebhookOperation2) {
+(function (WebhookOperation2) {
   WebhookOperation2["Create"] = "create";
   WebhookOperation2["Update"] = "update";
   WebhookOperation2["Delete"] = "delete";
@@ -6179,7 +6195,7 @@ function sanitizeHost(config) {
   };
 }
 var DataType;
-(function(DataType2) {
+(function (DataType2) {
   DataType2["JSON"] = "application/json";
   DataType2["GraphQL"] = "application/graphql";
   DataType2["URLEncoded"] = "application/x-www-form-urlencoded";
@@ -7735,7 +7751,7 @@ function buildEmbeddedAppUrl(config) {
   };
 }
 var RequestedTokenType;
-(function(RequestedTokenType2) {
+(function (RequestedTokenType2) {
   RequestedTokenType2["OnlineAccessToken"] = "urn:shopify:params:oauth:token-type:online-access-token";
   RequestedTokenType2["OfflineAccessToken"] = "urn:shopify:params:oauth:token-type:offline-access-token";
 })(RequestedTokenType || (RequestedTokenType = {}));
@@ -8798,7 +8814,7 @@ const ONE_TIME_PURCHASE_MUTATION = `
   }
 `;
 function request(config) {
-  return async function({ session, plan, isTest = true, returnUrl: returnUrlParam, returnObject = false, ...overrides }) {
+  return async function ({ session, plan, isTest = true, returnUrl: returnUrlParam, returnObject = false, ...overrides }) {
     if (!config.billing || !config.billing[plan]) {
       throw new BillingError({
         message: `Could not find plan ${plan} in billing settings`,
@@ -8978,7 +8994,7 @@ const CANCEL_MUTATION = `
   }
 `;
 function cancel(config) {
-  return async function(subscriptionInfo) {
+  return async function (subscriptionInfo) {
     const { session, subscriptionId, prorate = true } = subscriptionInfo;
     const GraphqlClient2 = graphqlClientClass({ config });
     const client = new GraphqlClient2({ session });
@@ -9016,7 +9032,7 @@ query appSubscription {
 }
 `;
 function subscriptions(config) {
-  return async function({ session }) {
+  return async function ({ session }) {
     if (!config.future?.unstable_managedPricingSupport && !config.billing) {
       throw new BillingError({
         message: "Attempted to look for purchases without billing configs",
@@ -9282,13 +9298,13 @@ function shopifyApi({ future: future2, restResources, ...config }) {
   return shopify2;
 }
 var AppDistribution;
-(function(AppDistribution2) {
+(function (AppDistribution2) {
   AppDistribution2["AppStore"] = "app_store";
   AppDistribution2["SingleMerchant"] = "single_merchant";
   AppDistribution2["ShopifyAdmin"] = "shopify_admin";
 })(AppDistribution || (AppDistribution = {}));
 var LoginErrorType;
-(function(LoginErrorType2) {
+(function (LoginErrorType2) {
   LoginErrorType2["MissingShop"] = "MISSING_SHOP";
   LoginErrorType2["InvalidShop"] = "INVALID_SHOP";
 })(LoginErrorType || (LoginErrorType = {}));
@@ -9775,7 +9791,7 @@ function appBridgeUrl() {
 }
 function addDocumentResponseHeadersFactory(params) {
   const { api, config } = params;
-  return function(request2, headers2) {
+  return function (request2, headers2) {
     const { searchParams } = new URL(request2.url);
     const shop = api.utils.sanitizeShop(searchParams.get("shop"));
     const isEmbeddedApp = config.distribution !== AppDistribution.ShopifyAdmin;
@@ -10388,7 +10404,7 @@ function overrideLogger(logger2) {
   const baseContext = { package: "shopify-app" };
   const warningFunction = (message2, context = {}) => logger2.warning(message2, { ...baseContext, ...context });
   function deprecated2(warningFunction2) {
-    return function(version, message2) {
+    return function (version, message2) {
       if (compare(SHOPIFY_REACT_ROUTER_LIBRARY_VERSION, version, ">=")) {
         throw new FeatureDeprecatedError(`Feature was deprecated in version ${version}`);
       }
@@ -11658,7 +11674,7 @@ const route7 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: route,
   loader: loader$8
 }, Symbol.toStringTag, { value: "Module" }));
-let Key = /* @__PURE__ */ (function(Key2) {
+let Key = /* @__PURE__ */ (function (Key2) {
   Key2[Key2["Backspace"] = 8] = "Backspace";
   Key2[Key2["Tab"] = 9] = "Tab";
   Key2[Key2["Enter"] = 13] = "Enter";
@@ -11801,8 +11817,8 @@ function _iterableToArrayLimit(r, l) {
   if (null != t) {
     var e, n, i, u, a = [], f = true, o = false;
     try {
-      if (i = (t = t.call(r)).next, 0 === l) ;
-      else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = true) ;
+      if (i = (t = t.call(r)).next, 0 === l);
+      else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = true);
     } catch (r2) {
       o = true, n = r2;
     } finally {
@@ -11858,7 +11874,7 @@ function requireCjs() {
     return options.clone !== false && options.isMergeableObject(value) ? deepmerge(emptyTarget(value), value, options) : value;
   }
   function defaultArrayMerge(target, source, options) {
-    return target.concat(source).map(function(element) {
+    return target.concat(source).map(function (element) {
       return cloneUnlessOtherwiseSpecified(element, options);
     });
   }
@@ -11870,7 +11886,7 @@ function requireCjs() {
     return typeof customMerge === "function" ? customMerge : deepmerge;
   }
   function getEnumerableOwnPropertySymbols(target) {
-    return Object.getOwnPropertySymbols ? Object.getOwnPropertySymbols(target).filter(function(symbol) {
+    return Object.getOwnPropertySymbols ? Object.getOwnPropertySymbols(target).filter(function (symbol) {
       return Object.propertyIsEnumerable.call(target, symbol);
     }) : [];
   }
@@ -11890,11 +11906,11 @@ function requireCjs() {
   function mergeObject(target, source, options) {
     var destination = {};
     if (options.isMergeableObject(target)) {
-      getKeys(target).forEach(function(key) {
+      getKeys(target).forEach(function (key) {
         destination[key] = cloneUnlessOtherwiseSpecified(target[key], options);
       });
     }
-    getKeys(source).forEach(function(key) {
+    getKeys(source).forEach(function (key) {
       if (propertyIsUnsafe(target, key)) {
         return;
       }
@@ -11926,7 +11942,7 @@ function requireCjs() {
     if (!Array.isArray(array)) {
       throw new Error("first argument should be an array");
     }
-    return array.reduce(function(prev, next) {
+    return array.reduce(function (prev, next) {
       return deepmerge(prev, next, options);
     }, {});
   };
@@ -11982,14 +11998,14 @@ function toEm(value, fontSize) {
   }
 }
 function getTokenNames(theme) {
-  return Object.values(theme).flatMap(function(tokenGroup) {
+  return Object.values(theme).flatMap(function (tokenGroup) {
     return Object.keys(tokenGroup);
   });
 }
 function getMediaConditions(breakpoints) {
   var breakpointEntries = Object.entries(breakpoints);
   var lastBreakpointIndex = breakpointEntries.length - 1;
-  return Object.fromEntries(breakpointEntries.map(function(entry2, index2) {
+  return Object.fromEntries(breakpointEntries.map(function (entry2, index2) {
     var _ref3 = entry2, _ref4 = _slicedToArray(_ref3, 2), breakpointsTokenName = _ref4[0], breakpoint = _ref4[1];
     var upMediaCondition = getUpMediaCondition(breakpoint);
     var downMediaCondition = getDownMediaCondition(breakpoint);
@@ -12018,7 +12034,7 @@ function createThemeClassName(themeName) {
 }
 function createIsTokenName(theme) {
   var tokenNames = new Set(getTokenNames(theme));
-  return function(tokenName) {
+  return function (tokenName) {
     return tokenNames.has(tokenName);
   };
 }
@@ -15848,7 +15864,7 @@ var styles$x = {
   "Icon": "Polaris-Badge__Icon",
   "PipContainer": "Polaris-Badge__PipContainer"
 };
-let ToneValue = /* @__PURE__ */ (function(ToneValue2) {
+let ToneValue = /* @__PURE__ */ (function (ToneValue2) {
   ToneValue2["Info"] = "info";
   ToneValue2["Success"] = "success";
   ToneValue2["Warning"] = "warning";
@@ -15865,7 +15881,7 @@ let ToneValue = /* @__PURE__ */ (function(ToneValue2) {
   ToneValue2["Enabled"] = "enabled";
   return ToneValue2;
 })({});
-let ProgressValue = /* @__PURE__ */ (function(ProgressValue2) {
+let ProgressValue = /* @__PURE__ */ (function (ProgressValue2) {
   ProgressValue2["Incomplete"] = "incomplete";
   ProgressValue2["PartiallyComplete"] = "partiallyComplete";
   ProgressValue2["Complete"] = "complete";
@@ -16051,11 +16067,11 @@ var hasRequiredScheduler_production_min;
 function requireScheduler_production_min() {
   if (hasRequiredScheduler_production_min) return scheduler_production_min;
   hasRequiredScheduler_production_min = 1;
-  (function(exports) {
+  (function (exports) {
     function f(a, b) {
       var c = a.length;
       a.push(b);
-      a: for (; 0 < c; ) {
+      a: for (; 0 < c;) {
         var d = c - 1 >>> 1, e = a[d];
         if (0 < g(e, b)) a[d] = b, a[c] = e, c = d;
         else break a;
@@ -16069,7 +16085,7 @@ function requireScheduler_production_min() {
       var b = a[0], c = a.pop();
       if (c !== b) {
         a[0] = c;
-        a: for (var d = 0, e = a.length, w = e >>> 1; d < w; ) {
+        a: for (var d = 0, e = a.length, w = e >>> 1; d < w;) {
           var m = 2 * (d + 1) - 1, C = a[m], n = m + 1, x = a[n];
           if (0 > g(C, c)) n < e && 0 > g(x, C) ? (a[d] = x, a[n] = c, d = n) : (a[d] = C, a[m] = c, d = m);
           else if (n < e && 0 > g(x, c)) a[d] = x, a[n] = c, d = n;
@@ -16084,19 +16100,19 @@ function requireScheduler_production_min() {
     }
     if ("object" === typeof performance && "function" === typeof performance.now) {
       var l = performance;
-      exports.unstable_now = function() {
+      exports.unstable_now = function () {
         return l.now();
       };
     } else {
       var p = Date, q = p.now();
-      exports.unstable_now = function() {
+      exports.unstable_now = function () {
         return p.now() - q;
       };
     }
     var r = [], t = [], u = 1, v = null, y = 3, z = false, A = false, B = false, D = "function" === typeof setTimeout ? setTimeout : null, E = "function" === typeof clearTimeout ? clearTimeout : null, F = "undefined" !== typeof setImmediate ? setImmediate : null;
     "undefined" !== typeof navigator && void 0 !== navigator.scheduling && void 0 !== navigator.scheduling.isInputPending && navigator.scheduling.isInputPending.bind(navigator.scheduling);
     function G(a) {
-      for (var b = h(t); null !== b; ) {
+      for (var b = h(t); null !== b;) {
         if (null === b.callback) k(t);
         else if (b.startTime <= a) k(t), b.sortIndex = b.expirationTime, f(r, b);
         else break;
@@ -16119,7 +16135,7 @@ function requireScheduler_production_min() {
       var c = y;
       try {
         G(b);
-        for (v = h(r); null !== v && (!(v.expirationTime > b) || a && !M()); ) {
+        for (v = h(r); null !== v && (!(v.expirationTime > b) || a && !M());) {
           var d = v.callback;
           if ("function" === typeof d) {
             v.callback = null;
@@ -16159,16 +16175,16 @@ function requireScheduler_production_min() {
       } else N = false;
     }
     var S;
-    if ("function" === typeof F) S = function() {
+    if ("function" === typeof F) S = function () {
       F(R);
     };
     else if ("undefined" !== typeof MessageChannel) {
       var T = new MessageChannel(), U = T.port2;
       T.port1.onmessage = R;
-      S = function() {
+      S = function () {
         U.postMessage(null);
       };
-    } else S = function() {
+    } else S = function () {
       D(R, 0);
     };
     function I(a) {
@@ -16176,7 +16192,7 @@ function requireScheduler_production_min() {
       N || (N = true, S());
     }
     function K(a, b) {
-      L = D(function() {
+      L = D(function () {
         a(exports.unstable_now());
       }, b);
     }
@@ -16186,22 +16202,22 @@ function requireScheduler_production_min() {
     exports.unstable_NormalPriority = 3;
     exports.unstable_Profiling = null;
     exports.unstable_UserBlockingPriority = 2;
-    exports.unstable_cancelCallback = function(a) {
+    exports.unstable_cancelCallback = function (a) {
       a.callback = null;
     };
-    exports.unstable_continueExecution = function() {
+    exports.unstable_continueExecution = function () {
       A || z || (A = true, I(J));
     };
-    exports.unstable_forceFrameRate = function(a) {
+    exports.unstable_forceFrameRate = function (a) {
       0 > a || 125 < a ? console.error("forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported") : P = 0 < a ? Math.floor(1e3 / a) : 5;
     };
-    exports.unstable_getCurrentPriorityLevel = function() {
+    exports.unstable_getCurrentPriorityLevel = function () {
       return y;
     };
-    exports.unstable_getFirstCallbackNode = function() {
+    exports.unstable_getFirstCallbackNode = function () {
       return h(r);
     };
-    exports.unstable_next = function(a) {
+    exports.unstable_next = function (a) {
       switch (y) {
         case 1:
         case 2:
@@ -16219,11 +16235,11 @@ function requireScheduler_production_min() {
         y = c;
       }
     };
-    exports.unstable_pauseExecution = function() {
+    exports.unstable_pauseExecution = function () {
     };
-    exports.unstable_requestPaint = function() {
+    exports.unstable_requestPaint = function () {
     };
-    exports.unstable_runWithPriority = function(a, b) {
+    exports.unstable_runWithPriority = function (a, b) {
       switch (a) {
         case 1:
         case 2:
@@ -16242,7 +16258,7 @@ function requireScheduler_production_min() {
         y = c;
       }
     };
-    exports.unstable_scheduleCallback = function(a, b, c) {
+    exports.unstable_scheduleCallback = function (a, b, c) {
       var d = exports.unstable_now();
       "object" === typeof c && null !== c ? (c = c.delay, c = "number" === typeof c && 0 < c ? d + c : d) : c = d;
       switch (a) {
@@ -16267,9 +16283,9 @@ function requireScheduler_production_min() {
       return a;
     };
     exports.unstable_shouldYield = M;
-    exports.unstable_wrapCallback = function(a) {
+    exports.unstable_wrapCallback = function (a) {
       var b = y;
-      return function() {
+      return function () {
         var c = y;
         y = b;
         try {
@@ -16367,58 +16383,58 @@ function requireReactDom_production_min() {
     this.removeEmptyString = g;
   }
   var z = {};
-  "children dangerouslySetInnerHTML defaultValue defaultChecked innerHTML suppressContentEditableWarning suppressHydrationWarning style".split(" ").forEach(function(a) {
+  "children dangerouslySetInnerHTML defaultValue defaultChecked innerHTML suppressContentEditableWarning suppressHydrationWarning style".split(" ").forEach(function (a) {
     z[a] = new v(a, 0, false, a, null, false, false);
   });
-  [["acceptCharset", "accept-charset"], ["className", "class"], ["htmlFor", "for"], ["httpEquiv", "http-equiv"]].forEach(function(a) {
+  [["acceptCharset", "accept-charset"], ["className", "class"], ["htmlFor", "for"], ["httpEquiv", "http-equiv"]].forEach(function (a) {
     var b = a[0];
     z[b] = new v(b, 1, false, a[1], null, false, false);
   });
-  ["contentEditable", "draggable", "spellCheck", "value"].forEach(function(a) {
+  ["contentEditable", "draggable", "spellCheck", "value"].forEach(function (a) {
     z[a] = new v(a, 2, false, a.toLowerCase(), null, false, false);
   });
-  ["autoReverse", "externalResourcesRequired", "focusable", "preserveAlpha"].forEach(function(a) {
+  ["autoReverse", "externalResourcesRequired", "focusable", "preserveAlpha"].forEach(function (a) {
     z[a] = new v(a, 2, false, a, null, false, false);
   });
-  "allowFullScreen async autoFocus autoPlay controls default defer disabled disablePictureInPicture disableRemotePlayback formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed scoped seamless itemScope".split(" ").forEach(function(a) {
+  "allowFullScreen async autoFocus autoPlay controls default defer disabled disablePictureInPicture disableRemotePlayback formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed scoped seamless itemScope".split(" ").forEach(function (a) {
     z[a] = new v(a, 3, false, a.toLowerCase(), null, false, false);
   });
-  ["checked", "multiple", "muted", "selected"].forEach(function(a) {
+  ["checked", "multiple", "muted", "selected"].forEach(function (a) {
     z[a] = new v(a, 3, true, a, null, false, false);
   });
-  ["capture", "download"].forEach(function(a) {
+  ["capture", "download"].forEach(function (a) {
     z[a] = new v(a, 4, false, a, null, false, false);
   });
-  ["cols", "rows", "size", "span"].forEach(function(a) {
+  ["cols", "rows", "size", "span"].forEach(function (a) {
     z[a] = new v(a, 6, false, a, null, false, false);
   });
-  ["rowSpan", "start"].forEach(function(a) {
+  ["rowSpan", "start"].forEach(function (a) {
     z[a] = new v(a, 5, false, a.toLowerCase(), null, false, false);
   });
   var ra = /[\-:]([a-z])/g;
   function sa(a) {
     return a[1].toUpperCase();
   }
-  "accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horiz-adv-x horiz-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:xlink x-height".split(" ").forEach(function(a) {
+  "accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horiz-adv-x horiz-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:xlink x-height".split(" ").forEach(function (a) {
     var b = a.replace(
       ra,
       sa
     );
     z[b] = new v(b, 1, false, a, null, false, false);
   });
-  "xlink:actuate xlink:arcrole xlink:role xlink:show xlink:title xlink:type".split(" ").forEach(function(a) {
+  "xlink:actuate xlink:arcrole xlink:role xlink:show xlink:title xlink:type".split(" ").forEach(function (a) {
     var b = a.replace(ra, sa);
     z[b] = new v(b, 1, false, a, "http://www.w3.org/1999/xlink", false, false);
   });
-  ["xml:base", "xml:lang", "xml:space"].forEach(function(a) {
+  ["xml:base", "xml:lang", "xml:space"].forEach(function (a) {
     var b = a.replace(ra, sa);
     z[b] = new v(b, 1, false, a, "http://www.w3.org/XML/1998/namespace", false, false);
   });
-  ["tabIndex", "crossOrigin"].forEach(function(a) {
+  ["tabIndex", "crossOrigin"].forEach(function (a) {
     z[a] = new v(a, 1, false, a.toLowerCase(), null, false, false);
   });
   z.xlinkHref = new v("xlinkHref", 1, false, "xlink:href", "http://www.w3.org/1999/xlink", true, false);
-  ["src", "href", "action", "formAction"].forEach(function(a) {
+  ["src", "href", "action", "formAction"].forEach(function (a) {
     z[a] = new v(a, 1, false, a.toLowerCase(), null, true, true);
   });
   function ta(a, b, c, d) {
@@ -16450,11 +16466,13 @@ function requireReactDom_production_min() {
     var c = Error.prepareStackTrace;
     Error.prepareStackTrace = void 0;
     try {
-      if (b) if (b = function() {
+      if (b) if (b = function () {
         throw Error();
-      }, Object.defineProperty(b.prototype, "props", { set: function() {
-        throw Error();
-      } }), "object" === typeof Reflect && Reflect.construct) {
+      }, Object.defineProperty(b.prototype, "props", {
+        set: function () {
+          throw Error();
+        }
+      }), "object" === typeof Reflect && Reflect.construct) {
         try {
           Reflect.construct(b, []);
         } catch (l) {
@@ -16479,7 +16497,7 @@ function requireReactDom_production_min() {
       }
     } catch (l) {
       if (l && d && "string" === typeof l.stack) {
-        for (var e = l.stack.split("\n"), f = d.stack.split("\n"), g = e.length - 1, h = f.length - 1; 1 <= g && 0 <= h && e[g] !== f[h]; ) h--;
+        for (var e = l.stack.split("\n"), f = d.stack.split("\n"), g = e.length - 1, h = f.length - 1; 1 <= g && 0 <= h && e[g] !== f[h];) h--;
         for (; 1 <= g && 0 <= h; g--, h--) if (e[g] !== f[h]) {
           if (1 !== g || 1 !== h) {
             do
@@ -16631,21 +16649,25 @@ function requireReactDom_production_min() {
     var b = Ta(a) ? "checked" : "value", c = Object.getOwnPropertyDescriptor(a.constructor.prototype, b), d = "" + a[b];
     if (!a.hasOwnProperty(b) && "undefined" !== typeof c && "function" === typeof c.get && "function" === typeof c.set) {
       var e = c.get, f = c.set;
-      Object.defineProperty(a, b, { configurable: true, get: function() {
-        return e.call(this);
-      }, set: function(a2) {
-        d = "" + a2;
-        f.call(this, a2);
-      } });
+      Object.defineProperty(a, b, {
+        configurable: true, get: function () {
+          return e.call(this);
+        }, set: function (a2) {
+          d = "" + a2;
+          f.call(this, a2);
+        }
+      });
       Object.defineProperty(a, b, { enumerable: c.enumerable });
-      return { getValue: function() {
-        return d;
-      }, setValue: function(a2) {
-        d = "" + a2;
-      }, stopTracking: function() {
-        a._valueTracker = null;
-        delete a[b];
-      } };
+      return {
+        getValue: function () {
+          return d;
+        }, setValue: function (a2) {
+          d = "" + a2;
+        }, stopTracking: function () {
+          a._valueTracker = null;
+          delete a[b];
+        }
+      };
     }
   }
   function Va(a) {
@@ -16777,19 +16799,19 @@ function requireReactDom_production_min() {
   function lb(a, b) {
     return null == a || "http://www.w3.org/1999/xhtml" === a ? kb(b) : "http://www.w3.org/2000/svg" === a && "foreignObject" === b ? "http://www.w3.org/1999/xhtml" : a;
   }
-  var mb, nb = (function(a) {
-    return "undefined" !== typeof MSApp && MSApp.execUnsafeLocalFunction ? function(b, c, d, e) {
-      MSApp.execUnsafeLocalFunction(function() {
+  var mb, nb = (function (a) {
+    return "undefined" !== typeof MSApp && MSApp.execUnsafeLocalFunction ? function (b, c, d, e) {
+      MSApp.execUnsafeLocalFunction(function () {
         return a(b, c, d, e);
       });
     } : a;
-  })(function(a, b) {
+  })(function (a, b) {
     if ("http://www.w3.org/2000/svg" !== a.namespaceURI || "innerHTML" in a) a.innerHTML = b;
     else {
       mb = mb || document.createElement("div");
       mb.innerHTML = "<svg>" + b.valueOf().toString() + "</svg>";
-      for (b = mb.firstChild; a.firstChild; ) a.removeChild(a.firstChild);
-      for (; b.firstChild; ) a.appendChild(b.firstChild);
+      for (b = mb.firstChild; a.firstChild;) a.removeChild(a.firstChild);
+      for (; b.firstChild;) a.appendChild(b.firstChild);
     }
   });
   function ob(a, b) {
@@ -16847,8 +16869,8 @@ function requireReactDom_production_min() {
     strokeOpacity: true,
     strokeWidth: true
   }, qb = ["Webkit", "ms", "Moz", "O"];
-  Object.keys(pb).forEach(function(a) {
-    qb.forEach(function(b) {
+  Object.keys(pb).forEach(function (a) {
+    qb.forEach(function (b) {
       b = b + a.charAt(0).toUpperCase() + a.substring(1);
       pb[b] = pb[a];
     });
@@ -16962,9 +16984,11 @@ function requireReactDom_production_min() {
   var Lb = false;
   if (ia) try {
     var Mb = {};
-    Object.defineProperty(Mb, "passive", { get: function() {
-      Lb = true;
-    } });
+    Object.defineProperty(Mb, "passive", {
+      get: function () {
+        Lb = true;
+      }
+    });
     window.addEventListener("test", Mb, Mb);
     window.removeEventListener("test", Mb, Mb);
   } catch (a) {
@@ -16978,10 +17002,12 @@ function requireReactDom_production_min() {
       this.onError(m);
     }
   }
-  var Ob = false, Pb = null, Qb = false, Rb = null, Sb = { onError: function(a) {
-    Ob = true;
-    Pb = a;
-  } };
+  var Ob = false, Pb = null, Qb = false, Rb = null, Sb = {
+    onError: function (a) {
+      Ob = true;
+      Pb = a;
+    }
+  };
   function Tb(a, b, c, d, e, f, g, h, k) {
     Ob = false;
     Pb = null;
@@ -17000,7 +17026,7 @@ function requireReactDom_production_min() {
   }
   function Vb(a) {
     var b = a, c = a;
-    if (a.alternate) for (; b.return; ) b = b.return;
+    if (a.alternate) for (; b.return;) b = b.return;
     else {
       a = b;
       do
@@ -17027,7 +17053,7 @@ function requireReactDom_production_min() {
       if (null === b) throw Error(p(188));
       return b !== a ? null : a;
     }
-    for (var c = a, d = b; ; ) {
+    for (var c = a, d = b; ;) {
       var e = c.return;
       if (null === e) break;
       var f = e.alternate;
@@ -17040,7 +17066,7 @@ function requireReactDom_production_min() {
         break;
       }
       if (e.child === f.child) {
-        for (f = e.child; f; ) {
+        for (f = e.child; f;) {
           if (f === c) return Xb(e), a;
           if (f === d) return Xb(e), b;
           f = f.sibling;
@@ -17049,7 +17075,7 @@ function requireReactDom_production_min() {
       }
       if (c.return !== d.return) c = e, d = f;
       else {
-        for (var g = false, h = e.child; h; ) {
+        for (var g = false, h = e.child; h;) {
           if (h === c) {
             g = true;
             c = e;
@@ -17065,7 +17091,7 @@ function requireReactDom_production_min() {
           h = h.sibling;
         }
         if (!g) {
-          for (h = f.child; h; ) {
+          for (h = f.child; h;) {
             if (h === c) {
               g = true;
               c = f;
@@ -17094,7 +17120,7 @@ function requireReactDom_production_min() {
   }
   function $b(a) {
     if (5 === a.tag || 6 === a.tag) return a;
-    for (a = a.child; null !== a; ) {
+    for (a = a.child; null !== a;) {
       var b = $b(a);
       if (null !== b) return b;
       a = a.sibling;
@@ -17175,7 +17201,7 @@ function requireReactDom_production_min() {
     if (0 !== b && b !== d && 0 === (b & e) && (e = d & -d, f = b & -b, e >= f || 16 === e && 0 !== (f & 4194240))) return b;
     0 !== (d & 4) && (d |= c & 16);
     b = a.entangledLanes;
-    if (0 !== b) for (a = a.entanglements, b &= d; 0 < b; ) c = 31 - oc(b), e = 1 << c, d |= a[c], b &= ~e;
+    if (0 !== b) for (a = a.entanglements, b &= d; 0 < b;) c = 31 - oc(b), e = 1 << c, d |= a[c], b &= ~e;
     return d;
   }
   function vc(a, b) {
@@ -17220,7 +17246,7 @@ function requireReactDom_production_min() {
     }
   }
   function wc(a, b) {
-    for (var c = a.suspendedLanes, d = a.pingedLanes, e = a.expirationTimes, f = a.pendingLanes; 0 < f; ) {
+    for (var c = a.suspendedLanes, d = a.pingedLanes, e = a.expirationTimes, f = a.pendingLanes; 0 < f;) {
       var g = 31 - oc(f), h = 1 << g, k = e[g];
       if (-1 === k) {
         if (0 === (h & c) || 0 !== (h & d)) e[g] = vc(h, b);
@@ -17259,7 +17285,7 @@ function requireReactDom_production_min() {
     a.entangledLanes &= b;
     b = a.entanglements;
     var d = a.eventTimes;
-    for (a = a.expirationTimes; 0 < c; ) {
+    for (a = a.expirationTimes; 0 < c;) {
       var e = 31 - oc(c), f = 1 << e;
       b[e] = 0;
       d[e] = -1;
@@ -17269,7 +17295,7 @@ function requireReactDom_production_min() {
   }
   function Cc(a, b) {
     var c = a.entangledLanes |= b;
-    for (a = a.entanglements; c; ) {
+    for (a = a.entanglements; c;) {
       var d = 31 - oc(c), e = 1 << d;
       e & b | a[d] & b && (a[d] |= b);
       c &= ~e;
@@ -17336,7 +17362,7 @@ function requireReactDom_production_min() {
         if (b = c.tag, 13 === b) {
           if (b = Wb(c), null !== b) {
             a.blockedOn = b;
-            Ic(a.priority, function() {
+            Ic(a.priority, function () {
               Gc(c);
             });
             return;
@@ -17351,7 +17377,7 @@ function requireReactDom_production_min() {
   }
   function Xc(a) {
     if (null !== a.blockedOn) return false;
-    for (var b = a.targetContainers; 0 < b.length; ) {
+    for (var b = a.targetContainers; 0 < b.length;) {
       var c = Yc(a.domEventName, a.eventSystemFlags, b[0], a.nativeEvent);
       if (null === c) {
         c = a.nativeEvent;
@@ -17395,7 +17421,7 @@ function requireReactDom_production_min() {
     Oc.forEach(b);
     Pc.forEach(b);
     for (c = 0; c < Qc.length; c++) d = Qc[c], d.blockedOn === a && (d.blockedOn = null);
-    for (; 0 < Qc.length && (c = Qc[0], null === c.blockedOn); ) Vc(c), null === c.blockedOn && Qc.shift();
+    for (; 0 < Qc.length && (c = Qc[0], null === c.blockedOn);) Vc(c), null === c.blockedOn && Qc.shift();
   }
   var cd = ua.ReactCurrentBatchConfig, dd = true;
   function ed(a, b, c, d) {
@@ -17422,7 +17448,7 @@ function requireReactDom_production_min() {
       if (null === e) hd(a, b, d, id, c), Sc(a, d);
       else if (Uc(e, a, b, c, d)) d.stopPropagation();
       else if (Sc(a, d), b & 4 && -1 < Rc.indexOf(a)) {
-        for (; null !== e; ) {
+        for (; null !== e;) {
           var f = Cb(e);
           null !== f && Ec(f);
           f = Yc(a, b, c, d);
@@ -17547,9 +17573,9 @@ function requireReactDom_production_min() {
   function nd() {
     if (md) return md;
     var a, b = ld, c = b.length, d, e = "value" in kd ? kd.value : kd.textContent, f = e.length;
-    for (a = 0; a < c && b[a] === e[a]; a++) ;
+    for (a = 0; a < c && b[a] === e[a]; a++);
     var g = c - a;
-    for (d = 1; d <= g && b[c - d] === e[f - d]; d++) ;
+    for (d = 1; d <= g && b[c - d] === e[f - d]; d++);
     return md = e.slice(a, 1 < d ? 1 - d : void 0);
   }
   function od(a) {
@@ -17577,30 +17603,38 @@ function requireReactDom_production_min() {
       this.isPropagationStopped = qd;
       return this;
     }
-    A(b.prototype, { preventDefault: function() {
-      this.defaultPrevented = true;
-      var a2 = this.nativeEvent;
-      a2 && (a2.preventDefault ? a2.preventDefault() : "unknown" !== typeof a2.returnValue && (a2.returnValue = false), this.isDefaultPrevented = pd);
-    }, stopPropagation: function() {
-      var a2 = this.nativeEvent;
-      a2 && (a2.stopPropagation ? a2.stopPropagation() : "unknown" !== typeof a2.cancelBubble && (a2.cancelBubble = true), this.isPropagationStopped = pd);
-    }, persist: function() {
-    }, isPersistent: pd });
+    A(b.prototype, {
+      preventDefault: function () {
+        this.defaultPrevented = true;
+        var a2 = this.nativeEvent;
+        a2 && (a2.preventDefault ? a2.preventDefault() : "unknown" !== typeof a2.returnValue && (a2.returnValue = false), this.isDefaultPrevented = pd);
+      }, stopPropagation: function () {
+        var a2 = this.nativeEvent;
+        a2 && (a2.stopPropagation ? a2.stopPropagation() : "unknown" !== typeof a2.cancelBubble && (a2.cancelBubble = true), this.isPropagationStopped = pd);
+      }, persist: function () {
+      }, isPersistent: pd
+    });
     return b;
   }
-  var sd = { eventPhase: 0, bubbles: 0, cancelable: 0, timeStamp: function(a) {
-    return a.timeStamp || Date.now();
-  }, defaultPrevented: 0, isTrusted: 0 }, td = rd(sd), ud = A({}, sd, { view: 0, detail: 0 }), vd = rd(ud), wd, xd, yd, Ad = A({}, ud, { screenX: 0, screenY: 0, clientX: 0, clientY: 0, pageX: 0, pageY: 0, ctrlKey: 0, shiftKey: 0, altKey: 0, metaKey: 0, getModifierState: zd, button: 0, buttons: 0, relatedTarget: function(a) {
-    return void 0 === a.relatedTarget ? a.fromElement === a.srcElement ? a.toElement : a.fromElement : a.relatedTarget;
-  }, movementX: function(a) {
-    if ("movementX" in a) return a.movementX;
-    a !== yd && (yd && "mousemove" === a.type ? (wd = a.screenX - yd.screenX, xd = a.screenY - yd.screenY) : xd = wd = 0, yd = a);
-    return wd;
-  }, movementY: function(a) {
-    return "movementY" in a ? a.movementY : xd;
-  } }), Bd = rd(Ad), Cd = A({}, Ad, { dataTransfer: 0 }), Dd = rd(Cd), Ed = A({}, ud, { relatedTarget: 0 }), Fd = rd(Ed), Gd = A({}, sd, { animationName: 0, elapsedTime: 0, pseudoElement: 0 }), Hd = rd(Gd), Id = A({}, sd, { clipboardData: function(a) {
-    return "clipboardData" in a ? a.clipboardData : window.clipboardData;
-  } }), Jd = rd(Id), Kd = A({}, sd, { data: 0 }), Ld = rd(Kd), Md = {
+  var sd = {
+    eventPhase: 0, bubbles: 0, cancelable: 0, timeStamp: function (a) {
+      return a.timeStamp || Date.now();
+    }, defaultPrevented: 0, isTrusted: 0
+  }, td = rd(sd), ud = A({}, sd, { view: 0, detail: 0 }), vd = rd(ud), wd, xd, yd, Ad = A({}, ud, {
+    screenX: 0, screenY: 0, clientX: 0, clientY: 0, pageX: 0, pageY: 0, ctrlKey: 0, shiftKey: 0, altKey: 0, metaKey: 0, getModifierState: zd, button: 0, buttons: 0, relatedTarget: function (a) {
+      return void 0 === a.relatedTarget ? a.fromElement === a.srcElement ? a.toElement : a.fromElement : a.relatedTarget;
+    }, movementX: function (a) {
+      if ("movementX" in a) return a.movementX;
+      a !== yd && (yd && "mousemove" === a.type ? (wd = a.screenX - yd.screenX, xd = a.screenY - yd.screenY) : xd = wd = 0, yd = a);
+      return wd;
+    }, movementY: function (a) {
+      return "movementY" in a ? a.movementY : xd;
+    }
+  }), Bd = rd(Ad), Cd = A({}, Ad, { dataTransfer: 0 }), Dd = rd(Cd), Ed = A({}, ud, { relatedTarget: 0 }), Fd = rd(Ed), Gd = A({}, sd, { animationName: 0, elapsedTime: 0, pseudoElement: 0 }), Hd = rd(Gd), Id = A({}, sd, {
+    clipboardData: function (a) {
+      return "clipboardData" in a ? a.clipboardData : window.clipboardData;
+    }
+  }), Jd = rd(Id), Kd = A({}, sd, { data: 0 }), Ld = rd(Kd), Md = {
     Esc: "Escape",
     Spacebar: " ",
     Left: "ArrowLeft",
@@ -17658,23 +17692,25 @@ function requireReactDom_production_min() {
   function zd() {
     return Pd;
   }
-  var Qd = A({}, ud, { key: function(a) {
-    if (a.key) {
-      var b = Md[a.key] || a.key;
-      if ("Unidentified" !== b) return b;
+  var Qd = A({}, ud, {
+    key: function (a) {
+      if (a.key) {
+        var b = Md[a.key] || a.key;
+        if ("Unidentified" !== b) return b;
+      }
+      return "keypress" === a.type ? (a = od(a), 13 === a ? "Enter" : String.fromCharCode(a)) : "keydown" === a.type || "keyup" === a.type ? Nd[a.keyCode] || "Unidentified" : "";
+    }, code: 0, location: 0, ctrlKey: 0, shiftKey: 0, altKey: 0, metaKey: 0, repeat: 0, locale: 0, getModifierState: zd, charCode: function (a) {
+      return "keypress" === a.type ? od(a) : 0;
+    }, keyCode: function (a) {
+      return "keydown" === a.type || "keyup" === a.type ? a.keyCode : 0;
+    }, which: function (a) {
+      return "keypress" === a.type ? od(a) : "keydown" === a.type || "keyup" === a.type ? a.keyCode : 0;
     }
-    return "keypress" === a.type ? (a = od(a), 13 === a ? "Enter" : String.fromCharCode(a)) : "keydown" === a.type || "keyup" === a.type ? Nd[a.keyCode] || "Unidentified" : "";
-  }, code: 0, location: 0, ctrlKey: 0, shiftKey: 0, altKey: 0, metaKey: 0, repeat: 0, locale: 0, getModifierState: zd, charCode: function(a) {
-    return "keypress" === a.type ? od(a) : 0;
-  }, keyCode: function(a) {
-    return "keydown" === a.type || "keyup" === a.type ? a.keyCode : 0;
-  }, which: function(a) {
-    return "keypress" === a.type ? od(a) : "keydown" === a.type || "keyup" === a.type ? a.keyCode : 0;
-  } }), Rd = rd(Qd), Sd = A({}, Ad, { pointerId: 0, width: 0, height: 0, pressure: 0, tangentialPressure: 0, tiltX: 0, tiltY: 0, twist: 0, pointerType: 0, isPrimary: 0 }), Td = rd(Sd), Ud = A({}, ud, { touches: 0, targetTouches: 0, changedTouches: 0, altKey: 0, metaKey: 0, ctrlKey: 0, shiftKey: 0, getModifierState: zd }), Vd = rd(Ud), Wd = A({}, sd, { propertyName: 0, elapsedTime: 0, pseudoElement: 0 }), Xd = rd(Wd), Yd = A({}, Ad, {
-    deltaX: function(a) {
+  }), Rd = rd(Qd), Sd = A({}, Ad, { pointerId: 0, width: 0, height: 0, pressure: 0, tangentialPressure: 0, tiltX: 0, tiltY: 0, twist: 0, pointerType: 0, isPrimary: 0 }), Td = rd(Sd), Ud = A({}, ud, { touches: 0, targetTouches: 0, changedTouches: 0, altKey: 0, metaKey: 0, ctrlKey: 0, shiftKey: 0, getModifierState: zd }), Vd = rd(Ud), Wd = A({}, sd, { propertyName: 0, elapsedTime: 0, pseudoElement: 0 }), Xd = rd(Wd), Yd = A({}, Ad, {
+    deltaX: function (a) {
       return "deltaX" in a ? a.deltaX : "wheelDeltaX" in a ? -a.wheelDeltaX : 0;
     },
-    deltaY: function(a) {
+    deltaY: function (a) {
       return "deltaY" in a ? a.deltaY : "wheelDeltaY" in a ? -a.wheelDeltaY : "wheelDelta" in a ? -a.wheelDelta : 0;
     },
     deltaZ: 0,
@@ -17805,20 +17841,20 @@ function requireReactDom_production_min() {
     return true;
   }
   function Je(a) {
-    for (; a && a.firstChild; ) a = a.firstChild;
+    for (; a && a.firstChild;) a = a.firstChild;
     return a;
   }
   function Ke(a, b) {
     var c = Je(a);
     a = 0;
-    for (var d; c; ) {
+    for (var d; c;) {
       if (3 === c.nodeType) {
         d = a + c.textContent.length;
         if (a <= b && d >= b) return { node: c, offset: b - a };
         a = d;
       }
       a: {
-        for (; c; ) {
+        for (; c;) {
           if (c.nextSibling) {
             c = c.nextSibling;
             break a;
@@ -17834,7 +17870,7 @@ function requireReactDom_production_min() {
     return a && b ? a === b ? true : a && 3 === a.nodeType ? false : b && 3 === b.nodeType ? Le(a, b.parentNode) : "contains" in a ? a.contains(b) : a.compareDocumentPosition ? !!(a.compareDocumentPosition(b) & 16) : false : false;
   }
   function Me() {
-    for (var a = window, b = Xa(); b instanceof a.HTMLIFrameElement; ) {
+    for (var a = window, b = Xa(); b instanceof a.HTMLIFrameElement;) {
       try {
         var c = "string" === typeof b.contentWindow.location.href;
       } catch (d) {
@@ -17869,7 +17905,7 @@ function requireReactDom_production_min() {
         }
       }
       b = [];
-      for (a = c; a = a.parentNode; ) 1 === a.nodeType && b.push({ element: a, left: a.scrollLeft, top: a.scrollTop });
+      for (a = c; a = a.parentNode;) 1 === a.nodeType && b.push({ element: a, left: a.scrollLeft, top: a.scrollTop });
       "function" === typeof c.focus && c.focus();
       for (c = 0; c < b.length; c++) a = b[c], a.element.scrollLeft = a.left, a.element.scrollTop = a.top;
     }
@@ -17970,7 +18006,7 @@ function requireReactDom_production_min() {
   function sf(a) {
     if (!a[rf]) {
       a[rf] = true;
-      da.forEach(function(b2) {
+      da.forEach(function (b2) {
         "selectionchange" !== b2 && (mf.has(b2) || qf(b2, false, a), qf(b2, true, a));
       });
       var b = 9 === a.nodeType ? a : a.ownerDocument;
@@ -17995,20 +18031,20 @@ function requireReactDom_production_min() {
   }
   function hd(a, b, c, d, e) {
     var f = d;
-    if (0 === (b & 1) && 0 === (b & 2) && null !== d) a: for (; ; ) {
+    if (0 === (b & 1) && 0 === (b & 2) && null !== d) a: for (; ;) {
       if (null === d) return;
       var g = d.tag;
       if (3 === g || 4 === g) {
         var h = d.stateNode.containerInfo;
         if (h === e || 8 === h.nodeType && h.parentNode === e) break;
-        if (4 === g) for (g = d.return; null !== g; ) {
+        if (4 === g) for (g = d.return; null !== g;) {
           var k = g.tag;
           if (3 === k || 4 === k) {
             if (k = g.stateNode.containerInfo, k === e || 8 === k.nodeType && k.parentNode === e) return;
           }
           g = g.return;
         }
-        for (; null !== h; ) {
+        for (; null !== h;) {
           g = Wc(h);
           if (null === g) return;
           k = g.tag;
@@ -18021,7 +18057,7 @@ function requireReactDom_production_min() {
       }
       d = d.return;
     }
-    Jb(function() {
+    Jb(function () {
       var d2 = f, e2 = xb(c), g2 = [];
       a: {
         var h2 = df.get(a);
@@ -18105,7 +18141,7 @@ function requireReactDom_production_min() {
           }
           var t = 0 !== (b & 4), J = !t && "scroll" === a, x = t ? null !== h2 ? h2 + "Capture" : null : h2;
           t = [];
-          for (var w = d2, u; null !== w; ) {
+          for (var w = d2, u; null !== w;) {
             u = w;
             var F = u.stateNode;
             5 === u.tag && null !== F && (u = F, null !== x && (F = Kb(w, x), null != F && t.push(tf(w, F, u))));
@@ -18146,9 +18182,9 @@ function requireReactDom_production_min() {
                 for (u = t; u; u = vf(u)) w++;
                 u = 0;
                 for (F = x; F; F = vf(F)) u++;
-                for (; 0 < w - u; ) t = vf(t), w--;
-                for (; 0 < u - w; ) x = vf(x), u--;
-                for (; w--; ) {
+                for (; 0 < w - u;) t = vf(t), w--;
+                for (; 0 < u - w;) x = vf(x), u--;
+                for (; w--;) {
                   if (t === x || null !== x && t === x.alternate) break b;
                   t = vf(t);
                   x = vf(x);
@@ -18227,7 +18263,7 @@ function requireReactDom_production_min() {
     return { instance: a, listener: b, currentTarget: c };
   }
   function oe(a, b) {
-    for (var c = b + "Capture", d = []; null !== a; ) {
+    for (var c = b + "Capture", d = []; null !== a;) {
       var e = a, f = e.stateNode;
       5 === e.tag && null !== f && (e = f, f = Kb(a, c), null != f && d.unshift(tf(a, f, e)), f = Kb(a, b), null != f && d.push(tf(a, f, e)));
       a = a.return;
@@ -18242,7 +18278,7 @@ function requireReactDom_production_min() {
     return a ? a : null;
   }
   function wf(a, b, c, d, e) {
-    for (var f = b._reactName, g = []; null !== c && c !== d; ) {
+    for (var f = b._reactName, g = []; null !== c && c !== d;) {
       var h = c, k = h.alternate, l = h.stateNode;
       if (null !== k && k === d) break;
       5 === h.tag && null !== l && (h = l, e ? (k = Kb(c, f), null != k && g.unshift(tf(c, k, h))) : e || (k = Kb(c, f), null != k && g.push(tf(c, k, h))));
@@ -18264,11 +18300,11 @@ function requireReactDom_production_min() {
   function Ef(a, b) {
     return "textarea" === a || "noscript" === a || "string" === typeof b.children || "number" === typeof b.children || "object" === typeof b.dangerouslySetInnerHTML && null !== b.dangerouslySetInnerHTML && null != b.dangerouslySetInnerHTML.__html;
   }
-  var Ff = "function" === typeof setTimeout ? setTimeout : void 0, Gf = "function" === typeof clearTimeout ? clearTimeout : void 0, Hf = "function" === typeof Promise ? Promise : void 0, Jf = "function" === typeof queueMicrotask ? queueMicrotask : "undefined" !== typeof Hf ? function(a) {
+  var Ff = "function" === typeof setTimeout ? setTimeout : void 0, Gf = "function" === typeof clearTimeout ? clearTimeout : void 0, Hf = "function" === typeof Promise ? Promise : void 0, Jf = "function" === typeof queueMicrotask ? queueMicrotask : "undefined" !== typeof Hf ? function (a) {
     return Hf.resolve(null).then(a).catch(If);
   } : Ff;
   function If(a) {
-    setTimeout(function() {
+    setTimeout(function () {
       throw a;
     });
   }
@@ -18303,7 +18339,7 @@ function requireReactDom_production_min() {
   }
   function Mf(a) {
     a = a.previousSibling;
-    for (var b = 0; a; ) {
+    for (var b = 0; a;) {
       if (8 === a.nodeType) {
         var c = a.data;
         if ("$" === c || "$!" === c || "$?" === c) {
@@ -18319,10 +18355,10 @@ function requireReactDom_production_min() {
   function Wc(a) {
     var b = a[Of];
     if (b) return b;
-    for (var c = a.parentNode; c; ) {
+    for (var c = a.parentNode; c;) {
       if (b = c[uf] || c[Of]) {
         c = b.alternate;
-        if (null !== b.child || null !== c && null !== c.child) for (a = Mf(a); null !== a; ) {
+        if (null !== b.child || null !== c && null !== c.child) for (a = Mf(a); null !== a;) {
           if (c = a[Of]) return c;
           a = Mf(a);
         }
@@ -18462,8 +18498,8 @@ function requireReactDom_production_min() {
     null !== a.return && (tg(a, 1), ug(a, 1, 0));
   }
   function wg(a) {
-    for (; a === mg; ) mg = kg[--lg], kg[lg] = null, ng = kg[--lg], kg[lg] = null;
-    for (; a === qg; ) qg = og[--pg], og[pg] = null, sg = og[--pg], og[pg] = null, rg = og[--pg], og[pg] = null;
+    for (; a === mg;) mg = kg[--lg], kg[lg] = null, ng = kg[--lg], kg[lg] = null;
+    for (; a === qg;) qg = og[--pg], og[pg] = null, sg = og[--pg], og[pg] = null, rg = og[--pg], og[pg] = null;
   }
   var xg = null, yg = null, I = false, zg = null;
   function Ag(a, b) {
@@ -18511,7 +18547,7 @@ function requireReactDom_production_min() {
     }
   }
   function Fg(a) {
-    for (a = a.return; null !== a && 5 !== a.tag && 3 !== a.tag && 13 !== a.tag; ) a = a.return;
+    for (a = a.return; null !== a && 5 !== a.tag && 3 !== a.tag && 13 !== a.tag;) a = a.return;
     xg = a;
   }
   function Gg(a) {
@@ -18521,7 +18557,7 @@ function requireReactDom_production_min() {
     (b = 3 !== a.tag) && !(b = 5 !== a.tag) && (b = a.type, b = "head" !== b && "body" !== b && !Ef(a.type, a.memoizedProps));
     if (b && (b = yg)) {
       if (Dg(a)) throw Hg(), Error(p(418));
-      for (; b; ) Ag(a, b), b = Lf(b.nextSibling);
+      for (; b;) Ag(a, b), b = Lf(b.nextSibling);
     }
     Fg(a);
     if (13 === a.tag) {
@@ -18530,7 +18566,7 @@ function requireReactDom_production_min() {
       if (!a) throw Error(p(317));
       a: {
         a = a.nextSibling;
-        for (b = 0; a; ) {
+        for (b = 0; a;) {
           if (8 === a.nodeType) {
             var c = a.data;
             if ("/$" === c) {
@@ -18549,7 +18585,7 @@ function requireReactDom_production_min() {
     return true;
   }
   function Hg() {
-    for (var a = yg; a; ) a = Lf(a.nextSibling);
+    for (var a = yg; a;) a = Lf(a.nextSibling);
   }
   function Ig() {
     yg = xg = null;
@@ -18571,7 +18607,7 @@ function requireReactDom_production_min() {
         if (!d) throw Error(p(147, a));
         var e = d, f = "" + a;
         if (null !== b && null !== b.ref && "function" === typeof b.ref && b.ref._stringRef === f) return b.ref;
-        b = function(a2) {
+        b = function (a2) {
           var b2 = e.refs;
           null === a2 ? delete b2[f] : b2[f] = a2;
         };
@@ -18600,11 +18636,11 @@ function requireReactDom_production_min() {
     }
     function c(c2, d2) {
       if (!a) return null;
-      for (; null !== d2; ) b(c2, d2), d2 = d2.sibling;
+      for (; null !== d2;) b(c2, d2), d2 = d2.sibling;
       return null;
     }
     function d(a2, b2) {
-      for (a2 = /* @__PURE__ */ new Map(); null !== b2; ) null !== b2.key ? a2.set(b2.key, b2) : a2.set(b2.index, b2), b2 = b2.sibling;
+      for (a2 = /* @__PURE__ */ new Map(); null !== b2;) null !== b2.key ? a2.set(b2.key, b2) : a2.set(b2.index, b2), b2 = b2.sibling;
       return a2;
     }
     function e(a2, b2) {
@@ -18729,7 +18765,7 @@ function requireReactDom_production_min() {
         return l2;
       }
       for (u = d(e2, u); w < h2.length; w++) x = y(u, e2, w, h2[w], k2), null !== x && (a && null !== x.alternate && u.delete(null === x.key ? w : x.key), g2 = f(x, g2, w), null === m2 ? l2 = x : m2.sibling = x, m2 = x);
-      a && u.forEach(function(a2) {
+      a && u.forEach(function (a2) {
         return b(e2, a2);
       });
       I && tg(e2, w);
@@ -18763,7 +18799,7 @@ function requireReactDom_production_min() {
         return l2;
       }
       for (m2 = d(e2, m2); !n2.done; w++, n2 = h2.next()) n2 = y(m2, e2, w, n2.value, k2), null !== n2 && (a && null !== n2.alternate && m2.delete(null === n2.key ? w : n2.key), g2 = f(n2, g2, w), null === u ? l2 = n2 : u.sibling = n2, u = n2);
-      a && m2.forEach(function(a2) {
+      a && m2.forEach(function (a2) {
         return b(e2, a2);
       });
       I && tg(e2, w);
@@ -18775,7 +18811,7 @@ function requireReactDom_production_min() {
         switch (f2.$$typeof) {
           case va:
             a: {
-              for (var k2 = f2.key, l2 = d2; null !== l2; ) {
+              for (var k2 = f2.key, l2 = d2; null !== l2;) {
                 if (l2.key === k2) {
                   k2 = f2.type;
                   if (k2 === ya) {
@@ -18804,7 +18840,7 @@ function requireReactDom_production_min() {
             return g(a2);
           case wa:
             a: {
-              for (l2 = f2.key; null !== d2; ) {
+              for (l2 = f2.key; null !== d2;) {
                 if (d2.key === l2) if (4 === d2.tag && d2.stateNode.containerInfo === f2.containerInfo && d2.stateNode.implementation === f2.implementation) {
                   c(a2, d2.sibling);
                   d2 = e(d2, f2.children || []);
@@ -18844,7 +18880,7 @@ function requireReactDom_production_min() {
     a._currentValue = b;
   }
   function bh(a, b, c) {
-    for (; null !== a; ) {
+    for (; null !== a;) {
       var d = a.alternate;
       (a.childLanes & b) !== b ? (a.childLanes |= b, null !== d && (d.childLanes |= b)) : null !== d && (d.childLanes & b) !== b && (d.childLanes |= b);
       if (a === c) break;
@@ -18881,7 +18917,7 @@ function requireReactDom_production_min() {
     var c = a.alternate;
     null !== c && (c.lanes |= b);
     c = a;
-    for (a = a.return; null !== a; ) a.childLanes |= b, c = a.alternate, null !== c && (c.childLanes |= b), c = a, a = a.return;
+    for (a = a.return; null !== a;) a.childLanes |= b, c = a.alternate, null !== c && (c.childLanes |= b), c = a, a = a.return;
     return 3 === c.tag ? c.stateNode : null;
   }
   var jh = false;
@@ -19067,7 +19103,7 @@ function requireReactDom_production_min() {
   }
   var L = Uf(0);
   function Ch(a) {
-    for (var b = a; null !== b; ) {
+    for (var b = a; null !== b;) {
       if (13 === b.tag) {
         var c = b.memoizedState;
         if (null !== c && (c = c.dehydrated, null === c || "$?" === c.data || "$!" === c.data)) return b;
@@ -19079,7 +19115,7 @@ function requireReactDom_production_min() {
         continue;
       }
       if (b === a) break;
-      for (; null === b.sibling; ) {
+      for (; null === b.sibling;) {
         if (null === b.return || b.return === a) return null;
         b = b.return;
       }
@@ -19255,7 +19291,7 @@ function requireReactDom_production_min() {
     ei(b) && fi(a);
   }
   function ai(a, b, c) {
-    return c(function() {
+    return c(function () {
       ei(b) && fi(a);
     });
   }
@@ -19324,10 +19360,10 @@ function requireReactDom_production_min() {
     return li(4, 4, a, b);
   }
   function pi(a, b) {
-    if ("function" === typeof b) return a = a(), b(a), function() {
+    if ("function" === typeof b) return a = a(), b(a), function () {
       b(null);
     };
-    if (null !== b && void 0 !== b) return a = a(), b.current = a, function() {
+    if (null !== b && void 0 !== b) return a = a(), b.current = a, function () {
       b.current = null;
     };
   }
@@ -19425,82 +19461,84 @@ function requireReactDom_production_min() {
       Cc(a, c);
     }
   }
-  var Rh = { readContext: eh, useCallback: P, useContext: P, useEffect: P, useImperativeHandle: P, useInsertionEffect: P, useLayoutEffect: P, useMemo: P, useReducer: P, useRef: P, useState: P, useDebugValue: P, useDeferredValue: P, useTransition: P, useMutableSource: P, useSyncExternalStore: P, useId: P, unstable_isNewReconciler: false }, Oh = { readContext: eh, useCallback: function(a, b) {
-    Th().memoizedState = [a, void 0 === b ? null : b];
-    return a;
-  }, useContext: eh, useEffect: mi, useImperativeHandle: function(a, b, c) {
-    c = null !== c && void 0 !== c ? c.concat([a]) : null;
-    return ki(
-      4194308,
-      4,
-      pi.bind(null, b, a),
-      c
-    );
-  }, useLayoutEffect: function(a, b) {
-    return ki(4194308, 4, a, b);
-  }, useInsertionEffect: function(a, b) {
-    return ki(4, 2, a, b);
-  }, useMemo: function(a, b) {
-    var c = Th();
-    b = void 0 === b ? null : b;
-    a = a();
-    c.memoizedState = [a, b];
-    return a;
-  }, useReducer: function(a, b, c) {
-    var d = Th();
-    b = void 0 !== c ? c(b) : b;
-    d.memoizedState = d.baseState = b;
-    a = { pending: null, interleaved: null, lanes: 0, dispatch: null, lastRenderedReducer: a, lastRenderedState: b };
-    d.queue = a;
-    a = a.dispatch = xi.bind(null, M, a);
-    return [d.memoizedState, a];
-  }, useRef: function(a) {
-    var b = Th();
-    a = { current: a };
-    return b.memoizedState = a;
-  }, useState: hi, useDebugValue: ri, useDeferredValue: function(a) {
-    return Th().memoizedState = a;
-  }, useTransition: function() {
-    var a = hi(false), b = a[0];
-    a = vi.bind(null, a[1]);
-    Th().memoizedState = a;
-    return [b, a];
-  }, useMutableSource: function() {
-  }, useSyncExternalStore: function(a, b, c) {
-    var d = M, e = Th();
-    if (I) {
-      if (void 0 === c) throw Error(p(407));
-      c = c();
-    } else {
-      c = b();
-      if (null === Q) throw Error(p(349));
-      0 !== (Hh & 30) || di(d, b, c);
-    }
-    e.memoizedState = c;
-    var f = { value: c, getSnapshot: b };
-    e.queue = f;
-    mi(ai.bind(
-      null,
-      d,
-      f,
-      a
-    ), [a]);
-    d.flags |= 2048;
-    bi(9, ci.bind(null, d, f, c, b), void 0, null);
-    return c;
-  }, useId: function() {
-    var a = Th(), b = Q.identifierPrefix;
-    if (I) {
-      var c = sg;
-      var d = rg;
-      c = (d & ~(1 << 32 - oc(d) - 1)).toString(32) + c;
-      b = ":" + b + "R" + c;
-      c = Kh++;
-      0 < c && (b += "H" + c.toString(32));
-      b += ":";
-    } else c = Lh++, b = ":" + b + "r" + c.toString(32) + ":";
-    return a.memoizedState = b;
-  }, unstable_isNewReconciler: false }, Ph = {
+  var Rh = { readContext: eh, useCallback: P, useContext: P, useEffect: P, useImperativeHandle: P, useInsertionEffect: P, useLayoutEffect: P, useMemo: P, useReducer: P, useRef: P, useState: P, useDebugValue: P, useDeferredValue: P, useTransition: P, useMutableSource: P, useSyncExternalStore: P, useId: P, unstable_isNewReconciler: false }, Oh = {
+    readContext: eh, useCallback: function (a, b) {
+      Th().memoizedState = [a, void 0 === b ? null : b];
+      return a;
+    }, useContext: eh, useEffect: mi, useImperativeHandle: function (a, b, c) {
+      c = null !== c && void 0 !== c ? c.concat([a]) : null;
+      return ki(
+        4194308,
+        4,
+        pi.bind(null, b, a),
+        c
+      );
+    }, useLayoutEffect: function (a, b) {
+      return ki(4194308, 4, a, b);
+    }, useInsertionEffect: function (a, b) {
+      return ki(4, 2, a, b);
+    }, useMemo: function (a, b) {
+      var c = Th();
+      b = void 0 === b ? null : b;
+      a = a();
+      c.memoizedState = [a, b];
+      return a;
+    }, useReducer: function (a, b, c) {
+      var d = Th();
+      b = void 0 !== c ? c(b) : b;
+      d.memoizedState = d.baseState = b;
+      a = { pending: null, interleaved: null, lanes: 0, dispatch: null, lastRenderedReducer: a, lastRenderedState: b };
+      d.queue = a;
+      a = a.dispatch = xi.bind(null, M, a);
+      return [d.memoizedState, a];
+    }, useRef: function (a) {
+      var b = Th();
+      a = { current: a };
+      return b.memoizedState = a;
+    }, useState: hi, useDebugValue: ri, useDeferredValue: function (a) {
+      return Th().memoizedState = a;
+    }, useTransition: function () {
+      var a = hi(false), b = a[0];
+      a = vi.bind(null, a[1]);
+      Th().memoizedState = a;
+      return [b, a];
+    }, useMutableSource: function () {
+    }, useSyncExternalStore: function (a, b, c) {
+      var d = M, e = Th();
+      if (I) {
+        if (void 0 === c) throw Error(p(407));
+        c = c();
+      } else {
+        c = b();
+        if (null === Q) throw Error(p(349));
+        0 !== (Hh & 30) || di(d, b, c);
+      }
+      e.memoizedState = c;
+      var f = { value: c, getSnapshot: b };
+      e.queue = f;
+      mi(ai.bind(
+        null,
+        d,
+        f,
+        a
+      ), [a]);
+      d.flags |= 2048;
+      bi(9, ci.bind(null, d, f, c, b), void 0, null);
+      return c;
+    }, useId: function () {
+      var a = Th(), b = Q.identifierPrefix;
+      if (I) {
+        var c = sg;
+        var d = rg;
+        c = (d & ~(1 << 32 - oc(d) - 1)).toString(32) + c;
+        b = ":" + b + "R" + c;
+        c = Kh++;
+        0 < c && (b += "H" + c.toString(32));
+        b += ":";
+      } else c = Lh++, b = ":" + b + "r" + c.toString(32) + ":";
+      return a.memoizedState = b;
+    }, unstable_isNewReconciler: false
+  }, Ph = {
     readContext: eh,
     useCallback: si,
     useContext: eh,
@@ -19511,15 +19549,15 @@ function requireReactDom_production_min() {
     useMemo: ti,
     useReducer: Wh,
     useRef: ji,
-    useState: function() {
+    useState: function () {
       return Wh(Vh);
     },
     useDebugValue: ri,
-    useDeferredValue: function(a) {
+    useDeferredValue: function (a) {
       var b = Uh();
       return ui(b, N.memoizedState, a);
     },
-    useTransition: function() {
+    useTransition: function () {
       var a = Wh(Vh)[0], b = Uh().memoizedState;
       return [a, b];
     },
@@ -19527,15 +19565,17 @@ function requireReactDom_production_min() {
     useSyncExternalStore: Zh,
     useId: wi,
     unstable_isNewReconciler: false
-  }, Qh = { readContext: eh, useCallback: si, useContext: eh, useEffect: $h, useImperativeHandle: qi, useInsertionEffect: ni, useLayoutEffect: oi, useMemo: ti, useReducer: Xh, useRef: ji, useState: function() {
-    return Xh(Vh);
-  }, useDebugValue: ri, useDeferredValue: function(a) {
-    var b = Uh();
-    return null === N ? b.memoizedState = a : ui(b, N.memoizedState, a);
-  }, useTransition: function() {
-    var a = Xh(Vh)[0], b = Uh().memoizedState;
-    return [a, b];
-  }, useMutableSource: Yh, useSyncExternalStore: Zh, useId: wi, unstable_isNewReconciler: false };
+  }, Qh = {
+    readContext: eh, useCallback: si, useContext: eh, useEffect: $h, useImperativeHandle: qi, useInsertionEffect: ni, useLayoutEffect: oi, useMemo: ti, useReducer: Xh, useRef: ji, useState: function () {
+      return Xh(Vh);
+    }, useDebugValue: ri, useDeferredValue: function (a) {
+      var b = Uh();
+      return null === N ? b.memoizedState = a : ui(b, N.memoizedState, a);
+    }, useTransition: function () {
+      var a = Xh(Vh)[0], b = Uh().memoizedState;
+      return [a, b];
+    }, useMutableSource: Yh, useSyncExternalStore: Zh, useId: wi, unstable_isNewReconciler: false
+  };
   function Ci(a, b) {
     if (a && a.defaultProps) {
       b = A({}, b);
@@ -19552,31 +19592,33 @@ function requireReactDom_production_min() {
     a.memoizedState = c;
     0 === a.lanes && (a.updateQueue.baseState = c);
   }
-  var Ei = { isMounted: function(a) {
-    return (a = a._reactInternals) ? Vb(a) === a : false;
-  }, enqueueSetState: function(a, b, c) {
-    a = a._reactInternals;
-    var d = R(), e = yi(a), f = mh(d, e);
-    f.payload = b;
-    void 0 !== c && null !== c && (f.callback = c);
-    b = nh(a, f, e);
-    null !== b && (gi(b, a, e, d), oh(b, a, e));
-  }, enqueueReplaceState: function(a, b, c) {
-    a = a._reactInternals;
-    var d = R(), e = yi(a), f = mh(d, e);
-    f.tag = 1;
-    f.payload = b;
-    void 0 !== c && null !== c && (f.callback = c);
-    b = nh(a, f, e);
-    null !== b && (gi(b, a, e, d), oh(b, a, e));
-  }, enqueueForceUpdate: function(a, b) {
-    a = a._reactInternals;
-    var c = R(), d = yi(a), e = mh(c, d);
-    e.tag = 2;
-    void 0 !== b && null !== b && (e.callback = b);
-    b = nh(a, e, d);
-    null !== b && (gi(b, a, d, c), oh(b, a, d));
-  } };
+  var Ei = {
+    isMounted: function (a) {
+      return (a = a._reactInternals) ? Vb(a) === a : false;
+    }, enqueueSetState: function (a, b, c) {
+      a = a._reactInternals;
+      var d = R(), e = yi(a), f = mh(d, e);
+      f.payload = b;
+      void 0 !== c && null !== c && (f.callback = c);
+      b = nh(a, f, e);
+      null !== b && (gi(b, a, e, d), oh(b, a, e));
+    }, enqueueReplaceState: function (a, b, c) {
+      a = a._reactInternals;
+      var d = R(), e = yi(a), f = mh(d, e);
+      f.tag = 1;
+      f.payload = b;
+      void 0 !== c && null !== c && (f.callback = c);
+      b = nh(a, f, e);
+      null !== b && (gi(b, a, e, d), oh(b, a, e));
+    }, enqueueForceUpdate: function (a, b) {
+      a = a._reactInternals;
+      var c = R(), d = yi(a), e = mh(c, d);
+      e.tag = 2;
+      void 0 !== b && null !== b && (e.callback = b);
+      b = nh(a, e, d);
+      null !== b && (gi(b, a, d, c), oh(b, a, d));
+    }
+  };
   function Fi(a, b, c, d, e, f, g) {
     a = a.stateNode;
     return "function" === typeof a.shouldComponentUpdate ? a.shouldComponentUpdate(d, f, g) : b.prototype && b.prototype.isPureReactComponent ? !Ie(c, d) || !Ie(e, f) : true;
@@ -19632,7 +19674,7 @@ function requireReactDom_production_min() {
     try {
       console.error(b.value);
     } catch (c) {
-      setTimeout(function() {
+      setTimeout(function () {
         throw c;
       });
     }
@@ -19643,7 +19685,7 @@ function requireReactDom_production_min() {
     c.tag = 3;
     c.payload = { element: null };
     var d = b.value;
-    c.callback = function() {
+    c.callback = function () {
       Oi || (Oi = true, Pi = d);
       Li(a, b);
     };
@@ -19655,15 +19697,15 @@ function requireReactDom_production_min() {
     var d = a.type.getDerivedStateFromError;
     if ("function" === typeof d) {
       var e = b.value;
-      c.payload = function() {
+      c.payload = function () {
         return d(e);
       };
-      c.callback = function() {
+      c.callback = function () {
         Li(a, b);
       };
     }
     var f = a.stateNode;
-    null !== f && "function" === typeof f.componentDidCatch && (c.callback = function() {
+    null !== f && "function" === typeof f.componentDidCatch && (c.callback = function () {
       Li(a, b);
       "function" !== typeof d && (null === Ri ? Ri = /* @__PURE__ */ new Set([this]) : Ri.add(this));
       var c2 = b.stack;
@@ -20003,7 +20045,7 @@ function requireReactDom_production_min() {
     d = L.current;
     if (0 !== (d & 2)) d = d & 1 | 2, b.flags |= 128;
     else {
-      if (null !== a && 0 !== (a.flags & 128)) a: for (a = b.child; null !== a; ) {
+      if (null !== a && 0 !== (a.flags & 128)) a: for (a = b.child; null !== a;) {
         if (13 === a.tag) null !== a.memoizedState && vj(a, c, b);
         else if (19 === a.tag) vj(a, c, b);
         else if (null !== a.child) {
@@ -20012,7 +20054,7 @@ function requireReactDom_production_min() {
           continue;
         }
         if (a === b) break a;
-        for (; null === a.sibling; ) {
+        for (; null === a.sibling;) {
           if (null === a.return || a.return === b) break a;
           a = a.return;
         }
@@ -20026,7 +20068,7 @@ function requireReactDom_production_min() {
     else switch (e) {
       case "forwards":
         c = b.child;
-        for (e = null; null !== c; ) a = c.alternate, null !== a && null === Ch(a) && (e = c), c = c.sibling;
+        for (e = null; null !== c;) a = c.alternate, null !== a && null === Ch(a) && (e = c), c = c.sibling;
         c = e;
         null === c ? (e = b.child, b.child = null) : (e = c.sibling, c.sibling = null);
         wj(b, false, e, c, f);
@@ -20034,7 +20076,7 @@ function requireReactDom_production_min() {
       case "backwards":
         c = null;
         e = b.child;
-        for (b.child = null; null !== e; ) {
+        for (b.child = null; null !== e;) {
           a = e.alternate;
           if (null !== a && null === Ch(a)) {
             b.child = e;
@@ -20067,7 +20109,7 @@ function requireReactDom_production_min() {
       a = b.child;
       c = Pg(a, a.pendingProps);
       b.child = c;
-      for (c.return = b; null !== a.sibling; ) a = a.sibling, c = c.sibling = Pg(a, a.pendingProps), c.return = b;
+      for (c.return = b; null !== a.sibling;) a = a.sibling, c = c.sibling = Pg(a, a.pendingProps), c.return = b;
       c.sibling = null;
     }
     return b.child;
@@ -20121,8 +20163,8 @@ function requireReactDom_production_min() {
     return Zi(a, b, c);
   }
   var zj, Aj, Bj, Cj;
-  zj = function(a, b) {
-    for (var c = b.child; null !== c; ) {
+  zj = function (a, b) {
+    for (var c = b.child; null !== c;) {
       if (5 === c.tag || 6 === c.tag) a.appendChild(c.stateNode);
       else if (4 !== c.tag && null !== c.child) {
         c.child.return = c;
@@ -20130,7 +20172,7 @@ function requireReactDom_production_min() {
         continue;
       }
       if (c === b) break;
-      for (; null === c.sibling; ) {
+      for (; null === c.sibling;) {
         if (null === c.return || c.return === b) return;
         c = c.return;
       }
@@ -20138,9 +20180,9 @@ function requireReactDom_production_min() {
       c = c.sibling;
     }
   };
-  Aj = function() {
+  Aj = function () {
   };
-  Bj = function(a, b, c, d) {
+  Bj = function (a, b, c, d) {
     var e = a.memoizedProps;
     if (e !== d) {
       a = b.stateNode;
@@ -20189,26 +20231,26 @@ function requireReactDom_production_min() {
       if (b.updateQueue = l) b.flags |= 4;
     }
   };
-  Cj = function(a, b, c, d) {
+  Cj = function (a, b, c, d) {
     c !== d && (b.flags |= 4);
   };
   function Dj(a, b) {
     if (!I) switch (a.tailMode) {
       case "hidden":
         b = a.tail;
-        for (var c = null; null !== b; ) null !== b.alternate && (c = b), b = b.sibling;
+        for (var c = null; null !== b;) null !== b.alternate && (c = b), b = b.sibling;
         null === c ? a.tail = null : c.sibling = null;
         break;
       case "collapsed":
         c = a.tail;
-        for (var d = null; null !== c; ) null !== c.alternate && (d = c), c = c.sibling;
+        for (var d = null; null !== c;) null !== c.alternate && (d = c), c = c.sibling;
         null === d ? b || null === a.tail ? a.tail = null : a.tail.sibling = null : d.sibling = null;
     }
   }
   function S(a) {
     var b = null !== a.alternate && a.alternate.child === a.child, c = 0, d = 0;
-    if (b) for (var e = a.child; null !== e; ) c |= e.lanes | e.childLanes, d |= e.subtreeFlags & 14680064, d |= e.flags & 14680064, e.return = a, e = e.sibling;
-    else for (e = a.child; null !== e; ) c |= e.lanes | e.childLanes, d |= e.subtreeFlags, d |= e.flags, e.return = a, e = e.sibling;
+    if (b) for (var e = a.child; null !== e;) c |= e.lanes | e.childLanes, d |= e.subtreeFlags & 14680064, d |= e.flags & 14680064, e.return = a, e = e.sibling;
+    else for (e = a.child; null !== e;) c |= e.lanes | e.childLanes, d |= e.subtreeFlags, d |= e.flags, e.return = a, e = e.sibling;
     a.subtreeFlags |= d;
     a.childLanes = c;
     return b;
@@ -20507,7 +20549,7 @@ function requireReactDom_production_min() {
         g = f.rendering;
         if (null === g) if (d) Dj(f, false);
         else {
-          if (0 !== T || null !== a && 0 !== (a.flags & 128)) for (a = b.child; null !== a; ) {
+          if (0 !== T || null !== a && 0 !== (a.flags & 128)) for (a = b.child; null !== a;) {
             g = Ch(a);
             if (null !== g) {
               b.flags |= 128;
@@ -20516,7 +20558,7 @@ function requireReactDom_production_min() {
               null !== d && (b.updateQueue = d, b.flags |= 4);
               b.subtreeFlags = 0;
               d = c;
-              for (c = b.child; null !== c; ) f = c, a = d, f.flags &= 14680066, g = f.alternate, null === g ? (f.childLanes = 0, f.lanes = a, f.child = null, f.subtreeFlags = 0, f.memoizedProps = null, f.memoizedState = null, f.updateQueue = null, f.dependencies = null, f.stateNode = null) : (f.childLanes = g.childLanes, f.lanes = g.lanes, f.child = g.child, f.subtreeFlags = 0, f.deletions = null, f.memoizedProps = g.memoizedProps, f.memoizedState = g.memoizedState, f.updateQueue = g.updateQueue, f.type = g.type, a = g.dependencies, f.dependencies = null === a ? null : { lanes: a.lanes, firstContext: a.firstContext }), c = c.sibling;
+              for (c = b.child; null !== c;) f = c, a = d, f.flags &= 14680066, g = f.alternate, null === g ? (f.childLanes = 0, f.lanes = a, f.child = null, f.subtreeFlags = 0, f.memoizedProps = null, f.memoizedState = null, f.updateQueue = null, f.dependencies = null, f.stateNode = null) : (f.childLanes = g.childLanes, f.lanes = g.lanes, f.child = g.child, f.subtreeFlags = 0, f.deletions = null, f.memoizedProps = g.memoizedProps, f.memoizedState = g.memoizedState, f.updateQueue = g.updateQueue, f.type = g.type, a = g.dependencies, f.dependencies = null === a ? null : { lanes: a.lanes, firstContext: a.firstContext }), c = c.sibling;
               G(L, L.current & 1 | 2);
               return b.child;
             }
@@ -20613,8 +20655,8 @@ function requireReactDom_production_min() {
             break a;
           }
           var g = 0, h = -1, k = -1, l = 0, m = 0, q = a, r = null;
-          b: for (; ; ) {
-            for (var y; ; ) {
+          b: for (; ;) {
+            for (var y; ;) {
               q !== c || 0 !== e && 3 !== q.nodeType || (h = g + e);
               q !== f || 0 !== d && 3 !== q.nodeType || (k = g + d);
               3 === q.nodeType && (g += q.nodeValue.length);
@@ -20622,7 +20664,7 @@ function requireReactDom_production_min() {
               r = q;
               q = y;
             }
-            for (; ; ) {
+            for (; ;) {
               if (q === a) break b;
               r === c && ++l === e && (h = g);
               r === f && ++m === d && (k = g);
@@ -20639,8 +20681,8 @@ function requireReactDom_production_min() {
     } else c = null;
     Df = { focusedElem: a, selectionRange: c };
     dd = false;
-    for (V = b; null !== V; ) if (b = V, a = b.child, 0 !== (b.subtreeFlags & 1028) && null !== a) a.return = b, V = a;
-    else for (; null !== V; ) {
+    for (V = b; null !== V;) if (b = V, a = b.child, 0 !== (b.subtreeFlags & 1028) && null !== a) a.return = b, V = a;
+    else for (; null !== V;) {
       b = V;
       try {
         var n = b.alternate;
@@ -20745,13 +20787,13 @@ function requireReactDom_production_min() {
     return 5 === a.tag || 3 === a.tag || 4 === a.tag;
   }
   function Uj(a) {
-    a: for (; ; ) {
-      for (; null === a.sibling; ) {
+    a: for (; ;) {
+      for (; null === a.sibling;) {
         if (null === a.return || Tj(a.return)) return null;
         a = a.return;
       }
       a.sibling.return = a.return;
-      for (a = a.sibling; 5 !== a.tag && 6 !== a.tag && 18 !== a.tag; ) {
+      for (a = a.sibling; 5 !== a.tag && 6 !== a.tag && 18 !== a.tag;) {
         if (a.flags & 2) continue a;
         if (null === a.child || 4 === a.tag) continue a;
         else a.child.return = a, a = a.child;
@@ -20762,16 +20804,16 @@ function requireReactDom_production_min() {
   function Vj(a, b, c) {
     var d = a.tag;
     if (5 === d || 6 === d) a = a.stateNode, b ? 8 === c.nodeType ? c.parentNode.insertBefore(a, b) : c.insertBefore(a, b) : (8 === c.nodeType ? (b = c.parentNode, b.insertBefore(a, c)) : (b = c, b.appendChild(a)), c = c._reactRootContainer, null !== c && void 0 !== c || null !== b.onclick || (b.onclick = Bf));
-    else if (4 !== d && (a = a.child, null !== a)) for (Vj(a, b, c), a = a.sibling; null !== a; ) Vj(a, b, c), a = a.sibling;
+    else if (4 !== d && (a = a.child, null !== a)) for (Vj(a, b, c), a = a.sibling; null !== a;) Vj(a, b, c), a = a.sibling;
   }
   function Wj(a, b, c) {
     var d = a.tag;
     if (5 === d || 6 === d) a = a.stateNode, b ? c.insertBefore(a, b) : c.appendChild(a);
-    else if (4 !== d && (a = a.child, null !== a)) for (Wj(a, b, c), a = a.sibling; null !== a; ) Wj(a, b, c), a = a.sibling;
+    else if (4 !== d && (a = a.child, null !== a)) for (Wj(a, b, c), a = a.sibling; null !== a;) Wj(a, b, c), a = a.sibling;
   }
   var X = null, Xj = false;
   function Yj(a, b, c) {
-    for (c = c.child; null !== c; ) Zj(a, b, c), c = c.sibling;
+    for (c = c.child; null !== c;) Zj(a, b, c), c = c.sibling;
   }
   function Zj(a, b, c) {
     if (lc && "function" === typeof lc.onCommitFiberUnmount) try {
@@ -20840,7 +20882,7 @@ function requireReactDom_production_min() {
       a.updateQueue = null;
       var c = a.stateNode;
       null === c && (c = a.stateNode = new Kj());
-      b.forEach(function(b2) {
+      b.forEach(function (b2) {
         var d = bk.bind(null, a, b2);
         c.has(b2) || (c.add(b2), b2.then(d, d));
       });
@@ -20852,7 +20894,7 @@ function requireReactDom_production_min() {
       var e = c[d];
       try {
         var f = a, g = b, h = g;
-        a: for (; null !== h; ) {
+        a: for (; null !== h;) {
           switch (h.tag) {
             case 5:
               X = h.stateNode;
@@ -20880,7 +20922,7 @@ function requireReactDom_production_min() {
         W(e, b, l);
       }
     }
-    if (b.subtreeFlags & 12854) for (b = b.child; null !== b; ) dk(b, a), b = b.sibling;
+    if (b.subtreeFlags & 12854) for (b = b.child; null !== b;) dk(b, a), b = b.sibling;
   }
   function dk(a, b) {
     var c = a.alternate, d = a.flags;
@@ -20996,8 +21038,8 @@ function requireReactDom_production_min() {
         ek(a);
         if (d & 8192) {
           l = null !== a.memoizedState;
-          if ((a.stateNode.isHidden = l) && !m && 0 !== (a.mode & 1)) for (V = a, m = a.child; null !== m; ) {
-            for (q = V = m; null !== V; ) {
+          if ((a.stateNode.isHidden = l) && !m && 0 !== (a.mode & 1)) for (V = a, m = a.child; null !== m;) {
+            for (q = V = m; null !== V;) {
               r = V;
               y = r.child;
               switch (r.tag) {
@@ -21033,7 +21075,7 @@ function requireReactDom_production_min() {
             }
             m = m.sibling;
           }
-          a: for (m = null, q = a; ; ) {
+          a: for (m = null, q = a; ;) {
             if (5 === q.tag) {
               if (null === m) {
                 m = q;
@@ -21055,7 +21097,7 @@ function requireReactDom_production_min() {
               continue;
             }
             if (q === a) break a;
-            for (; null === q.sibling; ) {
+            for (; null === q.sibling;) {
               if (null === q.return || q.return === a) break a;
               m === q && (m = null);
               q = q.return;
@@ -21085,7 +21127,7 @@ function requireReactDom_production_min() {
     if (b & 2) {
       try {
         a: {
-          for (var c = a.return; null !== c; ) {
+          for (var c = a.return; null !== c;) {
             if (Tj(c)) {
               var d = c;
               break a;
@@ -21121,7 +21163,7 @@ function requireReactDom_production_min() {
     ik(a);
   }
   function ik(a, b, c) {
-    for (var d = 0 !== (a.mode & 1); null !== V; ) {
+    for (var d = 0 !== (a.mode & 1); null !== V;) {
       var e = V, f = e.child;
       if (22 === e.tag && d) {
         var g = null !== e.memoizedState || Jj;
@@ -21130,8 +21172,8 @@ function requireReactDom_production_min() {
           h = Jj;
           var l = U;
           Jj = g;
-          if ((U = k) && !l) for (V = e; null !== V; ) g = V, k = g.child, 22 === g.tag && null !== g.memoizedState ? jk(e) : null !== k ? (k.return = g, V = k) : jk(e);
-          for (; null !== f; ) V = f, ik(f), f = f.sibling;
+          if ((U = k) && !l) for (V = e; null !== V;) g = V, k = g.child, 22 === g.tag && null !== g.memoizedState ? jk(e) : null !== k ? (k.return = g, V = k) : jk(e);
+          for (; null !== f;) V = f, ik(f), f = f.sibling;
           V = e;
           Jj = h;
           U = l;
@@ -21141,7 +21183,7 @@ function requireReactDom_production_min() {
     }
   }
   function kk(a) {
-    for (; null !== V; ) {
+    for (; null !== V;) {
       var b = V;
       if (0 !== (b.flags & 8772)) {
         var c = b.alternate;
@@ -21240,7 +21282,7 @@ function requireReactDom_production_min() {
     }
   }
   function gk(a) {
-    for (; null !== V; ) {
+    for (; null !== V;) {
       var b = V;
       if (b === a) {
         V = null;
@@ -21256,7 +21298,7 @@ function requireReactDom_production_min() {
     }
   }
   function jk(a) {
-    for (; null !== V; ) {
+    for (; null !== V;) {
       var b = V;
       try {
         switch (b.tag) {
@@ -21337,7 +21379,7 @@ function requireReactDom_production_min() {
     if (0 === d) null !== c && bc(c), a.callbackNode = null, a.callbackPriority = 0;
     else if (b = d & -d, a.callbackPriority !== b) {
       null != c && bc(c);
-      if (1 === b) 0 === a.tag ? ig(Ek.bind(null, a)) : hg(Ek.bind(null, a)), Jf(function() {
+      if (1 === b) 0 === a.tag ? ig(Ek.bind(null, a)) : hg(Ek.bind(null, a)), Jf(function () {
         0 === (K & 6) && jg();
       }), c = null;
       else {
@@ -21426,7 +21468,7 @@ function requireReactDom_production_min() {
             Ck(a, d);
             if ((d & 4194240) === d) break;
             b = a.eventTimes;
-            for (e = -1; 0 < d; ) {
+            for (e = -1; 0 < d;) {
               var g = 31 - oc(d);
               f = 1 << g;
               g = b[g];
@@ -21464,7 +21506,7 @@ function requireReactDom_production_min() {
     null === tk ? tk = a : tk.push.apply(tk, a);
   }
   function Ok(a) {
-    for (var b = a; ; ) {
+    for (var b = a; ;) {
       if (b.flags & 16384) {
         var c = b.updateQueue;
         if (null !== c && (c = c.stores, null !== c)) for (var d = 0; d < c.length; d++) {
@@ -21481,7 +21523,7 @@ function requireReactDom_production_min() {
       if (b.subtreeFlags & 16384 && null !== c) c.return = b, b = c;
       else {
         if (b === a) break;
-        for (; null === b.sibling; ) {
+        for (; null === b.sibling;) {
           if (null === b.return || b.return === a) return true;
           b = b.return;
         }
@@ -21496,7 +21538,7 @@ function requireReactDom_production_min() {
     b &= ~qk;
     a.suspendedLanes |= b;
     a.pingedLanes &= ~b;
-    for (a = a.expirationTimes; 0 < b; ) {
+    for (a = a.expirationTimes; 0 < b;) {
       var c = 31 - oc(b), d = 1 << c;
       a[c] = -1;
       b &= ~d;
@@ -21549,7 +21591,7 @@ function requireReactDom_production_min() {
     a.finishedLanes = 0;
     var c = a.timeoutHandle;
     -1 !== c && (a.timeoutHandle = -1, Gf(c));
-    if (null !== Y) for (c = Y.return; null !== c; ) {
+    if (null !== Y) for (c = Y.return; null !== c;) {
       var d = c;
       wg(d);
       switch (d.tag) {
@@ -21613,7 +21655,7 @@ function requireReactDom_production_min() {
         $g();
         Fh.current = Rh;
         if (Ih) {
-          for (var d = M.memoizedState; null !== d; ) {
+          for (var d = M.memoizedState; null !== d;) {
             var e = d.queue;
             null !== e && (e.pending = null);
             d = d.next;
@@ -21740,10 +21782,10 @@ function requireReactDom_production_min() {
     return T;
   }
   function Tk() {
-    for (; null !== Y; ) Uk(Y);
+    for (; null !== Y;) Uk(Y);
   }
   function Lk() {
-    for (; null !== Y && !cc(); ) Uk(Y);
+    for (; null !== Y && !cc();) Uk(Y);
   }
   function Uk(a) {
     var b = Vk(a.alternate, a, fj);
@@ -21809,7 +21851,7 @@ function requireReactDom_production_min() {
     var f = c.lanes | c.childLanes;
     Bc(a, f);
     a === Q && (Y = Q = null, Z = 0);
-    0 === (c.subtreeFlags & 2064) && 0 === (c.flags & 2064) || vk || (vk = true, Fk(hc, function() {
+    0 === (c.subtreeFlags & 2064) && 0 === (c.flags & 2064) || vk || (vk = true, Fk(hc, function () {
       Hk();
       return null;
     }));
@@ -21861,14 +21903,14 @@ function requireReactDom_production_min() {
           if (0 !== (K & 6)) throw Error(p(331));
           var e = K;
           K |= 4;
-          for (V = a.current; null !== V; ) {
+          for (V = a.current; null !== V;) {
             var f = V, g = f.child;
             if (0 !== (V.flags & 16)) {
               var h = f.deletions;
               if (null !== h) {
                 for (var k = 0; k < h.length; k++) {
                   var l = h[k];
-                  for (V = l; null !== V; ) {
+                  for (V = l; null !== V;) {
                     var m = V;
                     switch (m.tag) {
                       case 0:
@@ -21878,7 +21920,7 @@ function requireReactDom_production_min() {
                     }
                     var q = m.child;
                     if (null !== q) q.return = m, V = q;
-                    else for (; null !== V; ) {
+                    else for (; null !== V;) {
                       m = V;
                       var r = m.sibling, y = m.return;
                       Sj(m);
@@ -21911,7 +21953,7 @@ function requireReactDom_production_min() {
               }
             }
             if (0 !== (f.subtreeFlags & 2064) && null !== g) g.return = f, V = g;
-            else b: for (; null !== V; ) {
+            else b: for (; null !== V;) {
               f = V;
               if (0 !== (f.flags & 2048)) switch (f.tag) {
                 case 0:
@@ -21929,11 +21971,11 @@ function requireReactDom_production_min() {
             }
           }
           var w = a.current;
-          for (V = w; null !== V; ) {
+          for (V = w; null !== V;) {
             g = V;
             var u = g.child;
             if (0 !== (g.subtreeFlags & 2064) && null !== u) u.return = g, V = u;
-            else b: for (g = w; null !== V; ) {
+            else b: for (g = w; null !== V;) {
               h = V;
               if (0 !== (h.flags & 2048)) try {
                 switch (h.tag) {
@@ -21982,7 +22024,7 @@ function requireReactDom_production_min() {
   }
   function W(a, b, c) {
     if (3 === a.tag) Xk(a, a, c);
-    else for (; null !== b; ) {
+    else for (; null !== b;) {
       if (3 === b.tag) {
         Xk(b, a, c);
         break;
@@ -22037,7 +22079,7 @@ function requireReactDom_production_min() {
     Yk(a, c);
   }
   var Vk;
-  Vk = function(a, b, c) {
+  Vk = function (a, b, c) {
     if (null !== a) if (a.memoizedProps !== b.pendingProps || Wf.current) dh = true;
     else {
       if (0 === (a.lanes & c) && 0 === (b.flags & 128)) return dh = false, yj(a, b, c);
@@ -22111,7 +22153,7 @@ function requireReactDom_production_min() {
             e = Ji(Error(p(424)), b);
             b = lj(a, b, d, c, e);
             break a;
-          } else for (yg = Lf(b.stateNode.containerInfo.firstChild), xg = b, I = true, zg = null, c = Vg(b, null, d, c), b.child = c; c; ) c.flags = c.flags & -3 | 4096, c = c.sibling;
+          } else for (yg = Lf(b.stateNode.containerInfo.firstChild), xg = b, I = true, zg = null, c = Vg(b, null, d, c), b.child = c; c;) c.flags = c.flags & -3 | 4096, c = c.sibling;
           else {
             Ig();
             if (d === e) {
@@ -22152,11 +22194,11 @@ function requireReactDom_production_min() {
               b = Zi(a, b, c);
               break a;
             }
-          } else for (f = b.child, null !== f && (f.return = b); null !== f; ) {
+          } else for (f = b.child, null !== f && (f.return = b); null !== f;) {
             var h = f.dependencies;
             if (null !== h) {
               g = f.child;
-              for (var k = h.firstContext; null !== k; ) {
+              for (var k = h.firstContext; null !== k;) {
                 if (k.context === d) {
                   if (1 === f.tag) {
                     k = mh(-1, c & -c);
@@ -22193,7 +22235,7 @@ function requireReactDom_production_min() {
               g = f.sibling;
             } else g = f.child;
             if (null !== g) g.return = f;
-            else for (g = f; null !== g; ) {
+            else for (g = f; null !== g;) {
               if (g === b) {
                 g = null;
                 break;
@@ -22453,23 +22495,23 @@ function requireReactDom_production_min() {
   function jl() {
     return null;
   }
-  var kl = "function" === typeof reportError ? reportError : function(a) {
+  var kl = "function" === typeof reportError ? reportError : function (a) {
     console.error(a);
   };
   function ll(a) {
     this._internalRoot = a;
   }
-  ml.prototype.render = ll.prototype.render = function(a) {
+  ml.prototype.render = ll.prototype.render = function (a) {
     var b = this._internalRoot;
     if (null === b) throw Error(p(409));
     fl(a, b, null, null);
   };
-  ml.prototype.unmount = ll.prototype.unmount = function() {
+  ml.prototype.unmount = ll.prototype.unmount = function () {
     var a = this._internalRoot;
     if (null !== a) {
       this._internalRoot = null;
       var b = a.containerInfo;
-      Rk(function() {
+      Rk(function () {
         fl(null, a, null, null);
       });
       b[uf] = null;
@@ -22478,11 +22520,11 @@ function requireReactDom_production_min() {
   function ml(a) {
     this._internalRoot = a;
   }
-  ml.prototype.unstable_scheduleHydration = function(a) {
+  ml.prototype.unstable_scheduleHydration = function (a) {
     if (a) {
       var b = Hc();
       a = { blockedOn: null, target: a, priority: b };
-      for (var c = 0; c < Qc.length && 0 !== b && b < Qc[c].priority; c++) ;
+      for (var c = 0; c < Qc.length && 0 !== b && b < Qc[c].priority; c++);
       Qc.splice(c, 0, a);
       0 === c && Vc(a);
     }
@@ -22499,7 +22541,7 @@ function requireReactDom_production_min() {
     if (e) {
       if ("function" === typeof d) {
         var f = d;
-        d = function() {
+        d = function () {
           var a2 = gl(g);
           f.call(a2);
         };
@@ -22511,10 +22553,10 @@ function requireReactDom_production_min() {
       Rk();
       return g;
     }
-    for (; e = a.lastChild; ) a.removeChild(e);
+    for (; e = a.lastChild;) a.removeChild(e);
     if ("function" === typeof d) {
       var h = d;
-      d = function() {
+      d = function () {
         var a2 = gl(k);
         h.call(a2);
       };
@@ -22523,7 +22565,7 @@ function requireReactDom_production_min() {
     a._reactRootContainer = k;
     a[uf] = k.current;
     sf(8 === a.nodeType ? a.parentNode : a);
-    Rk(function() {
+    Rk(function () {
       fl(b, k, c, d);
     });
     return k;
@@ -22534,7 +22576,7 @@ function requireReactDom_production_min() {
       var g = f;
       if ("function" === typeof e) {
         var h = e;
-        e = function() {
+        e = function () {
           var a2 = gl(g);
           h.call(a2);
         };
@@ -22543,7 +22585,7 @@ function requireReactDom_production_min() {
     } else g = ql(c, b, a, e, d);
     return gl(g);
   }
-  Ec = function(a) {
+  Ec = function (a) {
     switch (a.tag) {
       case 3:
         var b = a.stateNode;
@@ -22553,7 +22595,7 @@ function requireReactDom_production_min() {
         }
         break;
       case 13:
-        Rk(function() {
+        Rk(function () {
           var b2 = ih(a, 1);
           if (null !== b2) {
             var c2 = R();
@@ -22562,7 +22604,7 @@ function requireReactDom_production_min() {
         }), il(a, 1);
     }
   };
-  Fc = function(a) {
+  Fc = function (a) {
     if (13 === a.tag) {
       var b = ih(a, 134217728);
       if (null !== b) {
@@ -22572,7 +22614,7 @@ function requireReactDom_production_min() {
       il(a, 134217728);
     }
   };
-  Gc = function(a) {
+  Gc = function (a) {
     if (13 === a.tag) {
       var b = yi(a), c = ih(a, b);
       if (null !== c) {
@@ -22582,10 +22624,10 @@ function requireReactDom_production_min() {
       il(a, b);
     }
   };
-  Hc = function() {
+  Hc = function () {
     return C;
   };
-  Ic = function(a, b) {
+  Ic = function (a, b) {
     var c = C;
     try {
       return C = a, b();
@@ -22593,13 +22635,13 @@ function requireReactDom_production_min() {
       C = c;
     }
   };
-  yb = function(a, b, c) {
+  yb = function (a, b, c) {
     switch (b) {
       case "input":
         bb(a, c);
         b = c.name;
         if ("radio" === c.type && null != b) {
-          for (c = a; c.parentNode; ) c = c.parentNode;
+          for (c = a; c.parentNode;) c = c.parentNode;
           c = c.querySelectorAll("input[name=" + JSON.stringify("" + b) + '][type="radio"]');
           for (b = 0; b < c.length; b++) {
             var d = c[b];
@@ -22622,10 +22664,12 @@ function requireReactDom_production_min() {
   Gb = Qk;
   Hb = Rk;
   var sl = { usingClientEntryPoint: false, Events: [Cb, ue, Db, Eb, Fb, Qk] }, tl = { findFiberByHostInstance: Wc, bundleType: 0, version: "18.3.1", rendererPackageName: "react-dom" };
-  var ul = { bundleType: tl.bundleType, version: tl.version, rendererPackageName: tl.rendererPackageName, rendererConfig: tl.rendererConfig, overrideHookState: null, overrideHookStateDeletePath: null, overrideHookStateRenamePath: null, overrideProps: null, overridePropsDeletePath: null, overridePropsRenamePath: null, setErrorHandler: null, setSuspenseHandler: null, scheduleUpdate: null, currentDispatcherRef: ua.ReactCurrentDispatcher, findHostInstanceByFiber: function(a) {
-    a = Zb(a);
-    return null === a ? null : a.stateNode;
-  }, findFiberByHostInstance: tl.findFiberByHostInstance || jl, findHostInstancesForRefresh: null, scheduleRefresh: null, scheduleRoot: null, setRefreshHandler: null, getCurrentFiber: null, reconcilerVersion: "18.3.1-next-f1338f8080-20240426" };
+  var ul = {
+    bundleType: tl.bundleType, version: tl.version, rendererPackageName: tl.rendererPackageName, rendererConfig: tl.rendererConfig, overrideHookState: null, overrideHookStateDeletePath: null, overrideHookStateRenamePath: null, overrideProps: null, overridePropsDeletePath: null, overridePropsRenamePath: null, setErrorHandler: null, setSuspenseHandler: null, scheduleUpdate: null, currentDispatcherRef: ua.ReactCurrentDispatcher, findHostInstanceByFiber: function (a) {
+      a = Zb(a);
+      return null === a ? null : a.stateNode;
+    }, findFiberByHostInstance: tl.findFiberByHostInstance || jl, findHostInstancesForRefresh: null, scheduleRefresh: null, scheduleRoot: null, setRefreshHandler: null, getCurrentFiber: null, reconcilerVersion: "18.3.1-next-f1338f8080-20240426"
+  };
   if ("undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__) {
     var vl = __REACT_DEVTOOLS_GLOBAL_HOOK__;
     if (!vl.isDisabled && vl.supportsFiber) try {
@@ -22634,12 +22678,12 @@ function requireReactDom_production_min() {
     }
   }
   reactDom_production_min.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = sl;
-  reactDom_production_min.createPortal = function(a, b) {
+  reactDom_production_min.createPortal = function (a, b) {
     var c = 2 < arguments.length && void 0 !== arguments[2] ? arguments[2] : null;
     if (!nl(b)) throw Error(p(200));
     return cl(a, b, null, c);
   };
-  reactDom_production_min.createRoot = function(a, b) {
+  reactDom_production_min.createRoot = function (a, b) {
     if (!nl(a)) throw Error(p(299));
     var c = false, d = "", e = kl;
     null !== b && void 0 !== b && (true === b.unstable_strictMode && (c = true), void 0 !== b.identifierPrefix && (d = b.identifierPrefix), void 0 !== b.onRecoverableError && (e = b.onRecoverableError));
@@ -22648,7 +22692,7 @@ function requireReactDom_production_min() {
     sf(8 === a.nodeType ? a.parentNode : a);
     return new ll(b);
   };
-  reactDom_production_min.findDOMNode = function(a) {
+  reactDom_production_min.findDOMNode = function (a) {
     if (null == a) return null;
     if (1 === a.nodeType) return a;
     var b = a._reactInternals;
@@ -22661,14 +22705,14 @@ function requireReactDom_production_min() {
     a = null === a ? null : a.stateNode;
     return a;
   };
-  reactDom_production_min.flushSync = function(a) {
+  reactDom_production_min.flushSync = function (a) {
     return Rk(a);
   };
-  reactDom_production_min.hydrate = function(a, b, c) {
+  reactDom_production_min.hydrate = function (a, b, c) {
     if (!ol(b)) throw Error(p(200));
     return rl(null, a, b, true, c);
   };
-  reactDom_production_min.hydrateRoot = function(a, b, c) {
+  reactDom_production_min.hydrateRoot = function (a, b, c) {
     if (!nl(a)) throw Error(p(405));
     var d = null != c && c.hydratedSources || null, e = false, f = "", g = kl;
     null !== c && void 0 !== c && (true === c.unstable_strictMode && (e = true), void 0 !== c.identifierPrefix && (f = c.identifierPrefix), void 0 !== c.onRecoverableError && (g = c.onRecoverableError));
@@ -22681,21 +22725,21 @@ function requireReactDom_production_min() {
     );
     return new ml(b);
   };
-  reactDom_production_min.render = function(a, b, c) {
+  reactDom_production_min.render = function (a, b, c) {
     if (!ol(b)) throw Error(p(200));
     return rl(null, a, b, false, c);
   };
-  reactDom_production_min.unmountComponentAtNode = function(a) {
+  reactDom_production_min.unmountComponentAtNode = function (a) {
     if (!ol(a)) throw Error(p(40));
-    return a._reactRootContainer ? (Rk(function() {
-      rl(null, null, a, false, function() {
+    return a._reactRootContainer ? (Rk(function () {
+      rl(null, null, a, false, function () {
         a._reactRootContainer = null;
         a[uf] = null;
       });
     }), true) : false;
   };
   reactDom_production_min.unstable_batchedUpdates = Qk;
-  reactDom_production_min.unstable_renderSubtreeIntoContainer = function(a, b, c, d) {
+  reactDom_production_min.unstable_renderSubtreeIntoContainer = function (a, b, c, d) {
     if (!ol(c)) throw Error(p(200));
     if (null == a || void 0 === a._reactInternals) throw Error(p(38));
     return rl(a, b, c, false, d);
@@ -24740,14 +24784,14 @@ function Pane({
     scrollbarWidth: "thin"
   }, content2);
 }
-let PopoverCloseSource = /* @__PURE__ */ (function(PopoverCloseSource2) {
+let PopoverCloseSource = /* @__PURE__ */ (function (PopoverCloseSource2) {
   PopoverCloseSource2[PopoverCloseSource2["Click"] = 0] = "Click";
   PopoverCloseSource2[PopoverCloseSource2["EscapeKeypress"] = 1] = "EscapeKeypress";
   PopoverCloseSource2[PopoverCloseSource2["FocusOut"] = 2] = "FocusOut";
   PopoverCloseSource2[PopoverCloseSource2["ScrollOut"] = 3] = "ScrollOut";
   return PopoverCloseSource2;
 })({});
-var TransitionStatus = /* @__PURE__ */ (function(TransitionStatus2) {
+var TransitionStatus = /* @__PURE__ */ (function (TransitionStatus2) {
   TransitionStatus2["Entering"] = "entering";
   TransitionStatus2["Entered"] = "entered";
   TransitionStatus2["Exiting"] = "exiting";
@@ -25628,18 +25672,18 @@ function Choice({
     // - Can't pass negative values to padding
     // - Can't pass margins at all
     /* @__PURE__ */ React.createElement("label", {
-      className,
-      htmlFor: id,
-      onClick,
-      style: sanitizeCustomProperties(labelStyle)
-    }, /* @__PURE__ */ React.createElement("span", {
-      className: styles$f.Control
-    }, children), /* @__PURE__ */ React.createElement("span", {
-      className: styles$f.Label
-    }, /* @__PURE__ */ React.createElement(Text, {
-      as: "span",
-      variant: "bodyMd"
-    }, label2)))
+    className,
+    htmlFor: id,
+    onClick,
+    style: sanitizeCustomProperties(labelStyle)
+  }, /* @__PURE__ */ React.createElement("span", {
+    className: styles$f.Control
+  }, children), /* @__PURE__ */ React.createElement("span", {
+    className: styles$f.Label
+  }, /* @__PURE__ */ React.createElement(Text, {
+    as: "span",
+    variant: "bodyMd"
+  }, label2)))
   );
   const helpTextMarkup = helpText ? /* @__PURE__ */ React.createElement("div", {
     className: styles$f.HelpText,
@@ -26430,7 +26474,7 @@ const LegacyStack = /* @__PURE__ */ reactExports.memo(function Stack({
   }, itemMarkup);
 });
 LegacyStack.Item = Item;
-var EditableTarget = /* @__PURE__ */ (function(EditableTarget2) {
+var EditableTarget = /* @__PURE__ */ (function (EditableTarget2) {
   EditableTarget2["Input"] = "INPUT";
   EditableTarget2["Textarea"] = "TEXTAREA";
   EditableTarget2["Select"] = "SELECT";
@@ -26855,7 +26899,7 @@ var styles$7 = {
   "ScrollBarContent": "Polaris-IndexTable__ScrollBarContent"
 };
 const SELECT_ALL_ITEMS = "All";
-let SelectionType = /* @__PURE__ */ (function(SelectionType2) {
+let SelectionType = /* @__PURE__ */ (function (SelectionType2) {
   SelectionType2["All"] = "all";
   SelectionType2["Page"] = "page";
   SelectionType2["Multi"] = "multi";
@@ -27727,26 +27771,26 @@ function IndexTableBase({
         return (
           // Regular header with sort icon and sort direction tooltip
           /* @__PURE__ */ React.createElement("div", {
-            style,
-            className: classNames(heading2.paddingBlockEnd && styles$7["TableHeading-extra-padding-right"])
-          }, /* @__PURE__ */ React.createElement(Tooltip, Object.assign({}, defaultTooltipProps, {
-            content: sortTooltipContent,
-            preferredPosition: "above"
-          }), sortMarkup))
+          style,
+          className: classNames(heading2.paddingBlockEnd && styles$7["TableHeading-extra-padding-right"])
+        }, /* @__PURE__ */ React.createElement(Tooltip, Object.assign({}, defaultTooltipProps, {
+          content: sortTooltipContent,
+          preferredPosition: "above"
+        }), sortMarkup))
         );
       }
       if (heading2.tooltipContent) {
         return (
           // Header text and sort icon have separate tooltips
           /* @__PURE__ */ React.createElement("div", {
-            className: classNames(styles$7.SortableTableHeadingWithCustomMarkup, heading2.paddingBlockEnd && styles$7["TableHeading-extra-padding-right"]),
-            style
-          }, /* @__PURE__ */ React.createElement(UnstyledButton, defaultSortButtonProps, /* @__PURE__ */ React.createElement(Tooltip, defaultHeaderTooltipProps, /* @__PURE__ */ React.createElement("span", {
-            className: styles$7.TableHeadingUnderline
-          }, headingContent)), /* @__PURE__ */ React.createElement(Tooltip, Object.assign({}, defaultTooltipProps, {
-            content: sortTooltipContent,
-            preferredPosition: "above"
-          }), iconMarkup)))
+          className: classNames(styles$7.SortableTableHeadingWithCustomMarkup, heading2.paddingBlockEnd && styles$7["TableHeading-extra-padding-right"]),
+          style
+        }, /* @__PURE__ */ React.createElement(UnstyledButton, defaultSortButtonProps, /* @__PURE__ */ React.createElement(Tooltip, defaultHeaderTooltipProps, /* @__PURE__ */ React.createElement("span", {
+          className: styles$7.TableHeadingUnderline
+        }, headingContent)), /* @__PURE__ */ React.createElement(Tooltip, Object.assign({}, defaultTooltipProps, {
+          content: sortTooltipContent,
+          preferredPosition: "above"
+        }), iconMarkup)))
         );
       }
     }
@@ -27754,13 +27798,13 @@ function IndexTableBase({
       return (
         // Non-sortable header with tooltip
         /* @__PURE__ */ React.createElement("div", {
-          style,
-          className: classNames(heading2.paddingBlockEnd && styles$7["TableHeading-extra-padding-right"])
-        }, /* @__PURE__ */ React.createElement(Tooltip, Object.assign({}, defaultHeaderTooltipProps, {
-          activatorWrapper: "span"
-        }), /* @__PURE__ */ React.createElement("span", {
-          className: classNames(styles$7.TableHeadingUnderline, styles$7.SortableTableHeaderWrapper)
-        }, headingContent)))
+        style,
+        className: classNames(heading2.paddingBlockEnd && styles$7["TableHeading-extra-padding-right"])
+      }, /* @__PURE__ */ React.createElement(Tooltip, Object.assign({}, defaultHeaderTooltipProps, {
+        activatorWrapper: "span"
+      }), /* @__PURE__ */ React.createElement("span", {
+        className: classNames(styles$7.TableHeadingUnderline, styles$7.SortableTableHeaderWrapper)
+      }, headingContent)))
       );
     }
     return /* @__PURE__ */ React.createElement("div", {
@@ -29602,72 +29646,94 @@ function LayoutSelector({
       setPostUrl(`${window.location.origin}/api/reviews`);
     }
   }, [shop]);
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("s-page", { heading: "Widgets", "back-link": "/app/settings", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-header-bar", children: [
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("s-page", {
+    heading: "Widgets", "back-link": "/app/settings", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+      className: "layout-header-bar", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "layout-header-subtext", children: "Select a layout strategy for your customer reviews section on the storefront." }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-status-badge", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+        className: "layout-status-badge", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "test-data (live)" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "layout-status-arrow", children: "▼" })
-      ] })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-cards-grid", children: [
+        ]
+      })
+      ]
+    }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+      className: "layout-cards-grid", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs(
         "div",
         {
           className: `layout-card ${selectedLayout === "layout_1" ? "active" : ""}`,
           onClick: () => handleSelectLayout("layout_1"),
           children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-card-preview-banner layout-1-bg", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-card-mini-canvas", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+            className: "layout-card-preview-banner layout-1-bg", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              className: "layout-card-mini-canvas", children: [
                 /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "layout-card-mini-title", children: "Customer Reviews (Layout 1)" }),
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mini-form-dashed-box", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                className: "mini-form-dashed-box", children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mini-form-indicator" }),
                   /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mini-form-line" })
-                ] }),
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mini-review-row", children: [
+                ]
+              }),
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                className: "mini-review-row", children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mini-avatar" }),
                   /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mini-line" })
-                ] })
-              ] }),
+                ]
+              })
+              ]
+            }),
               selectedLayout === "layout_1" && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "layout-card-check-badge", children: "✓" })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-card-details", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-card-title-row", children: [
+            ]
+          }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+            className: "layout-card-details", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                className: "layout-card-title-row", children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "layout-card-title", children: "Layout 1" }),
                   publishedLayout === "layout_1" ? /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "layout-card-active-label", children: "Active" }) : /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "layout-card-draft-label", children: "Draft" })
-                ] }),
+                ]
+              }),
                 /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "layout-card-description", children: "Standard layout displaying a statistics grid, an always-visible (static) customer review form, and beautiful full-width review cards." })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-card-buttons-row", children: [
+              ]
+            }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              className: "layout-card-buttons-row", children: [
                 /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "button",
-                  {
-                    onClick: (e) => {
-                      e.stopPropagation();
-                      handleSelectLayout("layout_1");
-                      submit({
-                        selectedLayout: "layout_1",
-                        layoutConfigs: JSON.stringify(layoutConfigs)
-                      }, { method: "POST" });
-                    },
-                    className: "layout-card-btn-primary",
-                    children: "Publish"
-                  }
-                ),
+                "button",
+                {
+                  onClick: (e) => {
+                    e.stopPropagation();
+                    handleSelectLayout("layout_1");
+                    submit({
+                      selectedLayout: "layout_1",
+                      layoutConfigs: JSON.stringify(layoutConfigs)
+                    }, { method: "POST" });
+                  },
+                  className: "layout-card-btn-primary",
+                  children: "Publish"
+                }
+              ),
                 /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "button",
-                  {
-                    onClick: (e) => {
-                      e.stopPropagation();
-                      handleSelectLayout("layout_1");
-                    },
-                    className: "layout-card-btn-secondary",
-                    children: "Customize"
-                  }
-                )
-              ] })
-            ] })
+                "button",
+                {
+                  onClick: (e) => {
+                    e.stopPropagation();
+                    handleSelectLayout("layout_1");
+                  },
+                  className: "layout-card-btn-secondary",
+                  children: "Customize"
+                }
+              )
+              ]
+            })
+            ]
+          })
           ]
         }
       ),
@@ -29677,55 +29743,69 @@ function LayoutSelector({
           className: `layout-card ${selectedLayout === "layout_2" ? "active" : ""}`,
           onClick: () => handleSelectLayout("layout_2"),
           children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-card-preview-banner layout-2-bg", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-card-mini-canvas", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+            className: "layout-card-preview-banner layout-2-bg", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              className: "layout-card-mini-canvas", children: [
                 /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "layout-card-mini-title", children: "Customer Reviews (Layout 2)" }),
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mini-summary-row", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                className: "mini-summary-row", children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mini-summary-label" }),
                   /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mini-summary-badge" })
-                ] }),
+                ]
+              }),
                 /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mini-divider-line" }),
                 /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mini-divider-line" })
-              ] }),
+              ]
+            }),
               selectedLayout === "layout_2" && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "layout-card-check-badge", children: "✓" })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-card-details", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-card-title-row", children: [
+            ]
+          }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+            className: "layout-card-details", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                className: "layout-card-title-row", children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "layout-card-title", children: "Layout 2" }),
                   publishedLayout === "layout_2" ? /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "layout-card-active-label", children: "Active" }) : /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "layout-card-draft-label", children: "Draft" })
-                ] }),
+                ]
+              }),
                 /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "layout-card-description", children: "Clean, minimalist list format showing a compact horizontal summary row and a space-saving text timeline feed." })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-card-buttons-row", children: [
+              ]
+            }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              className: "layout-card-buttons-row", children: [
                 /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "button",
-                  {
-                    onClick: (e) => {
-                      e.stopPropagation();
-                      handleSelectLayout("layout_2");
-                      submit({
-                        selectedLayout: "layout_2",
-                        layoutConfigs: JSON.stringify(layoutConfigs)
-                      }, { method: "POST" });
-                    },
-                    className: "layout-card-btn-primary",
-                    children: "Publish"
-                  }
-                ),
+                "button",
+                {
+                  onClick: (e) => {
+                    e.stopPropagation();
+                    handleSelectLayout("layout_2");
+                    submit({
+                      selectedLayout: "layout_2",
+                      layoutConfigs: JSON.stringify(layoutConfigs)
+                    }, { method: "POST" });
+                  },
+                  className: "layout-card-btn-primary",
+                  children: "Publish"
+                }
+              ),
                 /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "button",
-                  {
-                    onClick: (e) => {
-                      e.stopPropagation();
-                      handleSelectLayout("layout_2");
-                    },
-                    className: "layout-card-btn-secondary",
-                    children: "Customize"
-                  }
-                )
-              ] })
-            ] })
+                "button",
+                {
+                  onClick: (e) => {
+                    e.stopPropagation();
+                    handleSelectLayout("layout_2");
+                  },
+                  className: "layout-card-btn-secondary",
+                  children: "Customize"
+                }
+              )
+              ]
+            })
+            ]
+          })
           ]
         }
       ),
@@ -29741,8 +29821,10 @@ function LayoutSelector({
             }, { method: "POST" });
           },
           children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-card-preview-banner raw-bg", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mini-raw-code", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+            className: "layout-card-preview-banner raw-bg", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              className: "mini-raw-code", children: [
                 "{",
                 " ",
                 /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
@@ -29755,15 +29837,21 @@ function LayoutSelector({
                 "  ] ",
                 /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
                 "}"
-              ] }),
+              ]
+            }),
               selectedLayout === "raw_data" && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "layout-card-check-badge", children: "✓" })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-card-details", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "layout-card-title-row", children: [
+            ]
+          }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+            className: "layout-card-details", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                className: "layout-card-title-row", children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "layout-card-title", children: "Raw data" }),
                   publishedLayout === "raw_data" ? /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "layout-card-active-label", children: "Active" }) : /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "layout-card-draft-label", children: "Draft" })
-                ] }),
+                ]
+              }),
                 /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "layout-card-description", children: "Outputs storefront reviews as raw unstyled JSON. Perfect for developers who want to write fully custom CSS or parse reviews via javascript." }),
                 selectedLayout === "raw_data" && /* @__PURE__ */ jsxRuntimeExports.jsxs(
                   "div",
@@ -29778,231 +29866,265 @@ function LayoutSelector({
                       boxSizing: "border-box"
                     },
                     children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { marginBottom: "1.25rem" }, children: [
+                      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                      style: { marginBottom: "1.25rem" }, children: [
                         /* @__PURE__ */ jsxRuntimeExports.jsx(
-                          "span",
+                        "span",
+                        {
+                          style: {
+                            fontSize: "0.85rem",
+                            fontWeight: "700",
+                            display: "block",
+                            marginBottom: "6px",
+                            color: "#202223",
+                            textAlign: "left"
+                          },
+                          children: "GET: Fetch Reviews API URL"
+                        }
+                      ),
+                        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                        style: { display: "flex", gap: "8px", alignItems: "center", marginBottom: "8px" }, children: [
+                          /* @__PURE__ */ jsxRuntimeExports.jsx(
+                          "input",
                           {
+                            type: "text",
+                            readOnly: true,
+                            value: apiUrl,
                             style: {
-                              fontSize: "0.85rem",
-                              fontWeight: "700",
-                              display: "block",
-                              marginBottom: "6px",
+                              flex: 1,
+                              fontSize: "0.8rem",
+                              background: "white",
+                              padding: "8px 12px",
+                              borderRadius: "6px",
+                              border: "1px solid #babfc3",
+                              fontFamily: "monospace",
                               color: "#202223",
-                              textAlign: "left"
+                              outline: "none"
                             },
-                            children: "GET: Fetch Reviews API URL"
+                            onClick: (e) => e.stopPropagation()
                           }
                         ),
-                        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { display: "flex", gap: "8px", alignItems: "center", marginBottom: "8px" }, children: [
                           /* @__PURE__ */ jsxRuntimeExports.jsx(
-                            "input",
-                            {
-                              type: "text",
-                              readOnly: true,
-                              value: apiUrl,
-                              style: {
-                                flex: 1,
-                                fontSize: "0.8rem",
-                                background: "white",
-                                padding: "8px 12px",
-                                borderRadius: "6px",
-                                border: "1px solid #babfc3",
-                                fontFamily: "monospace",
-                                color: "#202223",
-                                outline: "none"
-                              },
-                              onClick: (e) => e.stopPropagation()
-                            }
-                          ),
-                          /* @__PURE__ */ jsxRuntimeExports.jsx(
-                            "button",
-                            {
-                              onClick: (e) => {
-                                e.stopPropagation();
-                                navigator.clipboard.writeText(apiUrl);
-                                shopify2.toast.show("GET URL copied");
-                              },
-                              style: {
-                                padding: "8px 16px",
-                                background: "#202223",
-                                color: "white",
-                                border: "none",
-                                borderRadius: "6px",
-                                fontSize: "0.85rem",
-                                fontWeight: "600",
-                                cursor: "pointer",
-                                whiteSpace: "nowrap"
-                              },
-                              children: "Copy"
-                            }
-                          )
-                        ] }),
-                        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { style: { margin: 0, fontSize: "0.8rem", color: "#6d7175", lineHeight: "1.4", textAlign: "left" }, children: [
+                          "button",
+                          {
+                            onClick: (e) => {
+                              e.stopPropagation();
+                              navigator.clipboard.writeText(apiUrl);
+                              shopify2.toast.show("GET URL copied");
+                            },
+                            style: {
+                              padding: "8px 16px",
+                              background: "#202223",
+                              color: "white",
+                              border: "none",
+                              borderRadius: "6px",
+                              fontSize: "0.85rem",
+                              fontWeight: "600",
+                              cursor: "pointer",
+                              whiteSpace: "nowrap"
+                            },
+                            children: "Copy"
+                          }
+                        )
+                        ]
+                      }),
+                        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", {
+                        style: { margin: 0, fontSize: "0.8rem", color: "#6d7175", lineHeight: "1.4", textAlign: "left" }, children: [
                           "Replace the ",
                           /* @__PURE__ */ jsxRuntimeExports.jsx("code", { children: "[PRODUCT_ID]" }),
                           " parameter with the Shopify Product ID or GID to fetch reviews dynamically."
-                        ] })
-                      ] }),
-                      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { borderTop: "1px solid #e1e3e5", paddingTop: "1.25rem" }, children: [
+                        ]
+                      })
+                      ]
+                    }),
+                      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                      style: { borderTop: "1px solid #e1e3e5", paddingTop: "1.25rem" }, children: [
                         /* @__PURE__ */ jsxRuntimeExports.jsx(
-                          "span",
-                          {
-                            style: {
-                              fontSize: "0.85rem",
-                              fontWeight: "700",
-                              display: "block",
-                              marginBottom: "6px",
-                              color: "#202223",
-                              textAlign: "left"
-                            },
-                            children: "POST: Submit Review API URL"
-                          }
-                        ),
-                        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { display: "flex", gap: "8px", alignItems: "center", marginBottom: "8px" }, children: [
+                        "span",
+                        {
+                          style: {
+                            fontSize: "0.85rem",
+                            fontWeight: "700",
+                            display: "block",
+                            marginBottom: "6px",
+                            color: "#202223",
+                            textAlign: "left"
+                          },
+                          children: "POST: Submit Review API URL"
+                        }
+                      ),
+                        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                        style: { display: "flex", gap: "8px", alignItems: "center", marginBottom: "8px" }, children: [
                           /* @__PURE__ */ jsxRuntimeExports.jsx(
-                            "input",
-                            {
-                              type: "text",
-                              readOnly: true,
-                              value: postUrl,
-                              style: {
-                                flex: 1,
-                                fontSize: "0.8rem",
-                                background: "white",
-                                padding: "8px 12px",
-                                borderRadius: "6px",
-                                border: "1px solid #babfc3",
-                                fontFamily: "monospace",
-                                color: "#202223",
-                                outline: "none"
-                              },
-                              onClick: (e) => e.stopPropagation()
-                            }
-                          ),
-                          /* @__PURE__ */ jsxRuntimeExports.jsx(
-                            "button",
-                            {
-                              onClick: (e) => {
-                                e.stopPropagation();
-                                navigator.clipboard.writeText(postUrl);
-                                shopify2.toast.show("POST URL copied");
-                              },
-                              style: {
-                                padding: "8px 16px",
-                                background: "#202223",
-                                color: "white",
-                                border: "none",
-                                borderRadius: "6px",
-                                fontSize: "0.85rem",
-                                fontWeight: "600",
-                                cursor: "pointer",
-                                whiteSpace: "nowrap"
-                              },
-                              children: "Copy"
-                            }
-                          )
-                        ] }),
-                        /* @__PURE__ */ jsxRuntimeExports.jsx(
-                          "span",
+                          "input",
                           {
+                            type: "text",
+                            readOnly: true,
+                            value: postUrl,
                             style: {
-                              fontSize: "0.78rem",
-                              fontWeight: "600",
-                              display: "block",
-                              marginTop: "8px",
-                              marginBottom: "4px",
-                              color: "#202223",
-                              textAlign: "left"
-                            },
-                            children: "Required Form-Data Keys (POST Body):"
-                          }
-                        ),
-                        /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                          "div",
-                          {
-                            style: {
+                              flex: 1,
+                              fontSize: "0.8rem",
                               background: "white",
-                              border: "1px solid #e1e3e5",
-                              borderRadius: "6px",
                               padding: "8px 12px",
-                              fontSize: "0.78rem",
-                              textAlign: "left",
-                              lineHeight: "1.5",
+                              borderRadius: "6px",
+                              border: "1px solid #babfc3",
                               fontFamily: "monospace",
-                              color: "#4a4a4a"
+                              color: "#202223",
+                              outline: "none"
                             },
-                            children: [
-                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "productId" }),
-                                ": [PRODUCT_ID]"
-                              ] }),
-                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "shop" }),
-                                ": ",
-                                shop || "demoharsh-1dds80q1.myshopify.com"
-                              ] }),
-                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "rating" }),
-                                ": 5"
-                              ] }),
-                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "reviewerName" }),
-                                ": Will Smith"
-                              ] }),
-                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "reviewerEmail" }),
-                                ": will@example.com"
-                              ] }),
-                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "reviewTitle" }),
-                                ": Excellent!"
-                              ] }),
-                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "reviewBody" }),
-                                ": Loved this product."
-                              ] }),
-                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "image" }),
-                                ": [optional file upload]"
-                              ] })
-                            ]
+                            onClick: (e) => e.stopPropagation()
+                          }
+                        ),
+                          /* @__PURE__ */ jsxRuntimeExports.jsx(
+                          "button",
+                          {
+                            onClick: (e) => {
+                              e.stopPropagation();
+                              navigator.clipboard.writeText(postUrl);
+                              shopify2.toast.show("POST URL copied");
+                            },
+                            style: {
+                              padding: "8px 16px",
+                              background: "#202223",
+                              color: "white",
+                              border: "none",
+                              borderRadius: "6px",
+                              fontSize: "0.85rem",
+                              fontWeight: "600",
+                              cursor: "pointer",
+                              whiteSpace: "nowrap"
+                            },
+                            children: "Copy"
                           }
                         )
-                      ] })
+                        ]
+                      }),
+                        /* @__PURE__ */ jsxRuntimeExports.jsx(
+                        "span",
+                        {
+                          style: {
+                            fontSize: "0.78rem",
+                            fontWeight: "600",
+                            display: "block",
+                            marginTop: "8px",
+                            marginBottom: "4px",
+                            color: "#202223",
+                            textAlign: "left"
+                          },
+                          children: "Required Form-Data Keys (POST Body):"
+                        }
+                      ),
+                        /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                        "div",
+                        {
+                          style: {
+                            background: "white",
+                            border: "1px solid #e1e3e5",
+                            borderRadius: "6px",
+                            padding: "8px 12px",
+                            fontSize: "0.78rem",
+                            textAlign: "left",
+                            lineHeight: "1.5",
+                            fontFamily: "monospace",
+                            color: "#4a4a4a"
+                          },
+                          children: [
+                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                            children: [
+                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "productId" }),
+                              ": [PRODUCT_ID]"
+                            ]
+                          }),
+                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                            children: [
+                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "shop" }),
+                              ": ",
+                              shop || "demoharsh-1dds80q1.myshopify.com"
+                            ]
+                          }),
+                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                            children: [
+                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "rating" }),
+                              ": 5"
+                            ]
+                          }),
+                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                            children: [
+                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "reviewerName" }),
+                              ": Will Smith"
+                            ]
+                          }),
+                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                            children: [
+                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "reviewerEmail" }),
+                              ": will@example.com"
+                            ]
+                          }),
+                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                            children: [
+                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "reviewTitle" }),
+                              ": Excellent!"
+                            ]
+                          }),
+                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                            children: [
+                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "reviewBody" }),
+                              ": Loved this product."
+                            ]
+                          }),
+                              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                            children: [
+                                /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "image" }),
+                              ": [optional file upload]"
+                            ]
+                          })
+                          ]
+                        }
+                      )
+                      ]
+                    })
                     ]
                   }
                 )
-              ] }),
+              ]
+            }),
               /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "button",
-                {
-                  onClick: (e) => {
-                    e.stopPropagation();
-                    handleSelectLayout("raw_data");
-                    submit({
-                      selectedLayout: "raw_data",
-                      layoutConfigs: JSON.stringify(layoutConfigs)
-                    }, { method: "POST" });
-                  },
-                  className: "layout-card-btn raw-btn",
-                  children: "Set as Active Raw data"
-                }
-              )
-            ] })
+              "button",
+              {
+                onClick: (e) => {
+                  e.stopPropagation();
+                  handleSelectLayout("raw_data");
+                  submit({
+                    selectedLayout: "raw_data",
+                    layoutConfigs: JSON.stringify(layoutConfigs)
+                  }, { method: "POST" });
+                },
+                className: "layout-card-btn raw-btn",
+                children: "Set as Active Raw data"
+              }
+            )
+            ]
+          })
           ]
         }
       )
-    ] })
-  ] });
+      ]
+    })
+    ]
+  });
 }
 function AccordionItem({ id, title, isOpen, onToggle, children }) {
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "accordion-item-border", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { onClick: onToggle, className: "accordion-trigger-row", children: [
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+    className: "accordion-item-border", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+      onClick: onToggle, className: "accordion-trigger-row", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: title }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: `accordion-arrow ${isOpen ? "rotated" : ""}`, children: "▼" })
-    ] }),
+      ]
+    }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `accordion-content-box ${isOpen ? "open" : ""}`, children })
-  ] });
+    ]
+  });
 }
 function SettingsSidebar({
   selectedLayout,
@@ -30020,8 +30142,10 @@ function SettingsSidebar({
   const handleToggleAccordion = (id) => {
     setOpenAccordion(openAccordion === id ? "" : id);
   };
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "sidebar-panel", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "sidebar-header", children: [
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+    className: "sidebar-panel", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+      className: "sidebar-header", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(
         "button",
         {
@@ -30032,8 +30156,10 @@ function SettingsSidebar({
       ),
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "widget-title-text", children: "Review Widget" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "layout-badge", children: selectedLayout === "layout_1" ? "Layout 1" : "Layout 2" })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "scrollable-sections", children: [
+      ]
+    }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+      className: "scrollable-sections", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(
         AccordionItem,
         {
@@ -30041,9 +30167,11 @@ function SettingsSidebar({
           title: "Install",
           isOpen: openAccordion === "install",
           onToggle: () => handleToggleAccordion("install"),
-          children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "install-links-container", children: [
+          children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+            className: "install-links-container", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "install-notes-text", children: "Add the Review Widget on product pages." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "install-buttons-row", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              className: "install-buttons-row", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(
                 "a",
                 {
@@ -30062,9 +30190,11 @@ function SettingsSidebar({
                   children: "Learn more"
                 }
               )
-            ] }),
+              ]
+            }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "install-subnotes-text", children: "Set fallback states for products with no reviews, show store reviews, and more in the Theme Editor settings. >" })
-          ] })
+            ]
+          })
         }
       ),
       /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -30074,10 +30204,13 @@ function SettingsSidebar({
           title: "Color and styling",
           isOpen: openAccordion === "styling",
           onToggle: () => handleToggleAccordion("styling"),
-          children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "color-group-container", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+          children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+            className: "color-group-container", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "color-group-label", children: "Star Rating Color" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "color-input-wrapper", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                className: "color-input-wrapper", children: [
                 /* @__PURE__ */ jsxRuntimeExports.jsx(
                   "input",
                   {
@@ -30096,11 +30229,15 @@ function SettingsSidebar({
                     className: "color-input-text"
                   }
                 )
-              ] })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+                ]
+              })
+              ]
+            }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "color-group-label", children: "Primary Button Color" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "color-input-wrapper", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                className: "color-input-wrapper", children: [
                 /* @__PURE__ */ jsxRuntimeExports.jsx(
                   "input",
                   {
@@ -30119,11 +30256,15 @@ function SettingsSidebar({
                     className: "color-input-text"
                   }
                 )
-              ] })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+                ]
+              })
+              ]
+            }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "color-group-label", children: "Primary Button Text Color" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "color-input-wrapper", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                className: "color-input-wrapper", children: [
                 /* @__PURE__ */ jsxRuntimeExports.jsx(
                   "input",
                   {
@@ -30142,9 +30283,12 @@ function SettingsSidebar({
                     className: "color-input-text"
                   }
                 )
-              ] })
-            ] })
-          ] })
+                ]
+              })
+              ]
+            })
+            ]
+          })
         }
       ),
       /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -30154,19 +30298,25 @@ function SettingsSidebar({
           title: "Text",
           isOpen: openAccordion === "text",
           onToggle: () => handleToggleAccordion("text"),
-          children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-fields-container", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { style: { marginBottom: "6px" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("label", { className: "checkbox-label", children: [
+          children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+            className: "text-fields-container", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", {
+              style: { marginBottom: "6px" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("label", {
+                className: "checkbox-label", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "input",
-                {
-                  type: "checkbox",
-                  checked: currentConfig.show_widget_title,
-                  onChange: (e) => updateCurrentConfig("show_widget_title", e.target.checked)
-                }
-              ),
+                  "input",
+                  {
+                    type: "checkbox",
+                    checked: currentConfig.show_widget_title,
+                    onChange: (e) => updateCurrentConfig("show_widget_title", e.target.checked)
+                  }
+                ),
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Show widget title" })
-            ] }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+                ]
+              })
+            }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "text-field-label", children: "Widget title" }),
               /* @__PURE__ */ jsxRuntimeExports.jsx(
                 "input",
@@ -30177,8 +30327,10 @@ function SettingsSidebar({
                   className: "text-field-input"
                 }
               )
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+              ]
+            }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "text-field-label", children: "Review word (singular)" }),
               /* @__PURE__ */ jsxRuntimeExports.jsx(
                 "input",
@@ -30189,8 +30341,10 @@ function SettingsSidebar({
                   className: "text-field-input"
                 }
               )
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+              ]
+            }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "text-field-label", children: "Review word (plural)" }),
               /* @__PURE__ */ jsxRuntimeExports.jsx(
                 "input",
@@ -30201,8 +30355,10 @@ function SettingsSidebar({
                   className: "text-field-input"
                 }
               )
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+              ]
+            }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "text-field-label", children: "No reviews text" }),
               /* @__PURE__ */ jsxRuntimeExports.jsx(
                 "input",
@@ -30213,8 +30369,10 @@ function SettingsSidebar({
                   className: "text-field-input"
                 }
               )
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+              ]
+            }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "text-field-label", children: "Write button text" }),
               /* @__PURE__ */ jsxRuntimeExports.jsx(
                 "input",
@@ -30225,8 +30383,10 @@ function SettingsSidebar({
                   className: "text-field-input"
                 }
               )
-            ] })
-          ] })
+              ]
+            })
+            ]
+          })
         }
       ),
       /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -30236,208 +30396,258 @@ function SettingsSidebar({
           title: "Widget header",
           isOpen: openAccordion === "header",
           onToggle: () => handleToggleAccordion("header"),
-          children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "header-checkbox-list", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("label", { className: "checkbox-label", children: [
+          children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+            className: "header-checkbox-list", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("label", {
+              className: "checkbox-label", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("input", { type: "checkbox", defaultChecked: true }),
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Show rating average (e.g. 4.1)" })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("label", { className: "checkbox-label", children: [
+              ]
+            }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("label", {
+              className: "checkbox-label", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("input", { type: "checkbox", defaultChecked: true }),
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Show verified reviews badge" })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("label", { className: "checkbox-label", children: [
+              ]
+            }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("label", {
+              className: "checkbox-label", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("input", { type: "checkbox", defaultChecked: true }),
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Show media slider bar" })
-            ] })
-          ] })
+              ]
+            })
+            ]
+          })
         }
       ),
-      selectedLayout === "layout_2" && /* @__PURE__ */ jsxRuntimeExports.jsx(
-        AccordionItem,
-        {
-          id: "carousel",
-          title: "Carousel settings",
-          isOpen: openAccordion === "carousel",
-          onToggle: () => handleToggleAccordion("carousel"),
-          children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-fields-container", style: { display: "flex", flexDirection: "column", gap: "12px" }, children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+        selectedLayout === "layout_2" && /* @__PURE__ */ jsxRuntimeExports.jsx(
+          AccordionItem,
+          {
+            id: "carousel",
+            title: "Carousel settings",
+            isOpen: openAccordion === "carousel",
+            onToggle: () => handleToggleAccordion("carousel"),
+            children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              className: "text-fields-container", style: { display: "flex", flexDirection: "column", gap: "12px" }, children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "text-field-label", style: { display: "block", marginBottom: "4px", fontSize: "0.85rem", fontWeight: "600" }, children: "Desktop Slides (Visible)" }),
               /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                "select",
-                {
-                  value: currentConfig.carousel_desktop_slides ?? 3,
-                  onChange: (e) => updateCurrentConfig("carousel_desktop_slides", parseInt(e.target.value, 10)),
-                  style: { width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #babfc3", outline: "none", background: "white" },
-                  children: [
+                  "select",
+                  {
+                    value: currentConfig.carousel_desktop_slides ?? 3,
+                    onChange: (e) => updateCurrentConfig("carousel_desktop_slides", parseInt(e.target.value, 10)),
+                    style: { width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #babfc3", outline: "none", background: "white" },
+                    children: [
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 1, children: "1 slide" }),
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 2, children: "2 slides" }),
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 3, children: "3 slides" }),
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 4, children: "4 slides" })
-                  ]
-                }
-              )
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+                    ]
+                  }
+                )
+                ]
+              }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "text-field-label", style: { display: "block", marginBottom: "4px", fontSize: "0.85rem", fontWeight: "600" }, children: "Mobile Slides (Visible)" }),
               /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                "select",
-                {
-                  value: currentConfig.carousel_mobile_slides ?? 1,
-                  onChange: (e) => updateCurrentConfig("carousel_mobile_slides", parseInt(e.target.value, 10)),
-                  style: { width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #babfc3", outline: "none", background: "white" },
-                  children: [
+                  "select",
+                  {
+                    value: currentConfig.carousel_mobile_slides ?? 1,
+                    onChange: (e) => updateCurrentConfig("carousel_mobile_slides", parseInt(e.target.value, 10)),
+                    style: { width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #babfc3", outline: "none", background: "white" },
+                    children: [
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 1, children: "1 slide" }),
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 2, children: "2 slides" }),
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 3, children: "3 slides" })
-                  ]
-                }
-              )
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { style: { marginTop: "4px" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("label", { className: "checkbox-label", style: { display: "flex", alignItems: "center", gap: "8px", cursor: "pointer" }, children: [
+                    ]
+                  }
+                )
+                ]
+              }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", {
+                style: { marginTop: "4px" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("label", {
+                  className: "checkbox-label", style: { display: "flex", alignItems: "center", gap: "8px", cursor: "pointer" }, children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "input",
-                {
-                  type: "checkbox",
-                  checked: currentConfig.carousel_show_arrows ?? true,
-                  onChange: (e) => updateCurrentConfig("carousel_show_arrows", e.target.checked)
-                }
-              ),
+                    "input",
+                    {
+                      type: "checkbox",
+                      checked: currentConfig.carousel_show_arrows ?? true,
+                      onChange: (e) => updateCurrentConfig("carousel_show_arrows", e.target.checked)
+                    }
+                  ),
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { fontSize: "0.85rem" }, children: "Show navigation arrows" })
-            ] }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { style: { marginTop: "4px" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("label", { className: "checkbox-label", style: { display: "flex", alignItems: "center", gap: "8px", cursor: "pointer" }, children: [
+                  ]
+                })
+              }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", {
+                style: { marginTop: "4px" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("label", {
+                  className: "checkbox-label", style: { display: "flex", alignItems: "center", gap: "8px", cursor: "pointer" }, children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "input",
-                {
-                  type: "checkbox",
-                  checked: currentConfig.carousel_auto_slide ?? false,
-                  onChange: (e) => updateCurrentConfig("carousel_auto_slide", e.target.checked)
-                }
-              ),
+                    "input",
+                    {
+                      type: "checkbox",
+                      checked: currentConfig.carousel_auto_slide ?? false,
+                      onChange: (e) => updateCurrentConfig("carousel_auto_slide", e.target.checked)
+                    }
+                  ),
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { fontSize: "0.85rem" }, children: "Enable auto-sliding" })
-            ] }) }),
-            currentConfig.carousel_auto_slide && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+                  ]
+                })
+              }),
+                currentConfig.carousel_auto_slide && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                  children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "text-field-label", style: { display: "block", marginBottom: "4px", fontSize: "0.85rem", fontWeight: "600" }, children: "Auto-slide Speed (seconds)" }),
               /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "input",
-                {
-                  type: "number",
-                  min: 2,
-                  max: 15,
-                  value: currentConfig.carousel_auto_slide_speed ?? 5,
-                  onChange: (e) => updateCurrentConfig("carousel_auto_slide_speed", parseInt(e.target.value, 10) || 5),
-                  style: { width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #babfc3", boxSizing: "border-box", outline: "none" }
-                }
-              )
-            ] })
-          ] })
-        }
-      ),
-      (selectedLayout === "layout_1" || selectedLayout === "layout_2") && /* @__PURE__ */ jsxRuntimeExports.jsx(
-        AccordionItem,
-        {
-          id: "image_carousel",
-          title: "Image Carousel settings",
-          isOpen: openAccordion === "image_carousel",
-          onToggle: () => handleToggleAccordion("image_carousel"),
-          children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-fields-container", style: { display: "flex", flexDirection: "column", gap: "12px" }, children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+                    "input",
+                    {
+                      type: "number",
+                      min: 2,
+                      max: 15,
+                      value: currentConfig.carousel_auto_slide_speed ?? 5,
+                      onChange: (e) => updateCurrentConfig("carousel_auto_slide_speed", parseInt(e.target.value, 10) || 5),
+                      style: { width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #babfc3", boxSizing: "border-box", outline: "none" }
+                    }
+                  )
+                  ]
+                })
+              ]
+            })
+          }
+        ),
+        (selectedLayout === "layout_1" || selectedLayout === "layout_2") && /* @__PURE__ */ jsxRuntimeExports.jsx(
+          AccordionItem,
+          {
+            id: "image_carousel",
+            title: "Image Carousel settings",
+            isOpen: openAccordion === "image_carousel",
+            onToggle: () => handleToggleAccordion("image_carousel"),
+            children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              className: "text-fields-container", style: { display: "flex", flexDirection: "column", gap: "12px" }, children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "text-field-label", style: { display: "block", marginBottom: "4px", fontSize: "0.85rem", fontWeight: "600" }, children: "Desktop Slides (Visible)" }),
               /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                "select",
-                {
-                  value: currentConfig.image_carousel_desktop_slides ?? 4,
-                  onChange: (e) => updateCurrentConfig("image_carousel_desktop_slides", parseInt(e.target.value, 10)),
-                  style: { width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #babfc3", outline: "none", background: "white" },
-                  children: [
+                  "select",
+                  {
+                    value: currentConfig.image_carousel_desktop_slides ?? 4,
+                    onChange: (e) => updateCurrentConfig("image_carousel_desktop_slides", parseInt(e.target.value, 10)),
+                    style: { width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #babfc3", outline: "none", background: "white" },
+                    children: [
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 1, children: "1 slide" }),
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 2, children: "2 slides" }),
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 3, children: "3 slides" }),
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 4, children: "4 slides" }),
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 5, children: "5 slides" })
-                  ]
-                }
-              )
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+                    ]
+                  }
+                )
+                ]
+              }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "text-field-label", style: { display: "block", marginBottom: "4px", fontSize: "0.85rem", fontWeight: "600" }, children: "Mobile Slides (Visible)" }),
               /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                "select",
-                {
-                  value: currentConfig.image_carousel_mobile_slides ?? 2,
-                  onChange: (e) => updateCurrentConfig("image_carousel_mobile_slides", parseInt(e.target.value, 10)),
-                  style: { width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #babfc3", outline: "none", background: "white" },
-                  children: [
+                  "select",
+                  {
+                    value: currentConfig.image_carousel_mobile_slides ?? 2,
+                    onChange: (e) => updateCurrentConfig("image_carousel_mobile_slides", parseInt(e.target.value, 10)),
+                    style: { width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #babfc3", outline: "none", background: "white" },
+                    children: [
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 1, children: "1 slide" }),
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 2, children: "2 slides" }),
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 3, children: "3 slides" }),
                     /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: 4, children: "4 slides" })
-                  ]
-                }
-              )
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { style: { marginTop: "4px" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("label", { className: "checkbox-label", style: { display: "flex", alignItems: "center", gap: "8px", cursor: "pointer" }, children: [
+                    ]
+                  }
+                )
+                ]
+              }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", {
+                style: { marginTop: "4px" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("label", {
+                  className: "checkbox-label", style: { display: "flex", alignItems: "center", gap: "8px", cursor: "pointer" }, children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "input",
-                {
-                  type: "checkbox",
-                  checked: currentConfig.image_carousel_show_arrows ?? true,
-                  onChange: (e) => updateCurrentConfig("image_carousel_show_arrows", e.target.checked)
-                }
-              ),
+                    "input",
+                    {
+                      type: "checkbox",
+                      checked: currentConfig.image_carousel_show_arrows ?? true,
+                      onChange: (e) => updateCurrentConfig("image_carousel_show_arrows", e.target.checked)
+                    }
+                  ),
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { fontSize: "0.85rem" }, children: "Show navigation arrows" })
-            ] }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { style: { marginTop: "4px" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("label", { className: "checkbox-label", style: { display: "flex", alignItems: "center", gap: "8px", cursor: "pointer" }, children: [
+                  ]
+                })
+              }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", {
+                style: { marginTop: "4px" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("label", {
+                  className: "checkbox-label", style: { display: "flex", alignItems: "center", gap: "8px", cursor: "pointer" }, children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "input",
-                {
-                  type: "checkbox",
-                  checked: currentConfig.image_carousel_auto_slide ?? false,
-                  onChange: (e) => updateCurrentConfig("image_carousel_auto_slide", e.target.checked)
-                }
-              ),
+                    "input",
+                    {
+                      type: "checkbox",
+                      checked: currentConfig.image_carousel_auto_slide ?? false,
+                      onChange: (e) => updateCurrentConfig("image_carousel_auto_slide", e.target.checked)
+                    }
+                  ),
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { fontSize: "0.85rem" }, children: "Enable auto-sliding" })
-            ] }) }),
-            currentConfig.image_carousel_auto_slide && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+                  ]
+                })
+              }),
+                currentConfig.image_carousel_auto_slide && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                  children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "text-field-label", style: { display: "block", marginBottom: "4px", fontSize: "0.85rem", fontWeight: "600" }, children: "Auto-slide Speed (seconds)" }),
               /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "input",
-                {
-                  type: "number",
-                  min: 2,
-                  max: 15,
-                  value: currentConfig.image_carousel_auto_slide_speed ?? 5,
-                  onChange: (e) => updateCurrentConfig("image_carousel_auto_slide_speed", parseInt(e.target.value, 10) || 5),
-                  style: { width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #babfc3", boxSizing: "border-box", outline: "none" }
-                }
-              )
-            ] })
-          ] })
+                    "input",
+                    {
+                      type: "number",
+                      min: 2,
+                      max: 15,
+                      value: currentConfig.image_carousel_auto_slide_speed ?? 5,
+                      onChange: (e) => updateCurrentConfig("image_carousel_auto_slide_speed", parseInt(e.target.value, 10) || 5),
+                      style: { width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #babfc3", boxSizing: "border-box", outline: "none" }
+                    }
+                  )
+                  ]
+                })
+              ]
+            })
+          }
+        )
+      ]
+    }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", {
+      className: "sidebar-footer back-only", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+        "button",
+        {
+          onClick: () => setActiveView("select-layout"),
+          className: "back-layouts-btn",
+          children: "Back to layouts"
         }
       )
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "sidebar-footer back-only", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "button",
-      {
-        onClick: () => setActiveView("select-layout"),
-        className: "back-layouts-btn",
-        children: "Back to layouts"
-      }
-    ) })
-  ] });
+    })
+    ]
+  });
 }
 function PreviewFormCard({ style = {} }) {
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-form-card", style, children: [
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+    className: "preview-form-card", style, children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "preview-form-title", children: "Write a Customer Review" }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-form-alert", children: [
-      "Logged in as ",
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+      className: "preview-form-alert", children: [
+        "Logged in as ",
       /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Emily R." }),
-      ". Your review will be submitted under this account."
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-form-group", children: [
+        ". Your review will be submitted under this account."
+      ]
+    }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+      className: "preview-form-group", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "preview-form-label", children: "Overall Rating" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "preview-star-picker", style: { display: "flex", gap: "4px" }, children: "★ ★ ★ ★ ★" })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-form-group", children: [
+      ]
+    }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+      className: "preview-form-group", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "preview-form-label", children: "Review" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(
         "textarea",
@@ -30448,16 +30658,22 @@ function PreviewFormCard({ style = {} }) {
           defaultValue: "Loved this winter sweater! Extremely soft and keeps me exceptionally warm during snowy evenings."
         }
       )
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-form-group", children: [
+      ]
+    }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+      className: "preview-form-group", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "preview-form-label", children: "Add a Photo" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-file-upload", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+        className: "preview-file-upload", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "📷" }),
-        " Choose File"
-      ] })
-    ] }),
+          " Choose File"
+        ]
+      })
+      ]
+    }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "preview-form-group", children: /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: "preview-submit-btn", children: "Submit Review" }) })
-  ] });
+    ]
+  });
 }
 function PreviewStarRating({ rating, style = {} }) {
   const fullStars = Math.round(rating);
@@ -30504,7 +30720,8 @@ function PreviewReviewCard({
     const imgVisibleSlides = imageCarouselConfig?.visibleSlides ?? 4;
     const imgGap = 8;
     const imgWidth = `calc((100% - ${(imgVisibleSlides - 1) * imgGap}px) / ${imgVisibleSlides})`;
-    return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { position: "relative", marginTop: "10px" }, children: [
+    return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+      style: { position: "relative", marginTop: "10px" }, children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(
         "div",
         {
@@ -30533,11 +30750,14 @@ function PreviewReviewCard({
           ))
         }
       ),
-      imageCarouselConfig?.showArrows && list2.length > imgVisibleSlides && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { display: "flex", gap: "6px", marginTop: "4px", justifyContent: "flex-end" }, children: [
+        imageCarouselConfig?.showArrows && list2.length > imgVisibleSlides && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+          style: { display: "flex", gap: "6px", marginTop: "4px", justifyContent: "flex-end" }, children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("button", { style: { border: "1px solid #babfc3", background: "white", padding: "1px 5px", fontSize: "0.7rem", borderRadius: "3px", cursor: "pointer", color: "#6d7175" }, children: "<" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("button", { style: { border: "1px solid #babfc3", background: "white", padding: "1px 5px", fontSize: "0.7rem", borderRadius: "3px", cursor: "pointer", color: "#6d7175" }, children: ">" })
-      ] })
-    ] });
+          ]
+        })
+      ]
+    });
   };
   if (isCarousel) {
     return /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -30557,27 +30777,34 @@ function PreviewReviewCard({
           justifyContent: "space-between",
           ...style
         },
-        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px", gap: "5px" }, children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { display: "flex", alignItems: "center", gap: "8px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }, children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { style: {
-                width: "28px",
-                height: "28px",
-                borderRadius: "50%",
-                backgroundColor: nameColors.bg,
-                color: nameColors.fg,
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontWeight: "bold",
-                fontSize: "0.8rem",
-                flexShrink: 0
-              }, children: firstLetter }),
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+          children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+            style: { display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px", gap: "5px" }, children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+              style: { display: "flex", alignItems: "center", gap: "8px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }, children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", {
+                style: {
+                  width: "28px",
+                  height: "28px",
+                  borderRadius: "50%",
+                  backgroundColor: nameColors.bg,
+                  color: nameColors.fg,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  fontWeight: "bold",
+                  fontSize: "0.8rem",
+                  flexShrink: 0
+                }, children: firstLetter
+              }),
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { fontWeight: "bold", fontSize: "0.95rem", color: "#1a1a1a" }, children: reviewerName }),
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { background: "#e3f1df", color: "#0e6216", fontSize: "0.7rem", padding: "1px 6px", borderRadius: "4px", fontWeight: "600" }, children: "Verified" })
-            ] }),
+              ]
+            }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { fontSize: "0.75rem", color: "#6d7175" }, children: dateStr })
-          ] }),
+            ]
+          }),
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             PreviewStarRating,
             {
@@ -30585,30 +30812,37 @@ function PreviewReviewCard({
               style: { color: "var(--star-color)", fontSize: "0.85rem", letterSpacing: "1px", marginBottom: "8px" }
             }
           ),
-          reviewTitle && /* @__PURE__ */ jsxRuntimeExports.jsx("h5", { style: { fontWeight: "bold", fontSize: "0.95rem", margin: "0 0 4px 0", color: "#1a1a1a" }, children: reviewTitle }),
+            reviewTitle && /* @__PURE__ */ jsxRuntimeExports.jsx("h5", { style: { fontWeight: "bold", fontSize: "0.95rem", margin: "0 0 4px 0", color: "#1a1a1a" }, children: reviewTitle }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { style: { margin: "0 0 8px 0", fontSize: "0.85rem", color: "#4a4a4a", lineHeight: "1.4" }, children: reviewBody }),
-          renderImages()
-        ] })
+            renderImages()
+          ]
+        })
       }
     );
   }
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-review-card", style, children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-card-header", style: { display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "12px" }, children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { display: "flex", alignItems: "center", gap: "10px" }, children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { style: {
-          width: "36px",
-          height: "36px",
-          borderRadius: "50%",
-          backgroundColor: nameColors.bg,
-          color: nameColors.fg,
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          fontWeight: "bold",
-          fontSize: "0.95rem",
-          flexShrink: 0
-        }, children: firstLetter }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+    className: "preview-review-card", style, children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+      className: "preview-card-header", style: { display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "12px" }, children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+        style: { display: "flex", alignItems: "center", gap: "10px" }, children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", {
+          style: {
+            width: "36px",
+            height: "36px",
+            borderRadius: "50%",
+            backgroundColor: nameColors.bg,
+            color: nameColors.fg,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontWeight: "bold",
+            fontSize: "0.95rem",
+            flexShrink: 0
+          }, children: firstLetter
+        }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+          children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "preview-reviewer-name", style: { margin: 0, fontSize: "0.95rem", fontWeight: "700", color: "#1a1a1a" }, children: reviewerName }),
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             PreviewStarRating,
@@ -30617,14 +30851,18 @@ function PreviewReviewCard({
               style: { color: "var(--star-color)", fontSize: "0.9rem", letterSpacing: "1px", display: "flex", marginTop: "4px" }
             }
           )
-        ] })
-      ] }),
+          ]
+        })
+        ]
+      }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "preview-review-date", style: { fontSize: "0.8rem", color: "#6d7175" }, children: dateStr })
-    ] }),
-    reviewTitle && /* @__PURE__ */ jsxRuntimeExports.jsx("h5", { style: { fontWeight: "bold", fontSize: "0.98rem", margin: "0 0 6px 0", color: "#1a1a1a" }, children: reviewTitle }),
+      ]
+    }),
+      reviewTitle && /* @__PURE__ */ jsxRuntimeExports.jsx("h5", { style: { fontWeight: "bold", fontSize: "0.98rem", margin: "0 0 6px 0", color: "#1a1a1a" }, children: reviewTitle }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "preview-review-body", style: { fontSize: "0.95rem", lineHeight: "1.5", color: "#2b2b2b", margin: "0 0 12px 0" }, children: reviewBody }),
-    renderImages()
-  ] });
+      renderImages()
+    ]
+  });
 }
 function LivePreview({
   selectedLayout,
@@ -30648,25 +30886,33 @@ function LivePreview({
   const getReviewWord = (count) => {
     return count === 1 ? currentConfig.review_word_singular || "review" : currentConfig.review_word_plural || "reviews";
   };
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-area", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-header-bar", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "previewing-badge-wrap", children: [
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+    className: "preview-area", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+      className: "preview-header-bar", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+        className: "previewing-badge-wrap", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "previewing-label", children: "Previewing" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "preview-select-badge", children: "Sample data ▾" })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-right-controls", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "device-toggle-wrap", children: [
+        ]
+      }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+        className: "preview-right-controls", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+          className: "device-toggle-wrap", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs(
             "button",
             {
               onClick: () => setPreviewDevice("desktop"),
               className: `device-toggle-btn ${previewDevice === "desktop" ? "active" : ""}`,
               children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("svg", { width: "15", height: "15", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("svg", {
+                width: "15", height: "15", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round", children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx("rect", { x: "2", y: "3", width: "20", height: "14", rx: "2", ry: "2" }),
                   /* @__PURE__ */ jsxRuntimeExports.jsx("line", { x1: "8", y1: "21", x2: "16", y2: "21" }),
                   /* @__PURE__ */ jsxRuntimeExports.jsx("line", { x1: "12", y1: "17", x2: "12", y2: "21" })
-                ] }),
+                ]
+              }),
                 "Desktop"
               ]
             }
@@ -30677,169 +30923,211 @@ function LivePreview({
               onClick: () => setPreviewDevice("mobile"),
               className: `device-toggle-btn ${previewDevice === "mobile" ? "active" : ""}`,
               children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("svg", { width: "15", height: "15", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("svg", {
+                width: "15", height: "15", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round", children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx("rect", { x: "5", y: "2", width: "14", height: "20", rx: "2", ry: "2" }),
                   /* @__PURE__ */ jsxRuntimeExports.jsx("line", { x1: "12", y1: "18", x2: "12", y2: "18" })
-                ] }),
+                ]
+              }),
                 "Mobile"
               ]
             }
           )
-        ] }),
-        (selectedLayout === "layout_1" || selectedLayout === "layout_2") && /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "button",
-          {
-            onClick: handlePublish,
-            disabled: isPublishing,
-            className: "publish-settings-btn",
-            children: isPublishing ? "Publishing..." : "Publish"
-          }
-        )
-      ] })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "preview-canvas", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: `simulated-page ${previewDevice === "desktop" ? "desktop" : "mobile"}`, children: [
-      selectedLayout === "layout_1" && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { textAlign: "left" }, children: [
-        currentConfig.show_widget_title && /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "preview-title", children: currentConfig.heading_text }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: `preview-summary-grid ${previewDevice === "desktop" ? "desktop" : "mobile"}`, children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: `preview-avg-box ${previewDevice === "desktop" ? "desktop" : ""}`, children: [
+          ]
+        }),
+          (selectedLayout === "layout_1" || selectedLayout === "layout_2") && /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "button",
+            {
+              onClick: handlePublish,
+              disabled: isPublishing,
+              className: "publish-settings-btn",
+              children: isPublishing ? "Publishing..." : "Publish"
+            }
+          )
+        ]
+      })
+      ]
+    }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", {
+      className: "preview-canvas", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+        className: `simulated-page ${previewDevice === "desktop" ? "desktop" : "mobile"}`, children: [
+          selectedLayout === "layout_1" && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+            style: { textAlign: "left" }, children: [
+              currentConfig.show_widget_title && /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "preview-title", children: currentConfig.heading_text }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                className: `preview-summary-grid ${previewDevice === "desktop" ? "desktop" : "mobile"}`, children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                  className: `preview-avg-box ${previewDevice === "desktop" ? "desktop" : ""}`, children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "preview-avg-val", children: "4.1" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
-              PreviewStarRating,
-              {
-                rating: 4.1,
-                style: { color: "var(--star-color, #ffb800)", fontSize: "1.2rem", margin: "4px 0" }
-              }
-            ),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-avg-count", children: [
-              "15 ",
-              getReviewWord(15)
-            ] })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "preview-dist-list", children: [
-            { s: "5 star", w: "70%" },
-            { s: "4 star", w: "15%" },
-            { s: "3 star", w: "10%" },
-            { s: "2 star", w: "5%" },
-            { s: "1 star", w: "0%" }
-          ].map((row, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-dist-row", children: [
+                    PreviewStarRating,
+                    {
+                      rating: 4.1,
+                      style: { color: "var(--star-color, #ffb800)", fontSize: "1.2rem", margin: "4px 0" }
+                    }
+                  ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                    className: "preview-avg-count", children: [
+                      "15 ",
+                      getReviewWord(15)
+                    ]
+                  })
+                  ]
+                }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", {
+                  className: "preview-dist-list", children: [
+                    { s: "5 star", w: "70%" },
+                    { s: "4 star", w: "15%" },
+                    { s: "3 star", w: "10%" },
+                    { s: "2 star", w: "5%" },
+                    { s: "1 star", w: "0%" }
+                  ].map((row, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                    className: "preview-dist-row", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "preview-dist-label", children: row.s }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "preview-dist-bar-bg", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "preview-dist-bar-fill", style: { width: row.w } }) }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "preview-dist-pct", children: row.w })
-          ] }, idx)) })
-        ] }),
+                    ]
+                  }, idx))
+                })
+                ]
+              }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(PreviewFormCard, {}),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "preview-media-list", style: { marginTop: "1.5rem" }, children: [1, 2, 3, 4].map((i) => /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "preview-media-item", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "preview-media-icon", children: "📸" }) }, i)) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-feed-list", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                className: "preview-feed-list", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(
-            PreviewReviewCard,
-            {
-              reviewerName: "Emily R.",
-              rating: 5,
-              dateStr: "August 18, 2025 at 11:05 AM IST",
-              reviewTitle: "Perfect Sweater",
-              reviewBody: "This sweater exceeded all my expectations. It's thick enough to keep me warm during cold days but still breathable. The material is soft.",
-              imageUrls: [
-                "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=120",
-                "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=120"
-              ],
-              imageCarouselConfig,
-              previewDevice
-            }
-          ),
+                  PreviewReviewCard,
+                  {
+                    reviewerName: "Emily R.",
+                    rating: 5,
+                    dateStr: "August 18, 2025 at 11:05 AM IST",
+                    reviewTitle: "Perfect Sweater",
+                    reviewBody: "This sweater exceeded all my expectations. It's thick enough to keep me warm during cold days but still breathable. The material is soft.",
+                    imageUrls: [
+                      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=120",
+                      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=120"
+                    ],
+                    imageCarouselConfig,
+                    previewDevice
+                  }
+                ),
           /* @__PURE__ */ jsxRuntimeExports.jsx(
-            PreviewReviewCard,
-            {
-              reviewerName: "John D.",
-              rating: 4,
-              dateStr: "August 17, 2025 at 08:30 PM IST",
-              reviewTitle: "Great Quality",
-              reviewBody: "Great quality and fit. True to size. Excellent wool weave structure!"
-            }
-          )
-        ] })
-      ] }),
-      selectedLayout === "layout_2" && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { textAlign: "left" }, children: [
-        currentConfig.show_widget_title && /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "preview-title", children: currentConfig.heading_text }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "preview-carousel-summary-wrap", style: { display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "15px", borderBottom: "1px solid #e1e3e5", paddingBottom: "1.25rem", marginBottom: "1.5rem" }, children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { display: "flex", alignItems: "center", gap: "12px", flexWrap: "wrap" }, children: [
+                  PreviewReviewCard,
+                  {
+                    reviewerName: "John D.",
+                    rating: 4,
+                    dateStr: "August 17, 2025 at 08:30 PM IST",
+                    reviewTitle: "Great Quality",
+                    reviewBody: "Great quality and fit. True to size. Excellent wool weave structure!"
+                  }
+                )
+                ]
+              })
+            ]
+          }),
+          selectedLayout === "layout_2" && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+            style: { textAlign: "left" }, children: [
+              currentConfig.show_widget_title && /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "preview-title", children: currentConfig.heading_text }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                className: "preview-carousel-summary-wrap", style: { display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "15px", borderBottom: "1px solid #e1e3e5", paddingBottom: "1.25rem", marginBottom: "1.5rem" }, children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                  style: { display: "flex", alignItems: "center", gap: "12px", flexWrap: "wrap" }, children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { fontSize: "1.8rem", fontWeight: "800", color: "#1a1a1a", lineHeight: 1 }, children: "4.1" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
-              PreviewStarRating,
-              {
-                rating: 4.1,
-                style: { color: "var(--star-color)", fontSize: "1rem", letterSpacing: "1px" }
-              }
-            ),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { style: { fontSize: "0.9rem", color: "#6d7175" }, children: [
-              "15 ",
-              getReviewWord(15)
-            ] }),
+                    PreviewStarRating,
+                    {
+                      rating: 4.1,
+                      style: { color: "var(--star-color)", fontSize: "1rem", letterSpacing: "1px" }
+                    }
+                  ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("span", {
+                    style: { fontSize: "0.9rem", color: "#6d7175" }, children: [
+                      "15 ",
+                      getReviewWord(15)
+                    ]
+                  }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "preview-form-alert", style: { margin: 0, padding: "3px 8px", fontSize: "0.75rem", display: "inline-flex", alignItems: "center", gap: "4px" }, children: "✓ Verified" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { display: "flex", gap: "6px" }, children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                    style: { display: "flex", gap: "6px" }, children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("div", { style: { width: "26px", height: "26px", borderRadius: "50%", border: "1px double #d2a100", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "7px", color: "#d2a100", fontWeight: "bold", background: "#fffdf0" }, children: "GOLD" }),
               /* @__PURE__ */ jsxRuntimeExports.jsx("div", { style: { width: "26px", height: "26px", borderRadius: "50%", border: "1px double #8e8e8e", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "7px", color: "#8e8e8e", fontWeight: "bold", background: "#fcfcfc" }, children: "SLVR" })
-            ] })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { display: "flex", alignItems: "center", gap: "10px" }, children: [
+                    ]
+                  })
+                  ]
+                }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                  style: { display: "flex", alignItems: "center", gap: "10px" }, children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: "preview-submit-btn", style: { margin: 0, padding: "8px 18px", fontSize: "0.88rem" }, children: currentConfig.button_text }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("button", { style: { background: "none", border: "1px solid #babfc3", borderRadius: "6px", width: "34px", height: "34px", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", fontSize: "0.9rem", color: "#6d7175" }, children: "🔍" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("button", { style: { background: "none", border: "1px solid #babfc3", borderRadius: "6px", width: "34px", height: "34px", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", fontSize: "0.9rem", color: "#6d7175" }, children: "⇅" })
-          ] })
-        ] }),
+                  ]
+                })
+                ]
+              }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(PreviewFormCard, { style: { marginBottom: "1.5rem" } }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { position: "relative" }, children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { display: "flex", gap: `${gap}px`, overflowX: "hidden", padding: "10px 0" }, children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                style: { position: "relative" }, children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                  style: { display: "flex", gap: `${gap}px`, overflowX: "hidden", padding: "10px 0" }, children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(
-              PreviewReviewCard,
-              {
-                reviewerName: "Noah V.",
-                rating: 4,
-                dateStr: "08/15/2025",
-                reviewTitle: "Runs small",
-                reviewBody: "(Sample review) Too tight.",
-                isCarousel: true,
-                style: { width: cardWidth }
-              }
-            ),
+                    PreviewReviewCard,
+                    {
+                      reviewerName: "Noah V.",
+                      rating: 4,
+                      dateStr: "08/15/2025",
+                      reviewTitle: "Runs small",
+                      reviewBody: "(Sample review) Too tight.",
+                      isCarousel: true,
+                      style: { width: cardWidth }
+                    }
+                  ),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
-              PreviewReviewCard,
-              {
-                reviewerName: "Aline D.",
-                rating: 5,
-                dateStr: "08/15/2025",
-                reviewTitle: "Très chaud et doux",
-                reviewBody: "(Sample review) This sweater is incredibly warm, thick, and premium wool.",
-                isCarousel: true,
-                style: { width: cardWidth }
-              }
-            ),
+                    PreviewReviewCard,
+                    {
+                      reviewerName: "Aline D.",
+                      rating: 5,
+                      dateStr: "08/15/2025",
+                      reviewTitle: "Très chaud et doux",
+                      reviewBody: "(Sample review) This sweater is incredibly warm, thick, and premium wool.",
+                      isCarousel: true,
+                      style: { width: cardWidth }
+                    }
+                  ),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
-              PreviewReviewCard,
-              {
-                reviewerName: "Emily R.",
-                rating: 5,
-                dateStr: "08/14/2025",
-                reviewTitle: "Perfect Sweater",
-                reviewBody: "Exceeded all my expectations. The weave and stitching is absolutely premium.",
-                imageUrls: [
-                  "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=120",
-                  "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=120"
-                ],
-                isCarousel: true,
-                style: { width: cardWidth },
-                imageCarouselConfig,
-                previewDevice
-              }
-            )
-          ] }),
-          showArrows && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { display: "flex", justifyContent: "center", gap: "20px", marginTop: "12px" }, children: [
+                    PreviewReviewCard,
+                    {
+                      reviewerName: "Emily R.",
+                      rating: 5,
+                      dateStr: "08/14/2025",
+                      reviewTitle: "Perfect Sweater",
+                      reviewBody: "Exceeded all my expectations. The weave and stitching is absolutely premium.",
+                      imageUrls: [
+                        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=120",
+                        "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=120"
+                      ],
+                      isCarousel: true,
+                      style: { width: cardWidth },
+                      imageCarouselConfig,
+                      previewDevice
+                    }
+                  )
+                  ]
+                }),
+                  showArrows && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
+                    style: { display: "flex", justifyContent: "center", gap: "20px", marginTop: "12px" }, children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("button", { style: { background: "none", border: "1px solid #babfc3", borderRadius: "50%", width: "32px", height: "32px", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem" }, children: "<" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("button", { style: { background: "none", border: "1px solid #babfc3", borderRadius: "50%", width: "32px", height: "32px", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem" }, children: ">" })
-          ] })
-        ] })
-      ] })
-    ] }) })
-  ] });
+                    ]
+                  })
+                ]
+              })
+            ]
+          })
+        ]
+      })
+    })
+    ]
+  });
 }
 const GET_SHOP_DEFINITIONS = `#graphql
   query GetShopDefinitions {
@@ -31391,7 +31679,10 @@ const app_settings__index = withComponentProps(function AppSettingsIndex() {
         },
         children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", {
           className: `settings-card ${section.className}`,
-          children: [/* @__PURE__ */ jsxRuntimeExports.jsx("h3", {
+          children: [/* @__PURE__ */ jsxRuntimeExports.jsx("div", {
+            className: "simple-icon-container",
+            children: section.icon
+          }), /* @__PURE__ */ jsxRuntimeExports.jsx("h3", {
             className: "card-title",
             children: section.title
           }), /* @__PURE__ */ jsxRuntimeExports.jsx("p", {
@@ -32665,7 +32956,7 @@ const route16 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePrope
   headers,
   loader
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-mua8yNsG.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/index-DHMj0IAu.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/root-Drq2Oc31.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/index-DHMj0IAu.js"], "css": ["/assets/styles-x1cbIzLV.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/webhooks.app.scopes_update": { "id": "routes/webhooks.app.scopes_update", "parentId": "root", "path": "webhooks/app/scopes_update", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": false, "hasErrorBoundary": false, "module": "/assets/webhooks.app.scopes_update-l0sNRNKZ.js", "imports": [], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/webhooks.app.uninstalled": { "id": "routes/webhooks.app.uninstalled", "parentId": "root", "path": "webhooks/app/uninstalled", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": false, "hasErrorBoundary": false, "module": "/assets/webhooks.app.uninstalled-l0sNRNKZ.js", "imports": [], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/webhooks.compliance": { "id": "routes/webhooks.compliance", "parentId": "root", "path": "webhooks/compliance", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": false, "hasErrorBoundary": false, "module": "/assets/webhooks.compliance-l0sNRNKZ.js", "imports": [], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/api.reviews": { "id": "routes/api.reviews", "parentId": "root", "path": "api/reviews", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": false, "hasErrorBoundary": false, "module": "/assets/api.reviews-l0sNRNKZ.js", "imports": [], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/auth.login": { "id": "routes/auth.login", "parentId": "root", "path": "auth/login", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/route-C4P893h7.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/AppProxyProvider-KfEPCtpX.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/auth.$": { "id": "routes/auth.$", "parentId": "root", "path": "auth/*", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": false, "hasErrorBoundary": false, "module": "/assets/auth._-l0sNRNKZ.js", "imports": [], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/_index": { "id": "routes/_index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/route-DfyvllMz.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js"], "css": ["/assets/route-CNPfFM0M.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app": { "id": "routes/app", "parentId": "root", "path": "app", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": true, "module": "/assets/app-BeY_hXyF.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/AppProxyProvider-KfEPCtpX.js", "/assets/use-is-after-initial-mount-D-L_Aayj.js", "/assets/context-CPqU6485.js"], "css": ["/assets/styles-x1cbIzLV.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app.settings": { "id": "routes/app.settings", "parentId": "routes/app", "path": "settings", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app.settings-C1LfQe65.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app.settings.accountinformation": { "id": "routes/app.settings.accountinformation", "parentId": "routes/app.settings", "path": "accountinformation", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app.settings.accountinformation-CDhY1Rwe.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/useAppBridge-Bj34gXAL.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app.settings.importexport": { "id": "routes/app.settings.importexport", "parentId": "routes/app.settings", "path": "importexport", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app.settings.importexport-Z3NLlIVu.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/useAppBridge-Bj34gXAL.js"], "css": ["/assets/app.settings-Xalnl4AA.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app.settings.widget": { "id": "routes/app.settings.widget", "parentId": "routes/app.settings", "path": "widget", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app.settings.widget-DCcUozOl.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/useAppBridge-Bj34gXAL.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app.settings._index": { "id": "routes/app.settings._index", "parentId": "routes/app.settings", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app.settings._index-BAq-76X5.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js"], "css": ["/assets/app.settings-DqBXfF5b.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app.billing": { "id": "routes/app.billing", "parentId": "routes/app", "path": "billing", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app.billing-C6YnnZPQ.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/useAppBridge-Bj34gXAL.js", "/assets/Button-NJG6OE3J.js", "/assets/use-is-after-initial-mount-D-L_Aayj.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app.reviews": { "id": "routes/app.reviews", "parentId": "routes/app", "path": "reviews", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app.reviews-DX35MTlC.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/useAppBridge-Bj34gXAL.js", "/assets/context-CPqU6485.js", "/assets/use-is-after-initial-mount-D-L_Aayj.js", "/assets/Button-NJG6OE3J.js", "/assets/index-DHMj0IAu.js"], "css": ["/assets/app-Biw82oEI.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app._index": { "id": "routes/app._index", "parentId": "routes/app", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app._index-C0JwE78m.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 } }, "url": "/assets/manifest-44bec81a.js", "version": "44bec81a", "sri": void 0 };
+const serverManifest = { "entry": { "module": "/assets/entry.client-mua8yNsG.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/index-DHMj0IAu.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/root-Drq2Oc31.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/index-DHMj0IAu.js"], "css": ["/assets/styles-x1cbIzLV.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/webhooks.app.scopes_update": { "id": "routes/webhooks.app.scopes_update", "parentId": "root", "path": "webhooks/app/scopes_update", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": false, "hasErrorBoundary": false, "module": "/assets/webhooks.app.scopes_update-l0sNRNKZ.js", "imports": [], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/webhooks.app.uninstalled": { "id": "routes/webhooks.app.uninstalled", "parentId": "root", "path": "webhooks/app/uninstalled", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": false, "hasErrorBoundary": false, "module": "/assets/webhooks.app.uninstalled-l0sNRNKZ.js", "imports": [], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/webhooks.compliance": { "id": "routes/webhooks.compliance", "parentId": "root", "path": "webhooks/compliance", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": false, "hasErrorBoundary": false, "module": "/assets/webhooks.compliance-l0sNRNKZ.js", "imports": [], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/api.reviews": { "id": "routes/api.reviews", "parentId": "root", "path": "api/reviews", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": false, "hasErrorBoundary": false, "module": "/assets/api.reviews-l0sNRNKZ.js", "imports": [], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/auth.login": { "id": "routes/auth.login", "parentId": "root", "path": "auth/login", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/route-C4P893h7.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/AppProxyProvider-KfEPCtpX.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/auth.$": { "id": "routes/auth.$", "parentId": "root", "path": "auth/*", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": false, "hasErrorBoundary": false, "module": "/assets/auth._-l0sNRNKZ.js", "imports": [], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/_index": { "id": "routes/_index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/route-DfyvllMz.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js"], "css": ["/assets/route-CNPfFM0M.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app": { "id": "routes/app", "parentId": "root", "path": "app", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": true, "module": "/assets/app-BeY_hXyF.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/AppProxyProvider-KfEPCtpX.js", "/assets/use-is-after-initial-mount-D-L_Aayj.js", "/assets/context-CPqU6485.js"], "css": ["/assets/styles-x1cbIzLV.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app.settings": { "id": "routes/app.settings", "parentId": "routes/app", "path": "settings", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app.settings-C1LfQe65.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app.settings.accountinformation": { "id": "routes/app.settings.accountinformation", "parentId": "routes/app.settings", "path": "accountinformation", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app.settings.accountinformation-CDhY1Rwe.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/useAppBridge-Bj34gXAL.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app.settings.importexport": { "id": "routes/app.settings.importexport", "parentId": "routes/app.settings", "path": "importexport", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app.settings.importexport-Z3NLlIVu.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/useAppBridge-Bj34gXAL.js"], "css": ["/assets/app.settings-Xalnl4AA.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app.settings.widget": { "id": "routes/app.settings.widget", "parentId": "routes/app.settings", "path": "widget", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app.settings.widget-DCcUozOl.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/useAppBridge-Bj34gXAL.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app.settings._index": { "id": "routes/app.settings._index", "parentId": "routes/app.settings", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app.settings._index-Dh2FM6i5.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js"], "css": ["/assets/app.settings-C7hr2uYq.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app.billing": { "id": "routes/app.billing", "parentId": "routes/app", "path": "billing", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app.billing-C6YnnZPQ.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/useAppBridge-Bj34gXAL.js", "/assets/Button-NJG6OE3J.js", "/assets/use-is-after-initial-mount-D-L_Aayj.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app.reviews": { "id": "routes/app.reviews", "parentId": "routes/app", "path": "reviews", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app.reviews-DX35MTlC.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js", "/assets/useAppBridge-Bj34gXAL.js", "/assets/context-CPqU6485.js", "/assets/use-is-after-initial-mount-D-L_Aayj.js", "/assets/Button-NJG6OE3J.js", "/assets/index-DHMj0IAu.js"], "css": ["/assets/app-Biw82oEI.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/app._index": { "id": "routes/app._index", "parentId": "routes/app", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasDefaultExport": true, "hasErrorBoundary": false, "module": "/assets/app._index-C0JwE78m.js", "imports": ["/assets/jsx-runtime-B8PTyShe.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 } }, "url": "/assets/manifest-739ad47c.js", "version": "739ad47c", "sri": void 0 };
 const assetsBuildDirectory = "dist\\client";
 const basename = "/";
 const future = { "unstable_optimizeDeps": false, "v8_passThroughRequests": false, "v8_trailingSlashAwareDataRequests": false, "unstable_previewServerPrerendering": false, "v8_middleware": false, "v8_splitRouteModules": false, "v8_viteEnvironmentApi": true };

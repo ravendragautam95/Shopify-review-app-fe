@@ -38,7 +38,7 @@ if (host === "localhost") {
 
 export default defineConfig({
   server: {
-    allowedHosts: ["moustache-take-karaoke.ngrok-free.dev"],
+    allowedHosts: true,
     cors: {
       preflightContinue: true,
     },
@@ -46,7 +46,7 @@ export default defineConfig({
     hmr: hmrConfig,
     fs: {
       // See https://vitejs.dev/config/server-options.html#server-fs-allow for more information
-      allow: ["app", "node_modules"],
+      allow: ["app", "node_modules", "workers"],
     },
   },
   plugins: [cloudflare({ configPath: "./wrangler.build.toml", viteEnvironment: { name: "ssr" } }), reactRouter(), tsconfigPaths()],

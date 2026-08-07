@@ -1,4 +1,4 @@
-import { m } from "./assets/worker-entry-Dk4H_Sk4.js";
+import { m } from "./assets/worker-entry-n9ZLZb3g.js";
 export {
   m as default
 };

@@ -4,7 +4,7 @@ client_id = "e9211e548bd3fc154cffc2f3d51f94f8"
 # CRITICAL: Replace this ngrok domain with your live hosted URL (e.g. Render, Heroku) before submitting
 application_url = "https://netliy-review.ravendra-gautam95.workers.dev"
 embedded = true
-name = "Netliy Reviews"
+name = "Netliy-Product Reviews"
 
 [access_scopes]
 # Learn more at https://shopify.dev#access_scopes
